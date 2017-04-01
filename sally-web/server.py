@@ -22,7 +22,12 @@ def welcome():
 @app.route('/compare/<longitude>/<latitude>/to/<comparison>')
 def compare(longitude, latitude, comparison):
     location = resolve_location(longitude, latitude)
-    return render_template('compare.html', location=location, home=comparison)
+
+    return render_template('compare.html',
+                           location=location,
+                           home=comparison,
+                           location_data=equaldex[location.raw["address"]["country_code"].upper()],
+                           home_data=equaldex[comparison.upper()])
 
 @app.route('/settings')
 def settings():
