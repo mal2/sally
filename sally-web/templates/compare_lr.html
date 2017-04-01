@@ -102,7 +102,7 @@
     {% for cat, values in categories %}
     {% for key in values %}
 
-    <tr class="{{cat}}">
+    <tr class="{{cat}} {% if key in differences %}diff{% endif %}">
       <td>
       {{ right_data[key].label}}
       {{ modal(key, right_data[key].label, right_data[key].description) }}

@@ -138,22 +138,23 @@ def compute_votes_ratio(country_code):
 
 @app.route('/compare/<left>/to/<right>')
 def compare_lr(left, right):
-    left_data=equaldex.get(left.upper(), None)
-    right_data=equaldex.get(right.upper(), None)
+    left_data=equaldex.get(left.lower(), None)
+    right_data=equaldex.get(right.lower(), None)
     differences = []
     if left_data and right_data:
       for key in left_data:
         if (left_data[key]["current_status"]["value"] != right_data[key]["current_status"]["value"]):
           differences.append(key)
     print(differences)
+
     return render_template('compare_lr.html',
                            judge_class=judge_class,
                            left=left,
                            left_label=retCountryCode(left),
                            right=right,
                            right_label=retCountryCode(right),
-                           left_data=equaldex.get(left.upper(), None),
-                           right_data=equaldex.get(right.upper(), None),
+                           left_data=equaldex.get(left.lower(), None),
+                           right_data=equaldex.get(right.lower(), None),
                            differences=differences,
                            votes_left=compute_votes_ratio(left),
                            votes_right=compute_votes_ratio(right),
