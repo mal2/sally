@@ -6,8 +6,7 @@
   <h1>Welcome to Sally</h1>
   <h2>Your safe travel guide</h2>
   <img src="{{ url_for('static', filename='astronaut.png') }}" alt="astronaut" height=50% width=50%>
-
-
+  <h6>Here you can find out how safe as LGBTIQ you can feel in the country you are in in comparison to your home country.</h6>
   <div class="row">
 <div class="progress" style="width:100%">
   <div class="progress-bar progress-bar-striped progress-bar-animated" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100" style="width: 100%">Waiting</div>
@@ -17,10 +16,15 @@
   </div>
   <script>
     if ("geolocation" in navigator) {
-    navigator.geolocation.getCurrentPosition(function(position) {
-      var country = localStorage.getItem('homeCountry');
-      window.location.href = "/compare/" + position.coords.longitude.toString() + "/" + position.coords.latitude.toString() + "/to/" + country;
-    });
+    navigator.geolocation.getCurrentPosition(
+      function(position) {
+        var country = localStorage.getItem('homeCountry');
+        window.location.href = "/compare/" + position.coords.longitude.toString() + "/" + position.coords.latitude.toString() + "/to/" + country;
+      },
+      function(error) {
+        alert("Please load the page again and press 'Allow' if you want to continue.")
+      }
+    );
     } else {
     alert("no geo stuff :(");
     }
