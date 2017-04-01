@@ -145,7 +145,6 @@ def compare_lr(left, right):
       for key in left_data:
         if (left_data[key]["current_status"]["value"] != right_data[key]["current_status"]["value"]):
           differences.append(key)
-    print(differences)
 
     return render_template('compare_lr.html',
                            judge_class=judge_class,
