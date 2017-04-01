@@ -30,9 +30,9 @@
 
 {% block content %}
 <h1>compare</h1>
+<a href="{{ url_for('settings') }}">Settings</a>
 
-
-<div class="card" id="question">
+<div class="card" style="display:none" id="question">
 
   <div class="card-block">
     <h4 class="card-title">One quick question!</h4>
@@ -42,16 +42,24 @@
   <button class="btn btn-primary" onclick="clk('yes', '{{right}}')">Yes!</button> <button class="btn btn-primary" onClick="clk('no', '{{right}}');">No!</button>
   <script>
     function clk(value, country_cd) {
-      $.post("/vote", {response: value, country_code: country_cd}, function() { $("#question").hide(); });
+      if (!localStorage.getItem("vote_"+country_cd)) {
+    $.post("/vote", {response: value, country_code: country_cd}, function() {
+    $("#question").hide();
+    localStorage.setItem("vote_"+country_cd, 1) });
+    $("#thankyou").show();
+      }
+    }
+
+    if (!localStorage.getItem("vote_{{right}}")) {
+       $("#question").show()
     }
   </script>
 </div>
 </div>
+
+<div class="alert alert-success" role="alert" style="display:none" id="thankyou">
+  <strong>Well done!</strong> Thank you for keeping fellow travellers safe and sound!
 </div>
-
-<a href="{{ url_for('settings') }}">Settings</a>
-
-
 
 <table class="table">
   <thead>
@@ -74,20 +82,21 @@
       <td>
         <img src="{{ url_for('static', filename='shapes/'+right+'/vector.svg') }}" style="height:100px">
     </tr>
-    <tr class="{{cat}}">
+    <tr>
       <td>
+        Public display of affection (user-rating)
       </td>
       <td>
         <div class="progress">
-          <div class="progress-bar" role="progressbar" style="width: {{votes_left}}%;" aria-valuenow="{{votes_left}}" aria-valuemin="0" aria-valuemax="100">{{votes_left}}%</div>
+          <div class="progress-bar" role="progressbar" style="width: {{votes_left.ratio}}%;" aria-valuenow="{{votes_left.ratio}}" aria-valuemin="0" aria-valuemax="100">{{votes_left.ratio}}%</div>
         </div>
-
+        ({{votes_left.count}} votes)
       </td>
       <td>
         <div class="progress">
-          <div class="progress-bar" role="progressbar" style="width: {{votes_right}}%;" aria-valuenow="{{votes_right}}" aria-valuemin="0" aria-valuemax="100">{{votes_right}}%</div>
+          <div class="progress-bar" role="progressbar" style="width: {{votes_right.ratio}}%;" aria-valuenow="{{votes_right.ratio}}" aria-valuemin="0" aria-valuemax="100">{{votes_right.ratio}}%</div>
         </div>
-
+        ({{votes_right.count}} votes)
       </td>
     </tr>
     {% for cat, values in categories %}
