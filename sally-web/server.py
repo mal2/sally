@@ -14,7 +14,7 @@ def getCountries():
     return countries
 
 equaldex = json.load(open("equaldex_dump.json"))
-equaldex = {k.upper():v for k, v in equaldex.items()}
+equaldex = {k.lower():v for k, v in equaldex.items()}
 
 
 us_states = {item["State"]:item["abbr"] for item in csv.DictReader(open("us-states.csv"), delimiter=";")}
@@ -102,8 +102,8 @@ def stateAwareLocation(location):
     return location.raw["address"]["country_code"]
 
 def retCountryCode(code):
-    if code.upper().startswith("US-"):
-        return geolocator.geocode({"country": "US", "state": code[-2:].upper()})
+    if code.lower().startswith("US-"):
+        return geolocator.geocode({"country": "US", "state": code[-2:].lower()})
     else:
         return geolocator.geocode({"country": code})
 
@@ -127,7 +127,7 @@ def vote():
 def compare(longitude, latitude, comparison):
     location = resolve_location(longitude, latitude)
     right_location = stateAwareLocation(location)
-    return redirect(url_for('compare_lr', left=comparison, right=right_location.upper()))
+    return redirect(url_for('compare_lr', left=comparison.lower(), right=right_location.lower()))
 
 def compute_votes_ratio(country_code):
     db = get_db()
@@ -146,8 +146,8 @@ def compare_lr(left, right):
                            right_label=retCountryCode(right),
                            votes_left=compute_votes_ratio(left),
                            votes_right=compute_votes_ratio(right),
-                           left_data=equaldex.get(left.upper(), None),
-                           right_data=equaldex.get(right.upper(), None),
+                           left_data=equaldex.get(left.lower(), None),
+                           right_data=equaldex.get(right.lower(), None),
                            categories=[["important", ["homosexuality",
                                                       "marriage"]],
                                         ["secondary", [
