@@ -1,3 +1,7 @@
-body {
+.bad {
+    color: red;
+}
 
+.good {
+    color: green;
 }

@@ -1,5 +1,33 @@
 {% extends 'base.html' %}
 
+
+{% macro modal(id, heading, text) -%}
+        <button type="button" class="btn btn-secondary btn-sm" data-toggle="modal" data-target="#{{id}}_modal">
+          I
+        </button>
+
+<!-- Modal -->
+<div class="modal fade" id="{{id}}_modal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLongTitle" aria-hidden="true">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLongTitle">{{heading}}: Description</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        {{text}}
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+{%- endmacro %}
+
 {% block content %}
 <h1>compare</h1>
 
@@ -27,23 +55,28 @@
       <td>
         <img src="{{ url_for('static', filename='shapes/'+right+'/vector.svg') }}" style="height:100px">
     </tr>
-    {% for key in categories %}
+    {% for cat, values in categories %}
+    {% for key in values %}
+
     <tr>
-
-      <td>{{left_data[key].label}}<br/><!-- {{left_data[key].description}} --></td>
-      <td class="{{judge_class(left_data[key].current_status.value)}}">
-        <p>{{left_data[key].current_status.value}}</p>
-        <!-- <p>{{left_data[key].current_status.description | safe}}</p> -->
+      <td>
+      {{left_data[key].label}}
+      {{ modal(key, left_data[key].label, left_data[key].description) }}
       </td>
-      <td class="{{judge_class(right_data[key].current_status.value)}}">
-        <p>{{right_data[key].current_status.value}}</p>
-        <!-- <p>{{right_data[key].current_status.description | safe}}</p> -->
+      <td>
+        <p class="{{judge_class(left_data[key].current_status.value)}}">{{left_data[key].current_status.value}}</p>
+        {{ modal(left_data[key].id + "_left", left_data[key].label + ": " + left_data[key].current_status.value,left_data[key].current_status.description) }}
       </td>
-
+      <td>
+        <p class="{{judge_class(right_data[key].current_status.value)}}">{{right_data[key].current_status.value}}</p>
+        {{ modal(right_data[key].id + "_right", right_data[key].label + ": " + right_data[key].current_status.value, right_data[key].current_status.description) }}
+      </td>
     </tr>
+    {% endfor %}
     {% endfor %}
   </tbody>
 
 </table>
+
 
 {% endblock %}
