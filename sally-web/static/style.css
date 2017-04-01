@@ -5,3 +5,8 @@
 .good {
     color: green;
 }
+
+.row, .column {
+    text-overflow: clip;
+    white-space: nowrap;
+}

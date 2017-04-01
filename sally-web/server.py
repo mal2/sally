@@ -1,5 +1,6 @@
 from flask import Flask, render_template, redirect, url_for
 from geopy.geocoders import Nominatim
+from collections import defaultdict
 import json
 import csv
 
@@ -20,7 +21,7 @@ print(us_states)
 
 
 def judge_class(s):
-    sent = sentiment[s]
+    sent = sentiment.get(s, 0)
     if sent == -1:
         return "bad"
     elif sent == 1:
@@ -45,14 +46,16 @@ def compare(longitude, latitude, comparison):
     right_location = stateAwareLocation(location)
     return redirect(url_for('compare_lr', left=comparison, right=right_location.upper()))
 
+
+
 @app.route('/compare/<left>/to/<right>')
 def compare_lr(left, right):
     return render_template('compare_lr.html',
                            judge_class=judge_class,
                            left=left,
                            right=right,
-                           left_data=equaldex[left.upper()],
-                           right_data=equaldex[right.upper()],
+                           left_data=equaldex.get(left.upper(), None),
+                           right_data=equaldex.get(right.upper(), None),
                            categories=[["important", ["homosexuality",
                                                       "marriage"]],
                                         ["secondary", [

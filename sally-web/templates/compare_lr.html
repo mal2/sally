@@ -37,7 +37,7 @@
 <table class="table">
   <thead>
     <tr>
-      <td> Category </td>
+      <td>Category</td>
       <td>Home</td>
       <td>Current</td>
     </tr>
@@ -60,12 +60,17 @@
 
     <tr>
       <td>
-      {{left_data[key].label}}
-      {{ modal(key, left_data[key].label, left_data[key].description) }}
+
+      {{ right_data[key].label}}
+      {{ modal(key, right_data[key].label, right_data[key].description) }}
       </td>
       <td>
+        {% if left_data %}
         <p class="{{judge_class(left_data[key].current_status.value)}}">{{left_data[key].current_status.value}}</p>
         {{ modal(left_data[key].id + "_left", left_data[key].label + ": " + left_data[key].current_status.value,left_data[key].current_status.description) }}
+        {% else %}
+
+        {% endif %}
       </td>
       <td>
         <p class="{{judge_class(right_data[key].current_status.value)}}">{{right_data[key].current_status.value}}</p>
