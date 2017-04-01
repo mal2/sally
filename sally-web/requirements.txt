@@ -1,2 +1,4 @@
 flask==0.12
 geopy==1.11.0
+dataset==0.8.0
+Flask-Dataset
