@@ -2,9 +2,9 @@
 
 
 {% macro modal(id, heading, text) -%}
-        <button type="button" class="btn btn-secondary btn-sm" data-toggle="modal" data-target="#{{id}}_modal">
-          I
-        </button>
+<button type="button" class="btn btn-secondary btn-sm" data-toggle="modal" data-target="#{{id}}_modal">
+  I
+</button>
 
 <!-- Modal -->
 <div class="modal fade" id="{{id}}_modal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLongTitle" aria-hidden="true">
@@ -31,7 +31,26 @@
 {% block content %}
 <h1>compare</h1>
 
+
+<div class="card" id="question">
+
+  <div class="card-block">
+    <h4 class="card-title">One quick question!</h4>
+<p class="card-text">Perfect, we detected that you are in {{ right }}. <br/>
+
+ Can you hold hands in public with your same sex partner in {{right}}?</p>
+  <button class="btn btn-primary" onclick="clk('yes', '{{right}}')">Yes!</button> <button class="btn btn-primary" onClick="clk('no', '{{right}}');">No!</button>
+  <script>
+    function clk(value, country_cd) {
+      $.post("/vote", {response: value, country_code: country_cd}, function() { $("#question").hide(); });
+    }
+  </script>
+</div>
+</div>
+</div>
+
 <a href="{{ url_for('settings') }}">Settings</a>
+
 
 
 <table class="table">
@@ -55,26 +74,45 @@
       <td>
         <img src="{{ url_for('static', filename='shapes/'+right+'/vector.svg') }}" style="height:100px">
     </tr>
+    <tr class="{{cat}}">
+      <td>
+      </td>
+      <td>
+        <div class="progress">
+          <div class="progress-bar" role="progressbar" style="width: {{votes_left}}%;" aria-valuenow="{{votes_left}}" aria-valuemin="0" aria-valuemax="100">{{votes_left}}%</div>
+        </div>
+
+      </td>
+      <td>
+        <div class="progress">
+          <div class="progress-bar" role="progressbar" style="width: {{votes_right}}%;" aria-valuenow="{{votes_right}}" aria-valuemin="0" aria-valuemax="100">{{votes_right}}%</div>
+        </div>
+
+      </td>
+    </tr>
     {% for cat, values in categories %}
     {% for key in values %}
 
-    <tr>
+    <tr class="{{cat}}">
       <td>
-
       {{ right_data[key].label}}
       {{ modal(key, right_data[key].label, right_data[key].description) }}
       </td>
       <td>
         {% if left_data %}
-        <p class="{{judge_class(left_data[key].current_status.value)}}">{{left_data[key].current_status.value}}</p>
-        {{ modal(left_data[key].id + "_left", left_data[key].label + ": " + left_data[key].current_status.value,left_data[key].current_status.description) }}
+        <p class="{{judge_class(left_data[key].current_status.value, key)}}">{{left_data[key].current_status.value}}</p>
+        {% if left_data[key].current_status.description|length > 4 %}
+        {{ modal(left_data[key].id + "_left", left_data[key].label + ": " + left_data[key].current_status.value, left_data[key].current_status.description) }}
+        {% endif %}
         {% else %}
 
         {% endif %}
       </td>
       <td>
-        <p class="{{judge_class(right_data[key].current_status.value)}}">{{right_data[key].current_status.value}}</p>
+        <p class="{{judge_class(right_data[key].current_status.value, key)}}">{{right_data[key].current_status.value}}</p>
+        {% if right_data[key].current_status.description|length > 4 %}
         {{ modal(right_data[key].id + "_right", right_data[key].label + ": " + right_data[key].current_status.value, right_data[key].current_status.description) }}
+        {% endif %}
       </td>
     </tr>
     {% endfor %}
