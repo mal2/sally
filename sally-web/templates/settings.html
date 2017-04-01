@@ -1,0 +1,36 @@
+{% extends 'base.html' %}
+
+{% block content %}
+<h1>settings</h1>
+
+<div>
+  Your currently selected country is: <p id="country"></p>
+</div>
+
+<form>
+  Select your home country:
+  <select onChange="onChange(this)" id="country-select">
+    <option value="unset">Not set yet</option>
+    <option value="de">Germany</option>
+    <option value="us-al">United States - Alabama</option>
+  </select>
+</form>
+
+<script>
+
+  function onChange(e) {
+    var code = e.options[e.selectedIndex].value;
+    localStorage.setItem('homeCountry', code);
+    $("#country").text(code);
+  }
+
+  var country = localStorage.getItem('homeCountry');
+  if (country) {
+    $("#country").text(country);
+    $("#country-select").val(country);
+  } else {
+  }
+
+</script>
+
+{% endblock %}

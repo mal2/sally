@@ -1,0 +1,23 @@
+{% extends 'base.html' %}
+
+{% block content %}
+<h1>compare</h1>
+
+<a href="{{ url_for('settings') }}">Settings</a>
+
+
+<table class="table">
+  <thead>
+    <tr>
+      <td>Home</td>
+      <td>Current</td>
+    </tr>
+  </thead>
+  <tbody>
+    <td> {{ home }} </td>
+    <td> {{ location.raw.address.country }} ({{ location.raw.address.country_code }}, {{ location.raw.address.state }}) </td>
+  </tbody>
+
+</table>
+
+{% endblock %}
