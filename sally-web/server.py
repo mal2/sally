@@ -1,12 +1,17 @@
 from flask import Flask, render_template
 from geopy.geocoders import Nominatim
+import json
+
 
 geolocator = Nominatim(scheme="http")
 def resolve_location(lon, lat):
     return geolocator.reverse((lat, lon))
 
+countries = eval(open("countries.list").read())
 def getCountries():
-    return [("de", "Germany"), ("us-al", "United States - Alabama")]
+    return countries
+
+equaldex = json.load(open("equaldex_dump.json"))
 
 app = Flask(__name__)
 
