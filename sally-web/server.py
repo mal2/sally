@@ -50,12 +50,21 @@ def compare(longitude, latitude, comparison):
 
 @app.route('/compare/<left>/to/<right>')
 def compare_lr(left, right):
+    left_data=equaldex.get(left.upper(), None)
+    right_data=equaldex.get(right.upper(), None)
+    differences = []
+    if left_data and right_data:
+      for key in left_data:
+        if (left_data[key]["current_status"]["value"] != right_data[key]["current_status"]["value"]):
+          differences.append(key)
+    print(differences)
     return render_template('compare_lr.html',
                            judge_class=judge_class,
                            left=left,
                            right=right,
                            left_data=equaldex.get(left.upper(), None),
                            right_data=equaldex.get(right.upper(), None),
+                           differences=differences,
                            categories=[["important", ["homosexuality",
                                                       "marriage"]],
                                         ["secondary", [
@@ -68,8 +77,7 @@ def compare_lr(left, right):
                                             "blood",
                                             "age-of-consent",
                                             "conversion-therapy"]
-                                        ]])
-
+                                        ]],)
 
 @app.route('/settings')
 def settings():
