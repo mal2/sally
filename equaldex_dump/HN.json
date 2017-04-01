@@ -1,0 +1,167 @@
+
+{
+"regions": {
+"region": {
+"region_id": "HN",
+"parent_id": null,
+"name": "Honduras",
+"slug": "honduras",
+"type": "Country",
+"continent": "North America",
+"region": "Central America",
+"freebase_id": "\/m\/03h2c",
+"surface_area": "112088.00",
+"indep_year": "1838",
+"population": "6485000",
+"life_expectancy": "69.9",
+"gnp": "5333.00",
+"gnp_old": "4697.00",
+"local_name": "Honduras",
+"alternative_names": "",
+"government_form": "Republic",
+"head_of_state": "Carlos Roberto Flores Facuss\u00e9",
+"capital": "933",
+"region_id3": "HND",
+"url": "http:\/\/www.equaldex.com\/region\/honduras",
+"region_parent": [],
+"issues": {
+"homosexuality": {
+"id": "1",
+"label": "Homosexual activity",
+"label_short": "Homosexuality",
+"description": "Consensual sexual activity between individuals of the same sex.",
+"current_status": {
+"id": "1",
+"value": "Legal",
+"value_formatted": "Legal",
+"start_date_formatted": "March 12, 1985",
+"description": ""
+}
+},
+"marriage": {
+"id": "3",
+"label": "Same-sex marriage",
+"label_short": "Marriage",
+"description": "Marriage and marriage recognition between two people of the same biological sex and\/or gender identity.",
+"current_status": {
+"id": "15",
+"value": "Not legal",
+"value_formatted": "Not legal",
+"start_date_formatted": "May 4, 2005",
+"description": "The 2005 constitution explicitly prohibits the marriage or union between two people of the same sex"
+}
+},
+"changing-gender": {
+"id": "7",
+"label": "Right to change legal gender",
+"label_short": "Changing Gender",
+"description": "Legal recognition of sex reassignment by permitting a change of legal gender on an individual's birth certificate.",
+"current_status": {
+"id": "22",
+"value": "Illegal",
+"value_formatted": "Illegal",
+"description": "Only allowed to change gender marker."
+}
+},
+"adoption": {
+"id": "4",
+"label": "Same-sex adoption",
+"label_short": "Adoption",
+"description": "The ability for same-sex couples to legally adopt a child.",
+"current_status": {
+"id": "5",
+"value": "Single only",
+"value_formatted": "Single only",
+"description": "No"
+}
+},
+"discrimination": {
+"id": "6",
+"label": "LGBT discrimination",
+"label_short": "Discrimination",
+"description": "Prohibition of discrimination based on sexual orientation and\/or gender identity.",
+"current_status": {
+"id": "19",
+"value": "Illegal",
+"value_formatted": "Illegal",
+"start_date_formatted": "February 22, 2013",
+"description": "Article 321 of the penal code was amended to protect LGBT individual from discrimination. Implementation of this law however has not yet been found."
+}
+},
+"housing-discrimination": {
+"id": "13",
+"label": "LGBT housing discrimination",
+"label_short": "Housing Discrimination",
+"description": "Prohibition of discrimination based on sexual orientation and\/or gender identity when applying for housing or discrimination by landlords \/ property owners.",
+"current_status": {
+"id": "45",
+"value": "Sexual orientation and gender identity",
+"value_formatted": "Sexual orientation and gender identity",
+"description": "under the Honduras Criminal Code."
+}
+},
+"employment-discrimination": {
+"id": "12",
+"label": "LGBT employment discrimination",
+"label_short": "Employment Discrimination",
+"description": "Prohibition of discrimination based on sexual orientation and\/or gender identity in employment, including hiring, promotion, termination, harassment, etc.",
+"current_status": {
+"id": "42",
+"value": "Sexual orientation and gender identity",
+"value_formatted": "Sexual orientation and gender identity",
+"description": "Under hundras criminal code."
+}
+},
+"military": {
+"id": "5",
+"label": "Homosexuals serving openly in military",
+"label_short": "Military",
+"description": "The ability for homosexuals to serve in the military and be open about their sexuality.",
+"current_status": {
+"id": "16",
+"value": "Legal",
+"value_formatted": "Legal",
+"description": "No know restrictions, they are harrased though."
+}
+},
+"age-of-consent": {
+"id": "11",
+"label": "Equal age of consent",
+"label_short": "Age of Consent",
+"description": "The difference between legal age of consent for homosexual sex and heterosexual sex.",
+"current_status": {
+"id": "27",
+"value": "Equal",
+"value_formatted": "Equal",
+"description": "No"
+}
+},
+"blood": {
+"id": "8",
+"label": "Blood donations by MSMs",
+"label_short": "Donating Blood",
+"description": "The ability for MSMs (men who have sex with men) to donate blood or tissue for organ transplants. A deferral period refers to a waiting time before a man can donate after having sex.",
+"current_status": {
+"id": "40",
+"value": "Banned (1-year deferral)",
+"value_formatted": "Banned (1-year deferral)",
+"description": "Not known."
+}
+},
+"conversion-therapy": {
+"id": "14",
+"label": "Conversion therapy",
+"label_short": "Conversion Therapy",
+"description": "Legal status of conducting sexual orientation changing therapy (\"ex-gay\" therapy)",
+"current_status": {
+"id": "49",
+"value": "Not banned",
+"value_formatted": "Not banned",
+"start_date_formatted": "April 20, 2016",
+"description": "No"
+}
+}
+}
+}
+}
+}

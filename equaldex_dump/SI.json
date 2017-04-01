@@ -1,0 +1,170 @@
+
+{
+"regions": {
+"region": {
+"region_id": "SI",
+"parent_id": null,
+"name": "Slovenia",
+"slug": "slovenia",
+"type": "Country",
+"continent": "Europe",
+"region": "Southern Europe",
+"freebase_id": "\/m\/06t8v",
+"surface_area": "20256.00",
+"indep_year": "1991",
+"population": "1987800",
+"life_expectancy": "74.9",
+"gnp": "19756.00",
+"gnp_old": "18202.00",
+"local_name": "Slovenija",
+"alternative_names": "",
+"government_form": "Republic",
+"head_of_state": "Milan Kucan",
+"capital": "3212",
+"region_id3": "SVN",
+"url": "http:\/\/www.equaldex.com\/region\/slovenia",
+"region_parent": [],
+"issues": {
+"homosexuality": {
+"id": "1",
+"label": "Homosexual activity",
+"label_short": "Homosexuality",
+"description": "Consensual sexual activity between individuals of the same sex.",
+"current_status": {
+"id": "1",
+"value": "Legal",
+"value_formatted": "Legal",
+"start_date_formatted": "January 1, 1976",
+"description": ""
+}
+},
+"marriage": {
+"id": "3",
+"label": "Same-sex marriage",
+"label_short": "Marriage",
+"description": "Marriage and marriage recognition between two people of the same biological sex and\/or gender identity.",
+"current_status": {
+"id": "9",
+"value": "Other type of partnership",
+"value_formatted": "Other type of partnership",
+"start_date_formatted": "March 4, 2015",
+"description": "Same sex marriage was legalized by the parliament. However, this measure was defeated in a referendum on December 20th, 2015."
+}
+},
+"changing-gender": {
+"id": "7",
+"label": "Right to change legal gender",
+"label_short": "Changing Gender",
+"description": "Legal recognition of sex reassignment by permitting a change of legal gender on an individual's birth certificate.",
+"current_status": {
+"id": "51",
+"value": "Legal, but requires surgery",
+"value_formatted": "Legal, but requires surgery",
+"start_date_formatted": "February 4, 2011",
+"description": ""
+}
+},
+"adoption": {
+"id": "4",
+"label": "Same-sex adoption",
+"label_short": "Adoption",
+"description": "The ability for same-sex couples to legally adopt a child.",
+"current_status": {
+"id": "6",
+"value": "Step-child adoption only",
+"value_formatted": "Step-child adoption only",
+"start_date_formatted": "June 16, 2011",
+"description": "On June 16, 2011, the Slovenia National Assembly voted 43 to 38 in favor of repealing the previous law making adoption illegal for same-sex couples."
+}
+},
+"discrimination": {
+"id": "6",
+"label": "LGBT discrimination",
+"label_short": "Discrimination",
+"description": "Prohibition of discrimination based on sexual orientation and\/or gender identity.",
+"current_status": {
+"id": "19",
+"value": "Illegal",
+"value_formatted": "Illegal",
+"start_date_formatted": "January 1, 1995",
+"description": "The penal code article 141 strictly prohibits discriminations based on sexual orientations"
+}
+},
+"housing-discrimination": {
+"id": "13",
+"label": "LGBT housing discrimination",
+"label_short": "Housing Discrimination",
+"description": "Prohibition of discrimination based on sexual orientation and\/or gender identity when applying for housing or discrimination by landlords \/ property owners.",
+"current_status": {
+"id": "46",
+"value": "Sexual orientation only",
+"value_formatted": "Sexual orientation only",
+"description": ""
+}
+},
+"employment-discrimination": {
+"id": "12",
+"label": "LGBT employment discrimination",
+"label_short": "Employment Discrimination",
+"description": "Prohibition of discrimination based on sexual orientation and\/or gender identity in employment, including hiring, promotion, termination, harassment, etc.",
+"current_status": {
+"id": "44",
+"value": "Sexual orientation only",
+"value_formatted": "Sexual orientation only",
+"start_date_formatted": "November 24, 1998",
+"description": ""
+}
+},
+"military": {
+"id": "5",
+"label": "Homosexuals serving openly in military",
+"label_short": "Military",
+"description": "The ability for homosexuals to serve in the military and be open about their sexuality.",
+"current_status": {
+"id": "16",
+"value": "Legal",
+"value_formatted": "Legal",
+"description": ""
+}
+},
+"age-of-consent": {
+"id": "11",
+"label": "Equal age of consent",
+"label_short": "Age of Consent",
+"description": "The difference between legal age of consent for homosexual sex and heterosexual sex.",
+"current_status": {
+"id": "27",
+"value": "Equal",
+"value_formatted": "Equal",
+"start_date_formatted": "January 1, 1977",
+"description": ""
+}
+},
+"blood": {
+"id": "8",
+"label": "Blood donations by MSMs",
+"label_short": "Donating Blood",
+"description": "The ability for MSMs (men who have sex with men) to donate blood or tissue for organ transplants. A deferral period refers to a waiting time before a man can donate after having sex.",
+"current_status": {
+"id": "26",
+"value": "Banned (indefinite deferral)",
+"value_formatted": "Banned (indefinite deferral)",
+"description": "Infinite deferral for men who have sex with men"
+}
+},
+"conversion-therapy": {
+"id": "14",
+"label": "Conversion therapy",
+"label_short": "Conversion Therapy",
+"description": "Legal status of conducting sexual orientation changing therapy (\"ex-gay\" therapy)",
+"current_status": {
+"id": "49",
+"value": "Not banned",
+"value_formatted": "Not banned",
+"description": "No"
+}
+}
+}
+}
+}
+}

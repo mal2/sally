@@ -1,0 +1,170 @@
+
+{
+"regions": {
+"region": {
+"region_id": "CH",
+"parent_id": null,
+"name": "Switzerland",
+"slug": "switzerland",
+"type": "Country",
+"continent": "Europe",
+"region": "Western Europe",
+"freebase_id": "\/m\/06mzp",
+"surface_area": "41284.00",
+"indep_year": "1499",
+"population": "7160400",
+"life_expectancy": "79.6",
+"gnp": "264478.00",
+"gnp_old": "256092.00",
+"local_name": "Schweiz\/Suisse\/Svizzera\/Svizra",
+"alternative_names": "",
+"government_form": "Federation",
+"head_of_state": "Adolf Ogi",
+"capital": "3248",
+"region_id3": "CHE",
+"url": "http:\/\/www.equaldex.com\/region\/switzerland",
+"region_parent": [],
+"issues": {
+"homosexuality": {
+"id": "1",
+"label": "Homosexual activity",
+"label_short": "Homosexuality",
+"description": "Consensual sexual activity between individuals of the same sex.",
+"current_status": {
+"id": "1",
+"value": "Legal",
+"value_formatted": "Legal",
+"start_date_formatted": "January 1, 1942",
+"description": ""
+}
+},
+"marriage": {
+"id": "3",
+"label": "Same-sex marriage",
+"label_short": "Marriage",
+"description": "Marriage and marriage recognition between two people of the same biological sex and\/or gender identity.",
+"current_status": {
+"id": "33",
+"value": "Civil unions",
+"value_formatted": "Civil unions",
+"start_date_formatted": "January 1, 2007",
+"description": "Swiss Registered Partnership is a Civil Union that grants equal rights to Marriage but differs on three points: access to Fertility treatment, Adoption and facilitated Swiss naturalisation, this last one being discussed actually in Swiss parliament. ILGA states that Registered Partnership in Switzerland is \u00abEqual\/almost equal substitute nationally recognized\u00bb to Marriage. "
+}
+},
+"changing-gender": {
+"id": "7",
+"label": "Right to change legal gender",
+"label_short": "Changing Gender",
+"description": "Legal recognition of sex reassignment by permitting a change of legal gender on an individual's birth certificate.",
+"current_status": {
+"id": "51",
+"value": "Legal, but requires surgery",
+"value_formatted": "Legal, but requires surgery",
+"description": "Change of sex is legal though there are now specific laws concerning the matter. In 1993, the Federal Supreme Court of Switzerland stated that a change of sex should be \"irreversible\"; many judges interpreted it as the person had to go under surgery. In 2012, the Federal Department of Justice and Police via its Federal Office for Civil Registration released a statement about how transsexualism should be handled by cantonal Register offices. The FOCR stated that the Judges and Authorities should cease to oblige a person to go through forced sterilisation in order to have their sex change recognised. Furthermore, a person is granted to choose his or her gender according to his or her social gender and not anymore according to his or her biological gender."
+}
+},
+"adoption": {
+"id": "4",
+"label": "Same-sex adoption",
+"label_short": "Adoption",
+"description": "The ability for same-sex couples to legally adopt a child.",
+"current_status": {
+"id": "7",
+"value": "Illegal",
+"value_formatted": "Illegal",
+"description": "Article 27 of the Swiss Registered partnership Law states that the step-parent has the legal obligation to take care of the child and owns parental authority to represent the step-child.<br \/>\r\n<br \/>\r\nStep-child adoption pending in Parliament.<br \/>\r\n<br \/>\r\nFull joint adoption was approved by the Council of States (upper house) on March 14, 2012 but full joint adoption was later rejected by the National Council (lower house)."
+                    }
+                },
+                "discrimination": {
+                    "id": "6",
+                    "label": "LGBT discrimination",
+                    "label_short": "Discrimination",
+                    "description": "Prohibition of discrimination based on sexual orientation and\/or gender identity.",
+                    "current_status": {
+                        "id": "19",
+                        "value": "Illegal",
+                        "value_formatted": "Illegal",
+                        "start_date_formatted": "April 18, 1999",
+                        "description": ""
+                    }
+                },
+                "housing-discrimination": {
+                    "id": "13",
+                    "label": "LGBT housing discrimination",
+                    "label_short": "Housing Discrimination",
+                    "description": "Prohibition of discrimination based on sexual orientation and\/or gender identity when applying for housing or discrimination by landlords \/ property owners.",
+                    "current_status": {
+                        "id": "45",
+                        "value": "Sexual orientation and gender identity",
+                        "value_formatted": "Sexual orientation and gender identity",
+                        "start_date_formatted": "April 18, 1999",
+                        "description": ""
+                    }
+                },
+                "employment-discrimination": {
+                    "id": "12",
+                    "label": "LGBT employment discrimination",
+                    "label_short": "Employment Discrimination",
+                    "description": "Prohibition of discrimination based on sexual orientation and\/or gender identity in employment, including hiring, promotion, termination, harassment, etc.",
+                    "current_status": {
+                        "id": "42",
+                        "value": "Sexual orientation and gender identity",
+                        "value_formatted": "Sexual orientation and gender identity",
+                        "start_date_formatted": "April 18, 1999",
+                        "description": "Article 8 of the Constitution "
+                    }
+                },
+                "military": {
+                    "id": "5",
+                    "label": "Homosexuals serving openly in military",
+                    "label_short": "Military",
+                    "description": "The ability for homosexuals to serve in the military and be open about their sexuality.",
+                    "current_status": {
+                        "id": "16",
+                        "value": "Legal",
+                        "value_formatted": "Legal",
+                        "start_date_formatted": "May 17, 1992",
+                        "description": "Code p\u00e9nal suisse. Code p\u00e9nal militaire (Infraction contre l'int\u00e9grit\u00e9 sexuelle): Modification du 21 juin 1991 pp 63-78"
+                    }
+                },
+                "age-of-consent": {
+                    "id": "11",
+                    "label": "Equal age of consent",
+                    "label_short": "Age of Consent",
+                    "description": "The difference between legal age of consent for homosexual sex and heterosexual sex.",
+                    "current_status": {
+                        "id": "27",
+                        "value": "Equal",
+                        "value_formatted": "Equal",
+                        "start_date_formatted": "January 1, 1992",
+                        "description": "Consensual age is Switzerland is 16 years old, unless the difference in age between the persons involved is not more than 3 years."
+                    }
+                },
+                "blood": {
+                    "id": "8",
+                    "label": "Blood donations by MSMs",
+                    "label_short": "Donating Blood",
+                    "description": "The ability for MSMs (men who have sex with men) to donate blood or tissue for organ transplants. A deferral period refers to a waiting time before a man can donate after having sex.",
+                    "current_status": {
+                        "id": null,
+                        "value": "ambiguous",
+                        "value_formatted": "Ambiguous",
+                        "description": "Legal for lesbians. Illegal for gays."
+                    }
+                },
+                "conversion-therapy": {
+                    "id": "14",
+                    "label": "Conversion therapy",
+                    "label_short": "Conversion Therapy",
+                    "description": "Legal status of conducting sexual orientation changing therapy (\"ex-gay\" therapy)",
+                    "current_status": {
+                        "id": "48",
+                        "value": "Banned",
+                        "value_formatted": "Banned",
+                        "description": "defacto illegal. NO explicit ban."
+                    }
+                }
+            }
+        }
+    }
+}

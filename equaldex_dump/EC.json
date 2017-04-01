@@ -1,0 +1,172 @@
+
+{
+"regions": {
+"region": {
+"region_id": "EC",
+"parent_id": null,
+"name": "Ecuador",
+"slug": "ecuador",
+"type": "Country",
+"continent": "South America",
+"region": "South America",
+"freebase_id": "\/m\/02k1b",
+"surface_area": "283561.00",
+"indep_year": "1822",
+"population": "12646000",
+"life_expectancy": "71.1",
+"gnp": "19770.00",
+"gnp_old": "19769.00",
+"local_name": "Ecuador",
+"alternative_names": "",
+"government_form": "Republic",
+"head_of_state": "Gustavo Noboa Bejarano",
+"capital": "594",
+"region_id3": "ECU",
+"url": "http:\/\/www.equaldex.com\/region\/ecuador",
+"region_parent": [],
+"issues": {
+"homosexuality": {
+"id": "1",
+"label": "Homosexual activity",
+"label_short": "Homosexuality",
+"description": "Consensual sexual activity between individuals of the same sex.",
+"current_status": {
+"id": "1",
+"value": "Legal",
+"value_formatted": "Legal",
+"start_date_formatted": "November 27, 1997",
+"description": "Article 516 of the code which criminalizes homosexual activity (from 4-8 years imprisonment) was repealed in 1997."
+}
+},
+"marriage": {
+"id": "3",
+"label": "Same-sex marriage",
+"label_short": "Marriage",
+"description": "Marriage and marriage recognition between two people of the same biological sex and\/or gender identity.",
+"current_status": {
+"id": "33",
+"value": "Civil unions",
+"value_formatted": "Civil unions",
+"start_date_formatted": "October 20, 2008",
+"description": "Although marriage is still defined as a union between a man and a woman, article 68 of the 2008 constitution also state:<br \/>\r\nThe stable and monogamous union between two persons without any other marriage ties who have a common-law home, for the lapse of time and under the conditions and circumstances provided for by law, shall enjoy the same rights and obligations of those families bound by formal marriage ties."
+                    }
+                },
+                "changing-gender": {
+                    "id": "7",
+                    "label": "Right to change legal gender",
+                    "label_short": "Changing Gender",
+                    "description": "Legal recognition of sex reassignment by permitting a change of legal gender on an individual's birth certificate.",
+                    "current_status": {
+                        "id": "21",
+                        "value": "Legal, surgery not required",
+                        "value_formatted": "Legal, surgery not required",
+                        "start_date_formatted": "February 4, 2016",
+                        "description": "Since 2016, transgender persons are allowed to change their birth name and gender identity (instead of the sex assigned at birth) on legal documents. "
+                    }
+                },
+                "adoption": {
+                    "id": "4",
+                    "label": "Same-sex adoption",
+                    "label_short": "Adoption",
+                    "description": "The ability for same-sex couples to legally adopt a child.",
+                    "current_status": {
+                        "id": "5",
+                        "value": "Single only",
+                        "value_formatted": "Single only",
+                        "start_date_formatted": "October 20, 2008",
+                        "description": "Under article 68 of the 2008 constitution, adoption is explicitly only grated to different-sex unions. Singles can still apply for adoption."
+                    }
+                },
+                "discrimination": {
+                    "id": "6",
+                    "label": "LGBT discrimination",
+                    "label_short": "Discrimination",
+                    "description": "Prohibition of discrimination based on sexual orientation and\/or gender identity.",
+                    "current_status": {
+                        "id": "19",
+                        "value": "Illegal",
+                        "value_formatted": "Illegal",
+                        "start_date_formatted": "June 5, 1998",
+                        "description": "In the 1998 constitution, article 23.3 extended discrimination protection to sexual orientations. In its 2008 constitution included gender identity in its protection in article 11.2"
+                    }
+                },
+                "housing-discrimination": {
+                    "id": "13",
+                    "label": "LGBT housing discrimination",
+                    "label_short": "Housing Discrimination",
+                    "description": "Prohibition of discrimination based on sexual orientation and\/or gender identity when applying for housing or discrimination by landlords \/ property owners.",
+                    "current_status": {
+                        "id": "45",
+                        "value": "Sexual orientation and gender identity",
+                        "value_formatted": "Sexual orientation and gender identity",
+                        "start_date_formatted": "June 5, 1998",
+                        "description": "Under article 11.2 "
+                    }
+                },
+                "employment-discrimination": {
+                    "id": "12",
+                    "label": "LGBT employment discrimination",
+                    "label_short": "Employment Discrimination",
+                    "description": "Prohibition of discrimination based on sexual orientation and\/or gender identity in employment, including hiring, promotion, termination, harassment, etc.",
+                    "current_status": {
+                        "id": "44",
+                        "value": "Sexual orientation only",
+                        "value_formatted": "Sexual orientation only",
+                        "start_date_formatted": "April 20, 2015",
+                        "description": "In 2015, a labor reform made it illegal for employers to discriminate against people due to their sexual orientation."
+                    }
+                },
+                "military": {
+                    "id": "5",
+                    "label": "Homosexuals serving openly in military",
+                    "label_short": "Military",
+                    "description": "The ability for homosexuals to serve in the military and be open about their sexuality.",
+                    "current_status": {
+                        "id": "16",
+                        "value": "Legal",
+                        "value_formatted": "Legal",
+                        "description": "No"
+                    }
+                },
+                "age-of-consent": {
+                    "id": "11",
+                    "label": "Equal age of consent",
+                    "label_short": "Age of Consent",
+                    "description": "The difference between legal age of consent for homosexual sex and heterosexual sex.",
+                    "current_status": {
+                        "id": "27",
+                        "value": "Equal",
+                        "value_formatted": "Equal",
+                        "start_date_formatted": "November 27, 1997",
+                        "description": "The age of consent in Ecuador is 14, regardless of gender or sexual orientation. (Penal Code, Art 512)"
+                    }
+                },
+                "blood": {
+                    "id": "8",
+                    "label": "Blood donations by MSMs",
+                    "label_short": "Donating Blood",
+                    "description": "The ability for MSMs (men who have sex with men) to donate blood or tissue for organ transplants. A deferral period refers to a waiting time before a man can donate after having sex.",
+                    "current_status": {
+                        "id": "25",
+                        "value": "Legal",
+                        "value_formatted": "Legal",
+                        "description": "No"
+                    }
+                },
+                "conversion-therapy": {
+                    "id": "14",
+                    "label": "Conversion therapy",
+                    "label_short": "Conversion Therapy",
+                    "description": "Legal status of conducting sexual orientation changing therapy (\"ex-gay\" therapy)",
+                    "current_status": {
+                        "id": "48",
+                        "value": "Banned",
+                        "value_formatted": "Banned",
+                        "start_date_formatted": "November 5, 2016",
+                        "description": "No"
+                    }
+                }
+            }
+        }
+    }
+}

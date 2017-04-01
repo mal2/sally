@@ -1,0 +1,173 @@
+
+{
+"regions": {
+"region": {
+"region_id": "RU",
+"parent_id": null,
+"name": "Russia",
+"slug": "russia",
+"type": "Country",
+"continent": "Europe",
+"region": "Eastern Europe",
+"freebase_id": "\/m\/06bnz",
+"surface_area": "17075400.00",
+"indep_year": "1991",
+"population": "146934000",
+"life_expectancy": "67.2",
+"gnp": "276608.00",
+"gnp_old": "442989.00",
+"local_name": "Rossija",
+"alternative_names": "",
+"government_form": "Federal Republic",
+"head_of_state": "Vladimir Putin",
+"capital": "3580",
+"region_id3": "RUS",
+"url": "http:\/\/www.equaldex.com\/region\/russia",
+"region_parent": [],
+"issues": {
+"homosexuality": {
+"id": "1",
+"label": "Homosexual activity",
+"label_short": "Homosexuality",
+"description": "Consensual sexual activity between individuals of the same sex.",
+"current_status": {
+"id": "1",
+"value": "Legal",
+"value_formatted": "Legal",
+"start_date_formatted": "January 1, 1993",
+"description": "Homosexual activity is legal in Russia, however, \"anti-gay sentiments remain high.\"<br \/>\r\n<br \/>\r\nOn June 29, 2013, Russia was criticized internationally after a law passed that banned \"propaganda of nontraditional sexual relations.\""
+                    }
+                },
+                "marriage": {
+                    "id": "3",
+                    "label": "Same-sex marriage",
+                    "label_short": "Marriage",
+                    "description": "Marriage and marriage recognition between two people of the same biological sex and\/or gender identity.",
+                    "current_status": {
+                        "id": "15",
+                        "value": "Not legal",
+                        "value_formatted": "Not legal",
+                        "start_date_formatted": "December 29, 1995",
+                        "description": ""
+                    }
+                },
+                "changing-gender": {
+                    "id": "7",
+                    "label": "Right to change legal gender",
+                    "label_short": "Changing Gender",
+                    "description": "Legal recognition of sex reassignment by permitting a change of legal gender on an individual's birth certificate.",
+                    "current_status": {
+                        "id": "51",
+                        "value": "Legal, but requires surgery",
+                        "value_formatted": "Legal, but requires surgery",
+                        "start_date_formatted": "November 15, 1997",
+                        "description": "Transgender people are able to change their gender on identification documents after being issued a document from a health institution confirming the surgical requirements."
+                    }
+                },
+                "adoption": {
+                    "id": "4",
+                    "label": "Same-sex adoption",
+                    "label_short": "Adoption",
+                    "description": "The ability for same-sex couples to legally adopt a child.",
+                    "current_status": {
+                        "id": "5",
+                        "value": "Single only",
+                        "value_formatted": "Single only",
+                        "start_date_formatted": "December 29, 1995",
+                        "description": "Adoption is being regulated by the Civil Procedure Code of Russia (Chapter 29); Family Code of Russia (Chapter 19); Federal Law On Acts of Civil Status (Chapter V). None of these documents contain any direct restriction or ban for homosexual people to ado"
+                    }
+                },
+                "discrimination": {
+                    "id": "6",
+                    "label": "LGBT discrimination",
+                    "label_short": "Discrimination",
+                    "description": "Prohibition of discrimination based on sexual orientation and\/or gender identity.",
+                    "current_status": {
+                        "id": "20",
+                        "value": "No protections",
+                        "value_formatted": "No protections",
+                        "start_date_formatted": "July 29, 2013",
+                        "description": "Signed into law by President Vladimir Putin, the law on \u201cpropaganda of nontraditional sexual relations among minors\u201d criminalizes public expression of support for nontraditional relationships."
+                    }
+                },
+                "housing-discrimination": {
+                    "id": "13",
+                    "label": "LGBT housing discrimination",
+                    "label_short": "Housing Discrimination",
+                    "description": "Prohibition of discrimination based on sexual orientation and\/or gender identity when applying for housing or discrimination by landlords \/ property owners.",
+                    "current_status": {
+                        "id": "47",
+                        "value": "No protections",
+                        "value_formatted": "No protections",
+                        "start_date_formatted": "July 29, 2013",
+                        "description": "LGBT people can be fired."
+                    }
+                },
+                "employment-discrimination": {
+                    "id": "12",
+                    "label": "LGBT employment discrimination",
+                    "label_short": "Employment Discrimination",
+                    "description": "Prohibition of discrimination based on sexual orientation and\/or gender identity in employment, including hiring, promotion, termination, harassment, etc.",
+                    "current_status": {
+                        "id": "43",
+                        "value": "No protections",
+                        "value_formatted": "No protections",
+                        "start_date_formatted": "July 29, 2013",
+                        "description": "No"
+                    }
+                },
+                "military": {
+                    "id": "5",
+                    "label": "Homosexuals serving openly in military",
+                    "label_short": "Military",
+                    "description": "The ability for homosexuals to serve in the military and be open about their sexuality.",
+                    "current_status": {
+                        "id": "16",
+                        "value": "Legal",
+                        "value_formatted": "Legal",
+                        "start_date_formatted": "July 1, 2003",
+                        "description": "Major-General of Medical Service Valery Kulikov stated that \"the new statute about military and medical expertise from July 1, 2003 does not forbid people of non-standard sexual orientation from serving in the military.\" Also, in February of 2010, Prime Minister Vladimir Putin stated in an interview that gays are not banned from serving in the Russian armed forces."
+                    }
+                },
+                "age-of-consent": {
+                    "id": "11",
+                    "label": "Equal age of consent",
+                    "label_short": "Age of Consent",
+                    "description": "The difference between legal age of consent for homosexual sex and heterosexual sex.",
+                    "current_status": {
+                        "id": "27",
+                        "value": "Equal",
+                        "value_formatted": "Equal",
+                        "start_date_formatted": "January 1, 1997",
+                        "description": "The age of consent in Russia is 16 for both same-sex couples and opposite-sex couples."
+                    }
+                },
+                "blood": {
+                    "id": "8",
+                    "label": "Blood donations by MSMs",
+                    "label_short": "Donating Blood",
+                    "description": "The ability for MSMs (men who have sex with men) to donate blood or tissue for organ transplants. A deferral period refers to a waiting time before a man can donate after having sex.",
+                    "current_status": {
+                        "id": "25",
+                        "value": "Legal",
+                        "value_formatted": "Legal",
+                        "start_date_formatted": "April 16, 2008",
+                        "description": "In 2008, Russia repealed its ban against gay people donating blood. The law was signed in effect on April 16, 2008 by Tatyana Golikova, the minister of Russia's Health and Social Development department."
+                    }
+                },
+                "conversion-therapy": {
+                    "id": "14",
+                    "label": "Conversion therapy",
+                    "label_short": "Conversion Therapy",
+                    "description": "Legal status of conducting sexual orientation changing therapy (\"ex-gay\" therapy)",
+                    "current_status": {
+                        "id": "49",
+                        "value": "Not banned",
+                        "value_formatted": "Not banned",
+                        "description": "they are promoting it. "
+                    }
+                }
+            }
+        }
+    }
+}

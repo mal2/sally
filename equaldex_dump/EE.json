@@ -1,0 +1,170 @@
+
+{
+"regions": {
+"region": {
+"region_id": "EE",
+"parent_id": null,
+"name": "Estonia",
+"slug": "estonia",
+"type": "Country",
+"continent": "Europe",
+"region": "Baltic Countries",
+"freebase_id": "\/m\/02kmm",
+"surface_area": "45227.00",
+"indep_year": "1991",
+"population": "1439200",
+"life_expectancy": "69.5",
+"gnp": "5328.00",
+"gnp_old": "3371.00",
+"local_name": "Eesti",
+"alternative_names": "",
+"government_form": "Republic",
+"head_of_state": "Lennart Meri",
+"capital": "3791",
+"region_id3": "EST",
+"url": "http:\/\/www.equaldex.com\/region\/estonia",
+"region_parent": [],
+"issues": {
+"homosexuality": {
+"id": "1",
+"label": "Homosexual activity",
+"label_short": "Homosexuality",
+"description": "Consensual sexual activity between individuals of the same sex.",
+"current_status": {
+"id": "1",
+"value": "Legal",
+"value_formatted": "Legal",
+"start_date_formatted": "May 7, 1992",
+"description": ""
+}
+},
+"marriage": {
+"id": "3",
+"label": "Same-sex marriage",
+"label_short": "Marriage",
+"description": "Marriage and marriage recognition between two people of the same biological sex and\/or gender identity.",
+"current_status": {
+"id": "9",
+"value": "Other type of partnership",
+"value_formatted": "Other type of partnership",
+"start_date_formatted": "October 9, 2014",
+"description": "Although a law was passed and was meant to go into effect in 2016, bureaucratic process is impeding the full implementation of the passed law."
+}
+},
+"changing-gender": {
+"id": "7",
+"label": "Right to change legal gender",
+"label_short": "Changing Gender",
+"description": "Legal recognition of sex reassignment by permitting a change of legal gender on an individual's birth certificate.",
+"current_status": {
+"id": "51",
+"value": "Legal, but requires surgery",
+"value_formatted": "Legal, but requires surgery",
+"start_date_formatted": "May 7, 1999",
+"description": "The main legislation on gender change is the \u201cGeneral Requirements on Medical Procedures for the Change of Gender\u201d issued by the Minister for Social Affairs (Soovahetuse arstlike<br \/>\r\ntoimingute \u00fchtsed n\u00f5uded, of 07.05.1999, no 32). This sets out the conditions for changing a person\u2019s legal gender and allowing medical treatment for gender reassignment. It requires:<br \/>\r\n\u2022 An application to the Ministry for Social Affairs;<br \/>\r\n\u2022 The decision is made by a medical expert committee appointed by the Minister of Social Affairs;<br \/>\r\n\u2022 Certification of transsexual identity during at least two years prior to the application;<br \/>\r\n\u2022 A psychiatrist\u2019s decision that excludes the possibility that the wish to undergo gender\/sex<br \/>\r\nchange is caused by psychiatric disorder;<br \/>\r\n\u2022 Compatibility of chromosomatic and gonad gender\/sex certified by genetic research;<br \/>\r\n\u2022 At least two years of treatment must pass from the beginning of medical treatment. At least one year must pass from the positive response from the Minister for Social Affairs to have the right to surgically change gender. If the Person decides otherwise during that year they are not obliged to go ahead with the change of gender."
+                    }
+                },
+                "adoption": {
+                    "id": "4",
+                    "label": "Same-sex adoption",
+                    "label_short": "Adoption",
+                    "description": "The ability for same-sex couples to legally adopt a child.",
+                    "current_status": {
+                        "id": "5",
+                        "value": "Single only",
+                        "value_formatted": "Single only",
+                        "description": ""
+                    }
+                },
+                "discrimination": {
+                    "id": "6",
+                    "label": "LGBT discrimination",
+                    "label_short": "Discrimination",
+                    "description": "Prohibition of discrimination based on sexual orientation and\/or gender identity.",
+                    "current_status": {
+                        "id": "32",
+                        "value": "Illegal in some contexts",
+                        "value_formatted": "Illegal in some contexts",
+                        "start_date_formatted": "January 1, 2009",
+                        "description": "Although the Constitution prohibits any kind of discrimination (but this is difficult to enforce and unclear how applies), Equal Treatment Act only prohibits discrimination in employment."
+                    }
+                },
+                "housing-discrimination": {
+                    "id": "13",
+                    "label": "LGBT housing discrimination",
+                    "label_short": "Housing Discrimination",
+                    "description": "Prohibition of discrimination based on sexual orientation and\/or gender identity when applying for housing or discrimination by landlords \/ property owners.",
+                    "current_status": {
+                        "id": "45",
+                        "value": "Sexual orientation and gender identity",
+                        "value_formatted": "Sexual orientation and gender identity",
+                        "start_date_formatted": "January 1, 2009",
+                        "description": "Under Estonian law."
+                    }
+                },
+                "employment-discrimination": {
+                    "id": "12",
+                    "label": "LGBT employment discrimination",
+                    "label_short": "Employment Discrimination",
+                    "description": "Prohibition of discrimination based on sexual orientation and\/or gender identity in employment, including hiring, promotion, termination, harassment, etc.",
+                    "current_status": {
+                        "id": "42",
+                        "value": "Sexual orientation and gender identity",
+                        "value_formatted": "Sexual orientation and gender identity",
+                        "start_date_formatted": "January 1, 2009",
+                        "description": ""
+                    }
+                },
+                "military": {
+                    "id": "5",
+                    "label": "Homosexuals serving openly in military",
+                    "label_short": "Military",
+                    "description": "The ability for homosexuals to serve in the military and be open about their sexuality.",
+                    "current_status": {
+                        "id": "16",
+                        "value": "Legal",
+                        "value_formatted": "Legal",
+                        "description": "No"
+                    }
+                },
+                "age-of-consent": {
+                    "id": "11",
+                    "label": "Equal age of consent",
+                    "label_short": "Age of Consent",
+                    "description": "The difference between legal age of consent for homosexual sex and heterosexual sex.",
+                    "current_status": {
+                        "id": "27",
+                        "value": "Equal",
+                        "value_formatted": "Equal",
+                        "start_date_formatted": "January 6, 2002",
+                        "description": "Age of consent is equal and is set at 14."
+                    }
+                },
+                "blood": {
+                    "id": "8",
+                    "label": "Blood donations by MSMs",
+                    "label_short": "Donating Blood",
+                    "description": "The ability for MSMs (men who have sex with men) to donate blood or tissue for organ transplants. A deferral period refers to a waiting time before a man can donate after having sex.",
+                    "current_status": {
+                        "id": "26",
+                        "value": "Banned (indefinite deferral)",
+                        "value_formatted": "Banned (indefinite deferral)",
+                        "description": ""
+                    }
+                },
+                "conversion-therapy": {
+                    "id": "14",
+                    "label": "Conversion therapy",
+                    "label_short": "Conversion Therapy",
+                    "description": "Legal status of conducting sexual orientation changing therapy (\"ex-gay\" therapy)",
+                    "current_status": {
+                        "id": "49",
+                        "value": "Not banned",
+                        "value_formatted": "Not banned",
+                        "description": "No"
+                    }
+                }
+            }
+        }
+    }
+}

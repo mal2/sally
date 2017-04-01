@@ -1,0 +1,190 @@
+
+{
+"regions": {
+"region": {
+"region_id": "US-NH",
+"parent_id": "US",
+"name": "New Hampshire",
+"slug": "new-hampshire",
+"type": "State",
+"continent": null,
+"region": "Northeast",
+"freebase_id": "\/m\/059f4",
+"surface_area": "0.00",
+"indep_year": "0",
+"population": "0",
+"life_expectancy": null,
+"gnp": null,
+"gnp_old": null,
+"local_name": "",
+"alternative_names": "",
+"government_form": "",
+"head_of_state": null,
+"capital": null,
+"region_id3": "US",
+"url": "http:\/\/www.equaldex.com\/region\/united-states\/new-hampshire",
+"region_parent": {
+"region_id": "US",
+"parent_id": null,
+"name": "United States",
+"slug": "united-states",
+"type": "Country",
+"continent": "North America",
+"region": "North America",
+"freebase_id": "\/m\/09c7w0",
+"surface_area": "9363520.00",
+"indep_year": "1776",
+"population": "278357000",
+"life_expectancy": "77.1",
+"gnp": "8510700.00",
+"gnp_old": "8110900.00",
+"local_name": "United States",
+"alternative_names": "",
+"government_form": "Federal Republic",
+"head_of_state": "George W. Bush",
+"capital": "3813",
+"region_id3": "USA",
+"url": "http:\/\/www.equaldex.com\/region\/united-states"
+},
+"issues": {
+"homosexuality": {
+"id": "1",
+"label": "Homosexual activity",
+"label_short": "Homosexuality",
+"description": "Consensual sexual activity between individuals of the same sex.",
+"current_status": {
+"id": "1",
+"value": "Legal",
+"value_formatted": "Legal",
+"start_date_formatted": "June 26, 2003",
+"description": "US Supreme Court ruling issued in Lawrence v. Texas struck down all sodomy laws on the basis of privacy and liberty. The decision overturned any laws remaining in all US states which prohibited acts of sodomy."
+}
+},
+"marriage": {
+"id": "3",
+"label": "Same-sex marriage",
+"label_short": "Marriage",
+"description": "Marriage and marriage recognition between two people of the same biological sex and\/or gender identity.",
+"current_status": {
+"id": "8",
+"value": "Legal",
+"value_formatted": "Legal",
+"start_date_formatted": "January 1, 2010",
+"description": "In 2010, New Hampshire was the fifth state to legalize gay marriage. The bill was signed into law on June 3, 2009."
+}
+},
+"changing-gender": {
+"id": "7",
+"label": "Right to change legal gender",
+"label_short": "Changing Gender",
+"description": "Legal recognition of sex reassignment by permitting a change of legal gender on an individual's birth certificate.",
+"current_status": {
+"id": "21",
+"value": "Legal, surgery not required",
+"value_formatted": "Legal, surgery not required",
+"description": "under movement advancement project"
+}
+},
+"adoption": {
+"id": "4",
+"label": "Same-sex adoption",
+"label_short": "Adoption",
+"description": "The ability for same-sex couples to legally adopt a child.",
+"current_status": {
+"id": null,
+"value": "ambiguous",
+"value_formatted": "Ambiguous",
+"description": "Unmarried adults may individually adopt, and married adults may petition jointly per N.H. Rev. Stat. 170-B:4.<br \/>\r\n<br \/>\r\nSecond-parent adoptions, however, are not permitted."
+                    }
+                },
+                "discrimination": {
+                    "id": "6",
+                    "label": "LGBT discrimination",
+                    "label_short": "Discrimination",
+                    "description": "Prohibition of discrimination based on sexual orientation and\/or gender identity.",
+                    "current_status": {
+                        "id": "32",
+                        "value": "Illegal in some contexts",
+                        "value_formatted": "Illegal in some contexts",
+                        "description": "Discrimination on the basis of sexual orientation is illegal, but gender identification is not included in these protections."
+                    }
+                },
+                "housing-discrimination": {
+                    "id": "13",
+                    "label": "LGBT housing discrimination",
+                    "label_short": "Housing Discrimination",
+                    "description": "Prohibition of discrimination based on sexual orientation and\/or gender identity when applying for housing or discrimination by landlords \/ property owners.",
+                    "current_status": {
+                        "id": "46",
+                        "value": "Sexual orientation only",
+                        "value_formatted": "Sexual orientation only",
+                        "description": "This state explicitly bans housing discrimination based upon sexual orientation only.<br \/>\r\n<br \/>\r\nAdditionally, the Human Rights Campaign states, \"The Department of Housing and Urban Development (HUD) requires grantees and participants of HUD programs to comply with local and state non-discrimination laws that include sexual orientation and gender identity.<br \/>\r\nHUD also prohibits inquiries regarding the sexual orientation or gender identity of a prospective tenant or applicant for assisted<br \/>\r\nhousing in every state (March 2012).\""
+                    }
+                },
+                "employment-discrimination": {
+                    "id": "12",
+                    "label": "LGBT employment discrimination",
+                    "label_short": "Employment Discrimination",
+                    "description": "Prohibition of discrimination based on sexual orientation and\/or gender identity in employment, including hiring, promotion, termination, harassment, etc.",
+                    "current_status": {
+                        "id": "44",
+                        "value": "Sexual orientation only",
+                        "value_formatted": "Sexual orientation only",
+                        "start_date_formatted": "January 1, 1998",
+                        "description": "State law provides protections from discrimination based on sexual orientation only.  Additionally, public state employees are granted some benefits solely based upon marriage, same-sex partners are eligible to receive these benefits."
+                    }
+                },
+                "military": {
+                    "id": "5",
+                    "label": "Homosexuals serving openly in military",
+                    "label_short": "Military",
+                    "description": "The ability for homosexuals to serve in the military and be open about their sexuality.",
+                    "current_status": {
+                        "id": "16",
+                        "value": "Legal",
+                        "value_formatted": "Legal",
+                        "start_date_formatted": "September 20, 2011",
+                        "description": "Don't Ask, Don't Tell is officially repealed throughout the United States, and gays and lesbians may openly serve."
+                    }
+                },
+                "age-of-consent": {
+                    "id": "11",
+                    "label": "Equal age of consent",
+                    "label_short": "Age of Consent",
+                    "description": "The difference between legal age of consent for homosexual sex and heterosexual sex.",
+                    "current_status": {
+                        "id": "27",
+                        "value": "Equal",
+                        "value_formatted": "Equal",
+                        "description": "No"
+                    }
+                },
+                "blood": {
+                    "id": "8",
+                    "label": "Blood donations by MSMs",
+                    "label_short": "Donating Blood",
+                    "description": "The ability for MSMs (men who have sex with men) to donate blood or tissue for organ transplants. A deferral period refers to a waiting time before a man can donate after having sex.",
+                    "current_status": {
+                        "id": "26",
+                        "value": "Banned (indefinite deferral)",
+                        "value_formatted": "Banned (indefinite deferral)",
+                        "start_date_formatted": "January 1, 1983",
+                        "description": "Ban on blood donations from MSMs applies to any man who has had sex, even once, with another man on or after January 1, 1977."
+                    }
+                },
+                "conversion-therapy": {
+                    "id": "14",
+                    "label": "Conversion therapy",
+                    "label_short": "Conversion Therapy",
+                    "description": "Legal status of conducting sexual orientation changing therapy (\"ex-gay\" therapy)",
+                    "current_status": {
+                        "id": null,
+                        "value": "ambiguous",
+                        "value_formatted": "Ambiguous",
+                        "description": "Conversion Therapy is currently legal.  No law currently bans it, despite organizations such as the American Psychological Association denouncing it.  Though it's not actually ambiguous (It is in fact legal), this is the best indicator of the available options."
+                    }
+                }
+            }
+        }
+    }
+}

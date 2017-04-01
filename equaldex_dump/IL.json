@@ -1,0 +1,173 @@
+
+{
+"regions": {
+"region": {
+"region_id": "IL",
+"parent_id": null,
+"name": "Israel",
+"slug": "israel",
+"type": "Country",
+"continent": "Asia",
+"region": "Middle East",
+"freebase_id": "\/m\/03spz",
+"surface_area": "21056.00",
+"indep_year": "1948",
+"population": "6217000",
+"life_expectancy": "78.6",
+"gnp": "97477.00",
+"gnp_old": "98577.00",
+"local_name": "Yisra\u2019el\/Isra\u2019il",
+"alternative_names": "",
+"government_form": "Republic",
+"head_of_state": "Moshe Katzav",
+"capital": "1450",
+"region_id3": "ISR",
+"url": "http:\/\/www.equaldex.com\/region\/israel",
+"region_parent": [],
+"issues": {
+"homosexuality": {
+"id": "1",
+"label": "Homosexual activity",
+"label_short": "Homosexuality",
+"description": "Consensual sexual activity between individuals of the same sex.",
+"current_status": {
+"id": "1",
+"value": "Legal",
+"value_formatted": "Legal",
+"start_date_formatted": "January 1, 1988",
+"description": ""
+}
+},
+"marriage": {
+"id": "3",
+"label": "Same-sex marriage",
+"label_short": "Marriage",
+"description": "Marriage and marriage recognition between two people of the same biological sex and\/or gender identity.",
+"current_status": {
+"id": "10",
+"value": "Foreign same-sex marriages recognized only",
+"value_formatted": "Foreign same-sex marriages recognized only",
+"start_date_formatted": "November 1, 2006",
+"description": ""
+}
+},
+"changing-gender": {
+"id": "7",
+"label": "Right to change legal gender",
+"label_short": "Changing Gender",
+"description": "Legal recognition of sex reassignment by permitting a change of legal gender on an individual's birth certificate.",
+"current_status": {
+"id": "21",
+"value": "Legal, surgery not required",
+"value_formatted": "Legal, surgery not required",
+"start_date_formatted": "January 21, 2015",
+"description": "Israelis can now change their legal gender without sex-reassignment surgery as ordered by the Supreme Court"
+}
+},
+"adoption": {
+"id": "4",
+"label": "Same-sex adoption",
+"label_short": "Adoption",
+"description": "The ability for same-sex couples to legally adopt a child.",
+"current_status": {
+"id": "3",
+"value": "Legal",
+"value_formatted": "Legal",
+"start_date_formatted": "February 1, 2008",
+"description": ""
+}
+},
+"discrimination": {
+"id": "6",
+"label": "LGBT discrimination",
+"label_short": "Discrimination",
+"description": "Prohibition of discrimination based on sexual orientation and\/or gender identity.",
+"current_status": {
+"id": "19",
+"value": "Illegal",
+"value_formatted": "Illegal",
+"start_date_formatted": "January 1, 1992",
+"description": "Maintains religious exemptions."
+}
+},
+"housing-discrimination": {
+"id": "13",
+"label": "LGBT housing discrimination",
+"label_short": "Housing Discrimination",
+"description": "Prohibition of discrimination based on sexual orientation and\/or gender identity when applying for housing or discrimination by landlords \/ property owners.",
+"current_status": {
+"id": "46",
+"value": "Sexual orientation only",
+"value_formatted": "Sexual orientation only",
+"start_date_formatted": "January 1, 1992",
+"description": "Under the Human Rights Law."
+}
+},
+"employment-discrimination": {
+"id": "12",
+"label": "LGBT employment discrimination",
+"label_short": "Employment Discrimination",
+"description": "Prohibition of discrimination based on sexual orientation and\/or gender identity in employment, including hiring, promotion, termination, harassment, etc.",
+"current_status": {
+"id": "44",
+"value": "Sexual orientation only",
+"value_formatted": "Sexual orientation only",
+"start_date_formatted": "January 1, 1992",
+"description": ""
+}
+},
+"military": {
+"id": "5",
+"label": "Homosexuals serving openly in military",
+"label_short": "Military",
+"description": "The ability for homosexuals to serve in the military and be open about their sexuality.",
+"current_status": {
+"id": "16",
+"value": "Legal",
+"value_formatted": "Legal",
+"start_date_formatted": "January 1, 1992",
+"description": "Homosexuals can serve openly in all branches of the military."
+}
+},
+"age-of-consent": {
+"id": "11",
+"label": "Equal age of consent",
+"label_short": "Age of Consent",
+"description": "The difference between legal age of consent for homosexual sex and heterosexual sex.",
+"current_status": {
+"id": "27",
+"value": "Equal",
+"value_formatted": "Equal",
+"start_date_formatted": "May 14, 1948",
+"description": "The age of consent in Israel is 16 for male-male, female-female, and male-female sex."
+}
+},
+"blood": {
+"id": "8",
+"label": "Blood donations by MSMs",
+"label_short": "Donating Blood",
+"description": "The ability for MSMs (men who have sex with men) to donate blood or tissue for organ transplants. A deferral period refers to a waiting time before a man can donate after having sex.",
+"current_status": {
+"id": "26",
+"value": "Banned (indefinite deferral)",
+"value_formatted": "Banned (indefinite deferral)",
+"start_date_formatted": "January 1, 1980",
+"description": ""
+}
+},
+"conversion-therapy": {
+"id": "14",
+"label": "Conversion therapy",
+"label_short": "Conversion Therapy",
+"description": "Legal status of conducting sexual orientation changing therapy (\"ex-gay\" therapy)",
+"current_status": {
+"id": "49",
+"value": "Not banned",
+"value_formatted": "Not banned",
+"description": "it is a safe haven for people practicing this."
+}
+}
+}
+}
+}
+}

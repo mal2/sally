@@ -1,0 +1,190 @@
+
+{
+"regions": {
+"region": {
+"region_id": "US-ND",
+"parent_id": "US",
+"name": "North Dakota",
+"slug": "north-dakota",
+"type": "State",
+"continent": null,
+"region": "Midwest",
+"freebase_id": "\/m\/05fky",
+"surface_area": "0.00",
+"indep_year": "0",
+"population": "0",
+"life_expectancy": null,
+"gnp": null,
+"gnp_old": null,
+"local_name": "",
+"alternative_names": "",
+"government_form": "",
+"head_of_state": null,
+"capital": null,
+"region_id3": "US",
+"url": "http:\/\/www.equaldex.com\/region\/united-states\/north-dakota",
+"region_parent": {
+"region_id": "US",
+"parent_id": null,
+"name": "United States",
+"slug": "united-states",
+"type": "Country",
+"continent": "North America",
+"region": "North America",
+"freebase_id": "\/m\/09c7w0",
+"surface_area": "9363520.00",
+"indep_year": "1776",
+"population": "278357000",
+"life_expectancy": "77.1",
+"gnp": "8510700.00",
+"gnp_old": "8110900.00",
+"local_name": "United States",
+"alternative_names": "",
+"government_form": "Federal Republic",
+"head_of_state": "George W. Bush",
+"capital": "3813",
+"region_id3": "USA",
+"url": "http:\/\/www.equaldex.com\/region\/united-states"
+},
+"issues": {
+"homosexuality": {
+"id": "1",
+"label": "Homosexual activity",
+"label_short": "Homosexuality",
+"description": "Consensual sexual activity between individuals of the same sex.",
+"current_status": {
+"id": "1",
+"value": "Legal",
+"value_formatted": "Legal",
+"start_date_formatted": "January 1, 1973",
+"description": ""
+}
+},
+"marriage": {
+"id": "3",
+"label": "Same-sex marriage",
+"label_short": "Marriage",
+"description": "Marriage and marriage recognition between two people of the same biological sex and\/or gender identity.",
+"current_status": {
+"id": "8",
+"value": "Legal",
+"value_formatted": "Legal",
+"start_date_formatted": "June 26, 2015",
+"description": "The US Supreme Court rules that same-sex marriage is legal nationwide."
+}
+},
+"changing-gender": {
+"id": "7",
+"label": "Right to change legal gender",
+"label_short": "Changing Gender",
+"description": "Legal recognition of sex reassignment by permitting a change of legal gender on an individual's birth certificate.",
+"current_status": {
+"id": "51",
+"value": "Legal, but requires surgery",
+"value_formatted": "Legal, but requires surgery",
+"start_date_formatted": "January 1, 2006",
+"description": ""
+}
+},
+"adoption": {
+"id": "4",
+"label": "Same-sex adoption",
+"label_short": "Adoption",
+"description": "The ability for same-sex couples to legally adopt a child.",
+"current_status": {
+"id": "5",
+"value": "Single only",
+"value_formatted": "Single only",
+"description": "\"The following individuals may adopt:<br \/>\r\n<br \/>\r\n1. A husband and wife together although one or both are minors.<br \/>\r\n2. An unmarried adult.<br \/>\r\n3. The unmarried father or mother of the individual to be adopted.<br \/>\r\n4. A married individual without the other spouse joining as a petitioner, if the individual to <br \/>\r\nbe adopted is not the adopting person's spouse, and if:<br \/>\r\n  a. The petitioner is a stepparent of the individual to be adopted and the biological or <br \/>\r\nlegal parent of the individual to be adopted consents;<br \/>\r\n  b. The petitioner and the other spouse are legally separated; or<br \/>\r\n  c. The failure of the other spouse to join in the petition or to consent to the adoption <br \/>\r\nis excused by the court by reason of prolonged unexplained absence, <br \/>\r\nunavailability, incapacity, or circumstances constituting an unreasonable <br \/>\r\nwithholding of consent.\""
+                    }
+                },
+                "discrimination": {
+                    "id": "6",
+                    "label": "LGBT discrimination",
+                    "label_short": "Discrimination",
+                    "description": "Prohibition of discrimination based on sexual orientation and\/or gender identity.",
+                    "current_status": {
+                        "id": "20",
+                        "value": "No protections",
+                        "value_formatted": "No protections",
+                        "description": "No protections from discrimination exist based upon sexual orientation or gender identification."
+                    }
+                },
+                "housing-discrimination": {
+                    "id": "13",
+                    "label": "LGBT housing discrimination",
+                    "label_short": "Housing Discrimination",
+                    "description": "Prohibition of discrimination based on sexual orientation and\/or gender identity when applying for housing or discrimination by landlords \/ property owners.",
+                    "current_status": {
+                        "id": "47",
+                        "value": "No protections",
+                        "value_formatted": "No protections",
+                        "description": "\"...does not apply to an individual because of <br \/>\r\nan individual's sexual orientation or because that individual is a transvestite\"<br \/>\r\n<br \/>\r\nThis state does not provide any legal protections from discrimination based upon sexual orientation or gender identification.<br \/>\r\n<br \/>\r\nHowever, the Human Rights Campaign states, \"The Department of Housing and Urban Development (HUD) requires grantees and participants of HUD programs to comply with local and state non-discrimination laws that include sexual orientation and gender identity.<br \/>\r\nHUD also prohibits inquiries regarding the sexual orientation or gender identity of a prospective tenant or applicant for assisted<br \/>\r\nhousing in every state (March 2012).\""
+                    }
+                },
+                "employment-discrimination": {
+                    "id": "12",
+                    "label": "LGBT employment discrimination",
+                    "label_short": "Employment Discrimination",
+                    "description": "Prohibition of discrimination based on sexual orientation and\/or gender identity in employment, including hiring, promotion, termination, harassment, etc.",
+                    "current_status": {
+                        "id": "43",
+                        "value": "No protections",
+                        "value_formatted": "No protections",
+                        "description": "Certain municipal laws allow non-discriminatory codes for city employees. eg. Fargo & Grand Forks.  Otherwise, as of December 16, 2014, there are no statewide legal protections for people who are LGBT in regards to employment."
+                    }
+                },
+                "military": {
+                    "id": "5",
+                    "label": "Homosexuals serving openly in military",
+                    "label_short": "Military",
+                    "description": "The ability for homosexuals to serve in the military and be open about their sexuality.",
+                    "current_status": {
+                        "id": "16",
+                        "value": "Legal",
+                        "value_formatted": "Legal",
+                        "start_date_formatted": "September 20, 2011",
+                        "description": "Legalized with national passing of Don't Ask, Don't Tell Repeal Act of 2010."
+                    }
+                },
+                "age-of-consent": {
+                    "id": "11",
+                    "label": "Equal age of consent",
+                    "label_short": "Age of Consent",
+                    "description": "The difference between legal age of consent for homosexual sex and heterosexual sex.",
+                    "current_status": {
+                        "id": "27",
+                        "value": "Equal",
+                        "value_formatted": "Equal",
+                        "description": ""
+                    }
+                },
+                "blood": {
+                    "id": "8",
+                    "label": "Blood donations by MSMs",
+                    "label_short": "Donating Blood",
+                    "description": "The ability for MSMs (men who have sex with men) to donate blood or tissue for organ transplants. A deferral period refers to a waiting time before a man can donate after having sex.",
+                    "current_status": {
+                        "id": "26",
+                        "value": "Banned (indefinite deferral)",
+                        "value_formatted": "Banned (indefinite deferral)",
+                        "start_date_formatted": "January 1, 1983",
+                        "description": "Banned due to national FDA Guidelines."
+                    }
+                },
+                "conversion-therapy": {
+                    "id": "14",
+                    "label": "Conversion therapy",
+                    "label_short": "Conversion Therapy",
+                    "description": "Legal status of conducting sexual orientation changing therapy (\"ex-gay\" therapy)",
+                    "current_status": {
+                        "id": null,
+                        "value": "ambiguous",
+                        "value_formatted": "Ambiguous",
+                        "description": "Conversion Therapy is currently legal.  No law currently bans it, despite organizations such as the American Psychological Association denouncing it.  Though it's not actually ambiguous (It is in fact legal), this is the best indicator of the available options."
+                    }
+                }
+            }
+        }
+    }
+}

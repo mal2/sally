@@ -1,0 +1,172 @@
+
+{
+"regions": {
+"region": {
+"region_id": "FI",
+"parent_id": null,
+"name": "Finland",
+"slug": "finland",
+"type": "Country",
+"continent": "Europe",
+"region": "Nordic Countries",
+"freebase_id": "\/m\/02vzc",
+"surface_area": "338145.00",
+"indep_year": "1917",
+"population": "5171300",
+"life_expectancy": "77.4",
+"gnp": "121914.00",
+"gnp_old": "119833.00",
+"local_name": "Suomi",
+"alternative_names": "",
+"government_form": "Republic",
+"head_of_state": "Tarja Halonen",
+"capital": "3236",
+"region_id3": "FIN",
+"url": "http:\/\/www.equaldex.com\/region\/finland",
+"region_parent": [],
+"issues": {
+"homosexuality": {
+"id": "1",
+"label": "Homosexual activity",
+"label_short": "Homosexuality",
+"description": "Consensual sexual activity between individuals of the same sex.",
+"current_status": {
+"id": "1",
+"value": "Legal",
+"value_formatted": "Legal",
+"start_date_formatted": "January 1, 1971",
+"description": "It was not until 1980s that homosexuality was not treated as an illness"
+}
+},
+"marriage": {
+"id": "3",
+"label": "Same-sex marriage",
+"label_short": "Marriage",
+"description": "Marriage and marriage recognition between two people of the same biological sex and\/or gender identity.",
+"current_status": {
+"id": "9",
+"value": "Other type of partnership",
+"value_formatted": "Other type of partnership",
+"start_date_formatted": "November 28, 2014",
+"description": "Finland legalizes full marriage for same-sex couples. However, this law only comes into effect in 2017."
+}
+},
+"changing-gender": {
+"id": "7",
+"label": "Right to change legal gender",
+"label_short": "Changing Gender",
+"description": "Legal recognition of sex reassignment by permitting a change of legal gender on an individual's birth certificate.",
+"current_status": {
+"id": "51",
+"value": "Legal, but requires surgery",
+"value_formatted": "Legal, but requires surgery",
+"start_date_formatted": "January 1, 2003",
+"description": "The authorities shall recognise a person as belonging to the opposite sex to that recorded on the population register, provided he\/she:<br \/>\r\n\u2022 Provides a medical report testifying that he\/she permanently experiences being a member of the opposite sex and that he\/she lives in that gender roles and that he\/she has been sterilised or is otherwise incapable of having children<br \/>\r\n\u2022 He\/she is an adult<br \/>\r\n\u2022 He\/she is not married or in a registered partnership; unless the spouse or partner gives their consent in which case a marriage become a registered partnership and a registered partnership becomes a marriage<br \/>\r\n\u2022 He\/she is a Finnish citizen or is resident in Finland"
+                    }
+                },
+                "adoption": {
+                    "id": "4",
+                    "label": "Same-sex adoption",
+                    "label_short": "Adoption",
+                    "description": "The ability for same-sex couples to legally adopt a child.",
+                    "current_status": {
+                        "id": "6",
+                        "value": "Step-child adoption only",
+                        "value_formatted": "Step-child adoption only",
+                        "start_date_formatted": "May 15, 2009",
+                        "description": "Only able to adopt child of the other partner"
+                    }
+                },
+                "discrimination": {
+                    "id": "6",
+                    "label": "LGBT discrimination",
+                    "label_short": "Discrimination",
+                    "description": "Prohibition of discrimination based on sexual orientation and\/or gender identity.",
+                    "current_status": {
+                        "id": "19",
+                        "value": "Illegal",
+                        "value_formatted": "Illegal",
+                        "start_date_formatted": "February 1, 2004",
+                        "description": ""
+                    }
+                },
+                "housing-discrimination": {
+                    "id": "13",
+                    "label": "LGBT housing discrimination",
+                    "label_short": "Housing Discrimination",
+                    "description": "Prohibition of discrimination based on sexual orientation and\/or gender identity when applying for housing or discrimination by landlords \/ property owners.",
+                    "current_status": {
+                        "id": "45",
+                        "value": "Sexual orientation and gender identity",
+                        "value_formatted": "Sexual orientation and gender identity",
+                        "start_date_formatted": "February 1, 2004",
+                        "description": ""
+                    }
+                },
+                "employment-discrimination": {
+                    "id": "12",
+                    "label": "LGBT employment discrimination",
+                    "label_short": "Employment Discrimination",
+                    "description": "Prohibition of discrimination based on sexual orientation and\/or gender identity in employment, including hiring, promotion, termination, harassment, etc.",
+                    "current_status": {
+                        "id": "42",
+                        "value": "Sexual orientation and gender identity",
+                        "value_formatted": "Sexual orientation and gender identity",
+                        "start_date_formatted": "February 1, 2004",
+                        "description": ""
+                    }
+                },
+                "military": {
+                    "id": "5",
+                    "label": "Homosexuals serving openly in military",
+                    "label_short": "Military",
+                    "description": "The ability for homosexuals to serve in the military and be open about their sexuality.",
+                    "current_status": {
+                        "id": "16",
+                        "value": "Legal",
+                        "value_formatted": "Legal",
+                        "description": ""
+                    }
+                },
+                "age-of-consent": {
+                    "id": "11",
+                    "label": "Equal age of consent",
+                    "label_short": "Age of Consent",
+                    "description": "The difference between legal age of consent for homosexual sex and heterosexual sex.",
+                    "current_status": {
+                        "id": "27",
+                        "value": "Equal",
+                        "value_formatted": "Equal",
+                        "start_date_formatted": "January 1, 1999",
+                        "description": ""
+                    }
+                },
+                "blood": {
+                    "id": "8",
+                    "label": "Blood donations by MSMs",
+                    "label_short": "Donating Blood",
+                    "description": "The ability for MSMs (men who have sex with men) to donate blood or tissue for organ transplants. A deferral period refers to a waiting time before a man can donate after having sex.",
+                    "current_status": {
+                        "id": "40",
+                        "value": "Banned (1-year deferral)",
+                        "value_formatted": "Banned (1-year deferral)",
+                        "start_date_formatted": "May 12, 2014",
+                        "description": ""
+                    }
+                },
+                "conversion-therapy": {
+                    "id": "14",
+                    "label": "Conversion therapy",
+                    "label_short": "Conversion Therapy",
+                    "description": "Legal status of conducting sexual orientation changing therapy (\"ex-gay\" therapy)",
+                    "current_status": {
+                        "id": "49",
+                        "value": "Not banned",
+                        "value_formatted": "Not banned",
+                        "description": "No laws making it illegal."
+                    }
+                }
+            }
+        }
+    }
+}

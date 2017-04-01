@@ -1,0 +1,174 @@
+
+{
+"regions": {
+"region": {
+"region_id": "ZA",
+"parent_id": null,
+"name": "South Africa",
+"slug": "south-africa",
+"type": "Country",
+"continent": "Africa",
+"region": "Southern Africa",
+"freebase_id": "\/m\/0hzlz",
+"surface_area": "1221037.00",
+"indep_year": "1910",
+"population": "40377000",
+"life_expectancy": "51.1",
+"gnp": "116729.00",
+"gnp_old": "129092.00",
+"local_name": "South Africa",
+"alternative_names": "",
+"government_form": "Republic",
+"head_of_state": "Thabo Mbeki",
+"capital": "716",
+"region_id3": "ZAF",
+"url": "http:\/\/www.equaldex.com\/region\/south-africa",
+"region_parent": [],
+"issues": {
+"homosexuality": {
+"id": "1",
+"label": "Homosexual activity",
+"label_short": "Homosexuality",
+"description": "Consensual sexual activity between individuals of the same sex.",
+"current_status": {
+"id": "1",
+"value": "Legal",
+"value_formatted": "Legal",
+"start_date_formatted": "October 9, 1998",
+"description": "While it remained illegal until the court gave its ruling on 9 October 1998, the 1998 ruling was ordered to be retroactively applied to 27 April 1994."
+}
+},
+"marriage": {
+"id": "3",
+"label": "Same-sex marriage",
+"label_short": "Marriage",
+"description": "Marriage and marriage recognition between two people of the same biological sex and\/or gender identity.",
+"current_status": {
+"id": "8",
+"value": "Legal",
+"value_formatted": "Legal",
+"start_date_formatted": "November 30, 2006",
+"description": ""
+}
+},
+"changing-gender": {
+"id": "7",
+"label": "Right to change legal gender",
+"label_short": "Changing Gender",
+"description": "Legal recognition of sex reassignment by permitting a change of legal gender on an individual's birth certificate.",
+"current_status": {
+"id": "51",
+"value": "Legal, but requires surgery",
+"value_formatted": "Legal, but requires surgery",
+"start_date_formatted": "March 15, 2004",
+"description": ""
+}
+},
+"adoption": {
+"id": "4",
+"label": "Same-sex adoption",
+"label_short": "Adoption",
+"description": "The ability for same-sex couples to legally adopt a child.",
+"current_status": {
+"id": "3",
+"value": "Legal",
+"value_formatted": "Legal",
+"start_date_formatted": "April 1, 2010",
+"description": "Made officially legal through the Consolidated Children's Act of 2010"
+}
+},
+"discrimination": {
+"id": "6",
+"label": "LGBT discrimination",
+"label_short": "Discrimination",
+"description": "Prohibition of discrimination based on sexual orientation and\/or gender identity.",
+"current_status": {
+"id": "19",
+"value": "Illegal",
+"value_formatted": "Illegal",
+"start_date_formatted": "May 8, 1996",
+"description": ""
+}
+},
+"housing-discrimination": {
+"id": "13",
+"label": "LGBT housing discrimination",
+"label_short": "Housing Discrimination",
+"description": "Prohibition of discrimination based on sexual orientation and\/or gender identity when applying for housing or discrimination by landlords \/ property owners.",
+"current_status": {
+"id": "45",
+"value": "Sexual orientation and gender identity",
+"value_formatted": "Sexual orientation and gender identity",
+"start_date_formatted": "February 4, 1997",
+"description": "Discrimination (including by private parties) prohibited by sec. 9 of the Constitution of 1996. Discrimination in rental housing specifically prohibited by sec. 4 of the Rental Housing Act 50 of 1999. Discrimination in all areas (including housing) prohibited by sec. 6 of the Promotion of Equality and Prevention of Unfair Discrimination Act 4 of 2000. Gender identity is not specifically mentioned but is included by case law."
+}
+},
+"employment-discrimination": {
+"id": "12",
+"label": "LGBT employment discrimination",
+"label_short": "Employment Discrimination",
+"description": "Prohibition of discrimination based on sexual orientation and\/or gender identity in employment, including hiring, promotion, termination, harassment, etc.",
+"current_status": {
+"id": "42",
+"value": "Sexual orientation and gender identity",
+"value_formatted": "Sexual orientation and gender identity",
+"start_date_formatted": "January 1, 1996",
+"description": "prohibition can be found in the Constitution (since 1994) and also in the Labour Relations Act of 1995, in force 11 <br \/>\r\nNovember 1996 (http:\/\/www.info.gov.za\/view\/DownloadFileAction?id=70985); in the Employment Equity Act of 1998 (www.<br \/>\r\ninfo.gov.za\/view\/DownloadFileAction?id=70714; and in the Promotion of Equality and Prevention of Unfair Discrimination <br \/>\r\nAct of 2000 (www.info.gov.za\/view\/DownloadFileAction?id=68207)"
+                    }
+                },
+                "military": {
+                    "id": "5",
+                    "label": "Homosexuals serving openly in military",
+                    "label_short": "Military",
+                    "description": "The ability for homosexuals to serve in the military and be open about their sexuality.",
+                    "current_status": {
+                        "id": "16",
+                        "value": "Legal",
+                        "value_formatted": "Legal",
+                        "start_date_formatted": "May 8, 1996",
+                        "description": ""
+                    }
+                },
+                "age-of-consent": {
+                    "id": "11",
+                    "label": "Equal age of consent",
+                    "label_short": "Age of Consent",
+                    "description": "The difference between legal age of consent for homosexual sex and heterosexual sex.",
+                    "current_status": {
+                        "id": "27",
+                        "value": "Equal",
+                        "value_formatted": "Equal",
+                        "start_date_formatted": "December 14, 2007",
+                        "description": ""
+                    }
+                },
+                "blood": {
+                    "id": "8",
+                    "label": "Blood donations by MSMs",
+                    "label_short": "Donating Blood",
+                    "description": "The ability for MSMs (men who have sex with men) to donate blood or tissue for organ transplants. A deferral period refers to a waiting time before a man can donate after having sex.",
+                    "current_status": {
+                        "id": "41",
+                        "value": "Banned (6-month deferral)",
+                        "value_formatted": "Banned (6-month deferral)",
+                        "start_date_formatted": "May 1, 2014",
+                        "description": "Newer law has been passed. As of 20\/05\/2014 South African National Blood Service (SANBS) will accept donations from anyone as long as they have been in a monogamous relationship for the prior six months, or celibate - regardless of sexual orientation.  Donors will be asked about sexual history rather than sexual orientation.  Six month deferral instead applies to everyone with new sexual partners."
+                    }
+                },
+                "conversion-therapy": {
+                    "id": "14",
+                    "label": "Conversion therapy",
+                    "label_short": "Conversion Therapy",
+                    "description": "Legal status of conducting sexual orientation changing therapy (\"ex-gay\" therapy)",
+                    "current_status": {
+                        "id": "48",
+                        "value": "Banned",
+                        "value_formatted": "Banned",
+                        "start_date_formatted": "January 1, 2011",
+                        "description": "got banned after 2010"
+                    }
+                }
+            }
+        }
+    }
+}

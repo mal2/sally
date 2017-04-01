@@ -1,0 +1,169 @@
+
+{
+"regions": {
+"region": {
+"region_id": "CV",
+"parent_id": null,
+"name": "Cape Verde",
+"slug": "cape-verde",
+"type": "Country",
+"continent": "Africa",
+"region": "Western Africa",
+"freebase_id": "\/m\/01nqj",
+"surface_area": "4033.00",
+"indep_year": "1975",
+"population": "428000",
+"life_expectancy": "68.9",
+"gnp": "435.00",
+"gnp_old": "420.00",
+"local_name": "Cabo Verde",
+"alternative_names": "",
+"government_form": "Republic",
+"head_of_state": "Ant\u00f3nio Mascarenhas Monteiro",
+"capital": "1859",
+"region_id3": "CPV",
+"url": "http:\/\/www.equaldex.com\/region\/cape-verde",
+"region_parent": [],
+"issues": {
+"homosexuality": {
+"id": "1",
+"label": "Homosexual activity",
+"label_short": "Homosexuality",
+"description": "Consensual sexual activity between individuals of the same sex.",
+"current_status": {
+"id": "1",
+"value": "Legal",
+"value_formatted": "Legal",
+"start_date_formatted": "March 1, 2004",
+"description": "Homosexual activity is legal in Cape Verde."
+}
+},
+"marriage": {
+"id": "3",
+"label": "Same-sex marriage",
+"label_short": "Marriage",
+"description": "Marriage and marriage recognition between two people of the same biological sex and\/or gender identity.",
+"current_status": {
+"id": "13",
+"value": "Unrecognized",
+"value_formatted": "Unrecognized",
+"start_date_formatted": "June 30, 1981",
+"description": "According to the Rep\u00fablica de Cabo Verde: C\u00f3digo Civil, marriage is defined to be a union of different sexes."
+}
+},
+"changing-gender": {
+"id": "7",
+"label": "Right to change legal gender",
+"label_short": "Changing Gender",
+"description": "Legal recognition of sex reassignment by permitting a change of legal gender on an individual's birth certificate.",
+"current_status": {
+"id": "51",
+"value": "Legal, but requires surgery",
+"value_formatted": "Legal, but requires surgery",
+"description": "No"
+}
+},
+"adoption": {
+"id": "4",
+"label": "Same-sex adoption",
+"label_short": "Adoption",
+"description": "The ability for same-sex couples to legally adopt a child.",
+"current_status": {
+"id": "7",
+"value": "Illegal",
+"value_formatted": "Illegal",
+"description": "No"
+}
+},
+"discrimination": {
+"id": "6",
+"label": "LGBT discrimination",
+"label_short": "Discrimination",
+"description": "Prohibition of discrimination based on sexual orientation and\/or gender identity.",
+"current_status": {
+"id": "19",
+"value": "Illegal",
+"value_formatted": "Illegal",
+"start_date_formatted": "October 16, 2007",
+"description": ""
+}
+},
+"housing-discrimination": {
+"id": "13",
+"label": "LGBT housing discrimination",
+"label_short": "Housing Discrimination",
+"description": "Prohibition of discrimination based on sexual orientation and\/or gender identity when applying for housing or discrimination by landlords \/ property owners.",
+"current_status": {
+"id": "45",
+"value": "Sexual orientation and gender identity",
+"value_formatted": "Sexual orientation and gender identity",
+"start_date_formatted": "January 1, 2008",
+"description": "No"
+}
+},
+"employment-discrimination": {
+"id": "12",
+"label": "LGBT employment discrimination",
+"label_short": "Employment Discrimination",
+"description": "Prohibition of discrimination based on sexual orientation and\/or gender identity in employment, including hiring, promotion, termination, harassment, etc.",
+"current_status": {
+"id": "44",
+"value": "Sexual orientation only",
+"value_formatted": "Sexual orientation only",
+"start_date_formatted": "January 1, 2008",
+"description": "According to Article 45(2) and Article 406(3) of the Novo C\u00f3digo Laboral Cabo-Verdiano."
+}
+},
+"military": {
+"id": "5",
+"label": "Homosexuals serving openly in military",
+"label_short": "Military",
+"description": "The ability for homosexuals to serve in the military and be open about their sexuality.",
+"current_status": {
+"id": null,
+"value": "na",
+"value_formatted": "N\/A",
+"description": "no information on this."
+}
+},
+"age-of-consent": {
+"id": "11",
+"label": "Equal age of consent",
+"label_short": "Age of Consent",
+"description": "The difference between legal age of consent for homosexual sex and heterosexual sex.",
+"current_status": {
+"id": "27",
+"value": "Equal",
+"value_formatted": "Equal",
+"start_date_formatted": "March 1, 2004",
+"description": ""
+}
+},
+"blood": {
+"id": "8",
+"label": "Blood donations by MSMs",
+"label_short": "Donating Blood",
+"description": "The ability for MSMs (men who have sex with men) to donate blood or tissue for organ transplants. A deferral period refers to a waiting time before a man can donate after having sex.",
+"current_status": {
+"id": "26",
+"value": "Banned (indefinite deferral)",
+"value_formatted": "Banned (indefinite deferral)",
+"description": "No"
+}
+},
+"conversion-therapy": {
+"id": "14",
+"label": "Conversion therapy",
+"label_short": "Conversion Therapy",
+"description": "Legal status of conducting sexual orientation changing therapy (\"ex-gay\" therapy)",
+"current_status": {
+"id": "49",
+"value": "Not banned",
+"value_formatted": "Not banned",
+"description": "No"
+}
+}
+}
+}
+}
+}

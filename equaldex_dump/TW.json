@@ -1,0 +1,172 @@
+
+{
+"regions": {
+"region": {
+"region_id": "TW",
+"parent_id": null,
+"name": "Taiwan",
+"slug": "taiwan",
+"type": "Country",
+"continent": "Asia",
+"region": "Eastern Asia",
+"freebase_id": "\/m\/06f32",
+"surface_area": "36188.00",
+"indep_year": "1945",
+"population": "22256000",
+"life_expectancy": "76.4",
+"gnp": "256254.00",
+"gnp_old": "263451.00",
+"local_name": "T\u2019ai-wan",
+"alternative_names": "",
+"government_form": "Republic",
+"head_of_state": "Chen Shui-bian",
+"capital": "3263",
+"region_id3": "TWN",
+"url": "http:\/\/www.equaldex.com\/region\/taiwan",
+"region_parent": [],
+"issues": {
+"homosexuality": {
+"id": "1",
+"label": "Homosexual activity",
+"label_short": "Homosexuality",
+"description": "Consensual sexual activity between individuals of the same sex.",
+"current_status": {
+"id": "1",
+"value": "Legal",
+"value_formatted": "Legal",
+"start_date_formatted": "December 25, 1947",
+"description": "Unsure of date which reflects the ratification of the current constitution of the Republic of China (Taiwan). Taiwanese criminal code treats sexual acts between same-sex partners in private as equal to heterosexual sex acts performed in private."
+}
+},
+"marriage": {
+"id": "3",
+"label": "Same-sex marriage",
+"label_short": "Marriage",
+"description": "Marriage and marriage recognition between two people of the same biological sex and\/or gender identity.",
+"current_status": {
+"id": "13",
+"value": "Unrecognized",
+"value_formatted": "Unrecognized",
+"start_date_formatted": "October 1, 2003",
+"description": "Taiwan was the firs country in the Asia-Pacific region to consider legalizing same-sex marriage but the legislation stalled in the legislature."
+}
+},
+"changing-gender": {
+"id": "7",
+"label": "Right to change legal gender",
+"label_short": "Changing Gender",
+"description": "Legal recognition of sex reassignment by permitting a change of legal gender on an individual's birth certificate.",
+"current_status": {
+"id": "51",
+"value": "Legal, but requires surgery",
+"value_formatted": "Legal, but requires surgery",
+"start_date_formatted": "December 9, 2013",
+"description": "Still the same as before, it requires psychiatric evaluations and sexual reassignment surgeries for an individual's gender identity to be recognized."
+}
+},
+"adoption": {
+"id": "4",
+"label": "Same-sex adoption",
+"label_short": "Adoption",
+"description": "The ability for same-sex couples to legally adopt a child.",
+"current_status": {
+"id": "3",
+"value": "Legal",
+"value_formatted": "Legal",
+"description": "Unsure of Date. Taiwan does not prohibit same-sex adoption however Taiwan does not recognize same-sex marriages."
+}
+},
+"discrimination": {
+"id": "6",
+"label": "LGBT discrimination",
+"label_short": "Discrimination",
+"description": "Prohibition of discrimination based on sexual orientation and\/or gender identity.",
+"current_status": {
+"id": "32",
+"value": "Illegal in some contexts",
+"value_formatted": "Illegal in some contexts",
+"start_date_formatted": "May 4, 2007",
+"description": "Taiwan banned workplace discrimination against LGBT citizens in 2007."
+}
+},
+"housing-discrimination": {
+"id": "13",
+"label": "LGBT housing discrimination",
+"label_short": "Housing Discrimination",
+"description": "Prohibition of discrimination based on sexual orientation and\/or gender identity when applying for housing or discrimination by landlords \/ property owners.",
+"current_status": {
+"id": "47",
+"value": "No protections",
+"value_formatted": "No protections",
+"description": "only in work, education."
+}
+},
+"employment-discrimination": {
+"id": "12",
+"label": "LGBT employment discrimination",
+"label_short": "Employment Discrimination",
+"description": "Prohibition of discrimination based on sexual orientation and\/or gender identity in employment, including hiring, promotion, termination, harassment, etc.",
+"current_status": {
+"id": "44",
+"value": "Sexual orientation only",
+"value_formatted": "Sexual orientation only",
+"start_date_formatted": "January 1, 2007",
+"description": ""
+}
+},
+"military": {
+"id": "5",
+"label": "Homosexuals serving openly in military",
+"label_short": "Military",
+"description": "The ability for homosexuals to serve in the military and be open about their sexuality.",
+"current_status": {
+"id": "16",
+"value": "Legal",
+"value_formatted": "Legal",
+"start_date_formatted": "May 1, 2002",
+"description": "Taiwan allows gay and lesbian soldiers provided they maintain military discipline standards."
+}
+},
+"age-of-consent": {
+"id": "11",
+"label": "Equal age of consent",
+"label_short": "Age of Consent",
+"description": "The difference between legal age of consent for homosexual sex and heterosexual sex.",
+"current_status": {
+"id": "27",
+"value": "Equal",
+"value_formatted": "Equal",
+"start_date_formatted": "December 25, 1947",
+"description": "Unsure of date. Date shown represents ratification of the Taiwanese Constitution. The age of consent in Taiwan is 16 (sixteen)."
+}
+},
+"blood": {
+"id": "8",
+"label": "Blood donations by MSMs",
+"label_short": "Donating Blood",
+"description": "The ability for MSMs (men who have sex with men) to donate blood or tissue for organ transplants. A deferral period refers to a waiting time before a man can donate after having sex.",
+"current_status": {
+"id": "26",
+"value": "Banned (indefinite deferral)",
+"value_formatted": "Banned (indefinite deferral)",
+"start_date_formatted": "January 1, 2001",
+"description": "Gay, lesbian, bisexual, and other \"high risk HIV\" groups are banned from donating blood in Taiwan."
+}
+},
+"conversion-therapy": {
+"id": "14",
+"label": "Conversion therapy",
+"label_short": "Conversion Therapy",
+"description": "Legal status of conducting sexual orientation changing therapy (\"ex-gay\" therapy)",
+"current_status": {
+"id": "48",
+"value": "Banned",
+"value_formatted": "Banned",
+"start_date_formatted": "January 1, 2009",
+"description": "Government Banned it."
+}
+}
+}
+}
+}
+}

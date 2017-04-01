@@ -1,0 +1,168 @@
+
+{
+"regions": {
+"region": {
+"region_id": "IR",
+"parent_id": null,
+"name": "Iran",
+"slug": "iran",
+"type": "Country",
+"continent": "Asia",
+"region": "Southern and Central Asia",
+"freebase_id": "\/m\/03shp",
+"surface_area": "1648195.00",
+"indep_year": "1906",
+"population": "67702000",
+"life_expectancy": "69.7",
+"gnp": "195746.00",
+"gnp_old": "160151.00",
+"local_name": "Iran",
+"alternative_names": "",
+"government_form": "Islamic Republic",
+"head_of_state": "Ali Mohammad Khatami-Ardakani",
+"capital": "1380",
+"region_id3": "IRN",
+"url": "http:\/\/www.equaldex.com\/region\/iran",
+"region_parent": [],
+"issues": {
+"homosexuality": {
+"id": "1",
+"label": "Homosexual activity",
+"label_short": "Homosexuality",
+"description": "Consensual sexual activity between individuals of the same sex.",
+"current_status": {
+"id": "35",
+"value": "Illegal (death penalty as punishment)",
+"value_formatted": "Illegal (death penalty as punishment)",
+"start_date_formatted": "January 1, 1900",
+"description": "The punishment for homosexuality is currently death for men. (Unless if there is sex between a mature person and a minor; in which can the mature person will be killed while minor will receive up to 74 lashes. Same case applies for 2 minors.) For women, the punishment is up to 100 lashes. Women with a certain number of repeat offenses can become subject to the death penalty as well."
+}
+},
+"marriage": {
+"id": "3",
+"label": "Same-sex marriage",
+"label_short": "Marriage",
+"description": "Marriage and marriage recognition between two people of the same biological sex and\/or gender identity.",
+"current_status": {
+"id": "15",
+"value": "Not legal",
+"value_formatted": "Not legal",
+"start_date_formatted": "May 23, 1928",
+"description": "Definition of marriage used follows from the Islamic definition of the union between one man and woman. The marriage is prohibited and same sex activity is punished as stated in the Penal code"
+}
+},
+"changing-gender": {
+"id": "7",
+"label": "Right to change legal gender",
+"label_short": "Changing Gender",
+"description": "Legal recognition of sex reassignment by permitting a change of legal gender on an individual's birth certificate.",
+"current_status": {
+"id": "51",
+"value": "Legal, but requires surgery",
+"value_formatted": "Legal, but requires surgery",
+"start_date_formatted": "January 1, 1987",
+"description": "Became legal due to a fatwa from Khomeini in 1987. Trans individuals have the gender they identify with legally recognized and sex reassignment surgeries are publicly funded. "
+}
+},
+"adoption": {
+"id": "4",
+"label": "Same-sex adoption",
+"label_short": "Adoption",
+"description": "The ability for same-sex couples to legally adopt a child.",
+"current_status": {
+"id": "7",
+"value": "Illegal",
+"value_formatted": "Illegal",
+"description": "No"
+}
+},
+"discrimination": {
+"id": "6",
+"label": "LGBT discrimination",
+"label_short": "Discrimination",
+"description": "Prohibition of discrimination based on sexual orientation and\/or gender identity.",
+"current_status": {
+"id": "20",
+"value": "No protections",
+"value_formatted": "No protections",
+"start_date_formatted": "October 24, 1979",
+"description": "Formally, Iranian government believes every citizen to be heterosexual, stripping protection for LGBTQ+ community."
+}
+},
+"housing-discrimination": {
+"id": "13",
+"label": "LGBT housing discrimination",
+"label_short": "Housing Discrimination",
+"description": "Prohibition of discrimination based on sexual orientation and\/or gender identity when applying for housing or discrimination by landlords \/ property owners.",
+"current_status": {
+"id": "47",
+"value": "No protections",
+"value_formatted": "No protections",
+"description": "Homosexuality has the death penalty there."
+}
+},
+"employment-discrimination": {
+"id": "12",
+"label": "LGBT employment discrimination",
+"label_short": "Employment Discrimination",
+"description": "Prohibition of discrimination based on sexual orientation and\/or gender identity in employment, including hiring, promotion, termination, harassment, etc.",
+"current_status": {
+"id": "43",
+"value": "No protections",
+"value_formatted": "No protections",
+"description": "No"
+}
+},
+"military": {
+"id": "5",
+"label": "Homosexuals serving openly in military",
+"label_short": "Military",
+"description": "The ability for homosexuals to serve in the military and be open about their sexuality.",
+"current_status": {
+"id": "18",
+"value": "Illegal",
+"value_formatted": "Illegal",
+"description": "No"
+}
+},
+"age-of-consent": {
+"id": "11",
+"label": "Equal age of consent",
+"label_short": "Age of Consent",
+"description": "The difference between legal age of consent for homosexual sex and heterosexual sex.",
+"current_status": {
+"id": null,
+"value": "na",
+"value_formatted": "N\/A",
+"start_date_formatted": "January 1, 1979",
+"description": "Homosexual sex is illegal. Also, sexual activity outside of marriage is illegal."
+}
+},
+"blood": {
+"id": "8",
+"label": "Blood donations by MSMs",
+"label_short": "Donating Blood",
+"description": "The ability for MSMs (men who have sex with men) to donate blood or tissue for organ transplants. A deferral period refers to a waiting time before a man can donate after having sex.",
+"current_status": {
+"id": "40",
+"value": "Banned (1-year deferral)",
+"value_formatted": "Banned (1-year deferral)",
+"description": "No"
+}
+},
+"conversion-therapy": {
+"id": "14",
+"label": "Conversion therapy",
+"label_short": "Conversion Therapy",
+"description": "Legal status of conducting sexual orientation changing therapy (\"ex-gay\" therapy)",
+"current_status": {
+"id": "49",
+"value": "Not banned",
+"value_formatted": "Not banned",
+"description": "No"
+}
+}
+}
+}
+}
+}

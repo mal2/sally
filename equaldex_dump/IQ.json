@@ -1,0 +1,166 @@
+
+{
+"regions": {
+"region": {
+"region_id": "IQ",
+"parent_id": null,
+"name": "Iraq",
+"slug": "iraq",
+"type": "Country",
+"continent": "Asia",
+"region": "Middle East",
+"freebase_id": "\/m\/0d05q4",
+"surface_area": "438317.00",
+"indep_year": "1932",
+"population": "23115000",
+"life_expectancy": "66.5",
+"gnp": "11500.00",
+"gnp_old": null,
+"local_name": "Al-\u00b4Iraq",
+"alternative_names": "",
+"government_form": "Republic",
+"head_of_state": "Saddam Hussein al-Takriti",
+"capital": "1365",
+"region_id3": "IRQ",
+"url": "http:\/\/www.equaldex.com\/region\/iraq",
+"region_parent": [],
+"issues": {
+"homosexuality": {
+"id": "1",
+"label": "Homosexual activity",
+"label_short": "Homosexuality",
+"description": "Consensual sexual activity between individuals of the same sex.",
+"current_status": {
+"id": null,
+"value": "ambiguous",
+"value_formatted": "Ambiguous",
+"start_date_formatted": "July 19, 1969",
+"description": "Even though Iraq's Criminal Code doesn't mention homosexuality in its penal code, Articles such as 400 in the penal code can be used against LGBT community."
+}
+},
+"marriage": {
+"id": "3",
+"label": "Same-sex marriage",
+"label_short": "Marriage",
+"description": "Marriage and marriage recognition between two people of the same biological sex and\/or gender identity.",
+"current_status": {
+"id": "13",
+"value": "Unrecognized",
+"value_formatted": "Unrecognized",
+"description": "Same-sex relationships are not recognized in Iraq."
+}
+},
+"changing-gender": {
+"id": "7",
+"label": "Right to change legal gender",
+"label_short": "Changing Gender",
+"description": "Legal recognition of sex reassignment by permitting a change of legal gender on an individual's birth certificate.",
+"current_status": {
+"id": "22",
+"value": "Illegal",
+"value_formatted": "Illegal",
+"description": "No known prosecutions"
+}
+},
+"adoption": {
+"id": "4",
+"label": "Same-sex adoption",
+"label_short": "Adoption",
+"description": "The ability for same-sex couples to legally adopt a child.",
+"current_status": {
+"id": "7",
+"value": "Illegal",
+"value_formatted": "Illegal",
+"description": "No"
+}
+},
+"discrimination": {
+"id": "6",
+"label": "LGBT discrimination",
+"label_short": "Discrimination",
+"description": "Prohibition of discrimination based on sexual orientation and\/or gender identity.",
+"current_status": {
+"id": "20",
+"value": "No protections",
+"value_formatted": "No protections",
+"description": "According to the United States' Country Reports on Human Rights Practices for 2012, \"[Iraq] law prohibits discrimination based on race, disability, or social status, but it does not address the problem of sexual orientation or gender identity. Societal discrimination in employment, occupation, and housing based on sexual orientation, gender identity, and unconventional appearance was common.\""
+}
+},
+"housing-discrimination": {
+"id": "13",
+"label": "LGBT housing discrimination",
+"label_short": "Housing Discrimination",
+"description": "Prohibition of discrimination based on sexual orientation and\/or gender identity when applying for housing or discrimination by landlords \/ property owners.",
+"current_status": {
+"id": "47",
+"value": "No protections",
+"value_formatted": "No protections",
+"description": "There are no housing discrimination protection for LGBT people in Iraq.<br \/>\r\n<br \/>\r\nAccording to the United States' Country Reports on Human Rights Practices for 2012, \"[Iraq] law prohibits discrimination based on race, disability, or social status, but it does not address the problem of sexual orientation or gender identity. Societal discrimination in employment, occupation, and housing based on sexual orientation, gender identity, and unconventional appearance was common.\""
+                    }
+                },
+                "employment-discrimination": {
+                    "id": "12",
+                    "label": "LGBT employment discrimination",
+                    "label_short": "Employment Discrimination",
+                    "description": "Prohibition of discrimination based on sexual orientation and\/or gender identity in employment, including hiring, promotion, termination, harassment, etc.",
+                    "current_status": {
+                        "id": "43",
+                        "value": "No protections",
+                        "value_formatted": "No protections",
+                        "description": "There are no employment discrimination protection for LGBT people in Iraq.<br \/>\r\n<br \/>\r\nAccording to the United States' Country Reports on Human Rights Practices for 2012, \"[Iraq] law prohibits discrimination based on race, disability, or social status, but it does not address the problem of sexual orientation or gender identity. Societal discrimination in employment, occupation, and housing based on sexual orientation, gender identity, and unconventional appearance was common.\""
+                    }
+                },
+                "military": {
+                    "id": "5",
+                    "label": "Homosexuals serving openly in military",
+                    "label_short": "Military",
+                    "description": "The ability for homosexuals to serve in the military and be open about their sexuality.",
+                    "current_status": {
+                        "id": "18",
+                        "value": "Illegal",
+                        "value_formatted": "Illegal",
+                        "start_date_formatted": "January 1, 2007",
+                        "description": "Banned since 2007"
+                    }
+                },
+                "age-of-consent": {
+                    "id": "11",
+                    "label": "Equal age of consent",
+                    "label_short": "Age of Consent",
+                    "description": "The difference between legal age of consent for homosexual sex and heterosexual sex.",
+                    "current_status": {
+                        "id": null,
+                        "value": "na",
+                        "value_formatted": "N\/A",
+                        "start_date_formatted": "January 1, 1969",
+                        "description": "According to the Iraq Penal Code of 1969, the age of consent is 18, however, this only applies to heterosexual sex."
+                    }
+                },
+                "blood": {
+                    "id": "8",
+                    "label": "Blood donations by MSMs",
+                    "label_short": "Donating Blood",
+                    "description": "The ability for MSMs (men who have sex with men) to donate blood or tissue for organ transplants. A deferral period refers to a waiting time before a man can donate after having sex.",
+                    "current_status": {
+                        "id": "40",
+                        "value": "Banned (1-year deferral)",
+                        "value_formatted": "Banned (1-year deferral)",
+                        "description": "Under recent changes."
+                    }
+                },
+                "conversion-therapy": {
+                    "id": "14",
+                    "label": "Conversion therapy",
+                    "label_short": "Conversion Therapy",
+                    "description": "Legal status of conducting sexual orientation changing therapy (\"ex-gay\" therapy)",
+                    "current_status": {
+                        "id": "49",
+                        "value": "Not banned",
+                        "value_formatted": "Not banned",
+                        "description": "No"
+                    }
+                }
+            }
+        }
+    }
+}

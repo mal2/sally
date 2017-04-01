@@ -1,0 +1,165 @@
+
+{
+"regions": {
+"region": {
+"region_id": "CW",
+"parent_id": null,
+"name": "Cura\u00e7ao",
+"slug": "curacao",
+"type": "Country",
+"continent": "North America",
+"region": "Caribbean",
+"freebase_id": "\/m\/0hbgh",
+"surface_area": "0.00",
+"indep_year": "0",
+"population": "0",
+"life_expectancy": null,
+"gnp": null,
+"gnp_old": null,
+"local_name": "",
+"alternative_names": "",
+"government_form": "",
+"head_of_state": null,
+"capital": null,
+"region_id3": "CUW",
+"url": "http:\/\/www.equaldex.com\/region\/curacao",
+"region_parent": [],
+"issues": {
+"homosexuality": {
+"id": "1",
+"label": "Homosexual activity",
+"label_short": "Homosexuality",
+"description": "Consensual sexual activity between individuals of the same sex.",
+"current_status": {
+"id": "1",
+"value": "Legal",
+"value_formatted": "Legal",
+"description": ""
+}
+},
+"marriage": {
+"id": "3",
+"label": "Same-sex marriage",
+"label_short": "Marriage",
+"description": "Marriage and marriage recognition between two people of the same biological sex and\/or gender identity.",
+"current_status": {
+"id": "10",
+"value": "Foreign same-sex marriages recognized only",
+"value_formatted": "Foreign same-sex marriages recognized only",
+"start_date_formatted": "October 10, 2010",
+"description": "Marriages performed in the Kingdom of the Netherlands are recognised. They are not however performed in Cura\u00e7ao. However, this doesn't mean equal treatment is given to same sex married couples (as opposed to different sex married couples)"
+}
+},
+"changing-gender": {
+"id": "7",
+"label": "Right to change legal gender",
+"label_short": "Changing Gender",
+"description": "Legal recognition of sex reassignment by permitting a change of legal gender on an individual's birth certificate.",
+"current_status": {
+"id": "22",
+"value": "Illegal",
+"value_formatted": "Illegal",
+"description": "No"
+}
+},
+"adoption": {
+"id": "4",
+"label": "Same-sex adoption",
+"label_short": "Adoption",
+"description": "The ability for same-sex couples to legally adopt a child.",
+"current_status": {
+"id": "7",
+"value": "Illegal",
+"value_formatted": "Illegal",
+"description": "No laws making it legal."
+}
+},
+"discrimination": {
+"id": "6",
+"label": "LGBT discrimination",
+"label_short": "Discrimination",
+"description": "Prohibition of discrimination based on sexual orientation and\/or gender identity.",
+"current_status": {
+"id": "20",
+"value": "No protections",
+"value_formatted": "No protections",
+"description": "No"
+}
+},
+"housing-discrimination": {
+"id": "13",
+"label": "LGBT housing discrimination",
+"label_short": "Housing Discrimination",
+"description": "Prohibition of discrimination based on sexual orientation and\/or gender identity when applying for housing or discrimination by landlords \/ property owners.",
+"current_status": {
+"id": "47",
+"value": "No protections",
+"value_formatted": "No protections",
+"description": "No"
+}
+},
+"employment-discrimination": {
+"id": "12",
+"label": "LGBT employment discrimination",
+"label_short": "Employment Discrimination",
+"description": "Prohibition of discrimination based on sexual orientation and\/or gender identity in employment, including hiring, promotion, termination, harassment, etc.",
+"current_status": {
+"id": "43",
+"value": "No protections",
+"value_formatted": "No protections",
+"description": "No"
+}
+},
+"military": {
+"id": "5",
+"label": "Homosexuals serving openly in military",
+"label_short": "Military",
+"description": "The ability for homosexuals to serve in the military and be open about their sexuality.",
+"current_status": {
+"id": "16",
+"value": "Legal",
+"value_formatted": "Legal",
+"start_date_formatted": "January 1, 1974",
+"description": "The Netherlands is responsible for defence."
+}
+},
+"age-of-consent": {
+"id": "11",
+"label": "Equal age of consent",
+"label_short": "Age of Consent",
+"description": "The difference between legal age of consent for homosexual sex and heterosexual sex.",
+"current_status": {
+"id": "27",
+"value": "Equal",
+"value_formatted": "Equal",
+"description": "No"
+}
+},
+"blood": {
+"id": "8",
+"label": "Blood donations by MSMs",
+"label_short": "Donating Blood",
+"description": "The ability for MSMs (men who have sex with men) to donate blood or tissue for organ transplants. A deferral period refers to a waiting time before a man can donate after having sex.",
+"current_status": {
+"id": "26",
+"value": "Banned (indefinite deferral)",
+"value_formatted": "Banned (indefinite deferral)",
+"description": "No"
+}
+},
+"conversion-therapy": {
+"id": "14",
+"label": "Conversion therapy",
+"label_short": "Conversion Therapy",
+"description": "Legal status of conducting sexual orientation changing therapy (\"ex-gay\" therapy)",
+"current_status": {
+"id": "49",
+"value": "Not banned",
+"value_formatted": "Not banned",
+"description": "Not banned anywhere in carribean."
+}
+}
+}
+}
+}
+}

@@ -1,0 +1,164 @@
+
+{
+"regions": {
+"region": {
+"region_id": "BB",
+"parent_id": null,
+"name": "Barbados",
+"slug": "barbados",
+"type": "Country",
+"continent": "North America",
+"region": "Caribbean",
+"freebase_id": "\/m\/0162v",
+"surface_area": "430.00",
+"indep_year": "1966",
+"population": "270000",
+"life_expectancy": "73.0",
+"gnp": "2223.00",
+"gnp_old": "2186.00",
+"local_name": "Barbados",
+"alternative_names": "",
+"government_form": "Constitutional Monarchy",
+"head_of_state": "Elisabeth II",
+"capital": "174",
+"region_id3": "BRB",
+"url": "http:\/\/www.equaldex.com\/region\/barbados",
+"region_parent": [],
+"issues": {
+"homosexuality": {
+"id": "1",
+"label": "Homosexual activity",
+"label_short": "Homosexuality",
+"description": "Consensual sexual activity between individuals of the same sex.",
+"current_status": {
+"id": "36",
+"value": "Illegal (up to life in prison as punishment)",
+"value_formatted": "Illegal (up to life in prison as punishment)",
+"description": "The law is rarely, if ever enforced."
+}
+},
+"marriage": {
+"id": "3",
+"label": "Same-sex marriage",
+"label_short": "Marriage",
+"description": "Marriage and marriage recognition between two people of the same biological sex and\/or gender identity.",
+"current_status": {
+"id": "13",
+"value": "Unrecognized",
+"value_formatted": "Unrecognized",
+"description": ""
+}
+},
+"changing-gender": {
+"id": "7",
+"label": "Right to change legal gender",
+"label_short": "Changing Gender",
+"description": "Legal recognition of sex reassignment by permitting a change of legal gender on an individual's birth certificate.",
+"current_status": {
+"id": "22",
+"value": "Illegal",
+"value_formatted": "Illegal",
+"description": "Homosexuality is not legal there."
+}
+},
+"adoption": {
+"id": "4",
+"label": "Same-sex adoption",
+"label_short": "Adoption",
+"description": "The ability for same-sex couples to legally adopt a child.",
+"current_status": {
+"id": "7",
+"value": "Illegal",
+"value_formatted": "Illegal",
+"description": "Homosexuality is not illegal there."
+}
+},
+"discrimination": {
+"id": "6",
+"label": "LGBT discrimination",
+"label_short": "Discrimination",
+"description": "Prohibition of discrimination based on sexual orientation and\/or gender identity.",
+"current_status": {
+"id": "20",
+"value": "No protections",
+"value_formatted": "No protections",
+"description": "Church has big influence there."
+}
+},
+"housing-discrimination": {
+"id": "13",
+"label": "LGBT housing discrimination",
+"label_short": "Housing Discrimination",
+"description": "Prohibition of discrimination based on sexual orientation and\/or gender identity when applying for housing or discrimination by landlords \/ property owners.",
+"current_status": {
+"id": "47",
+"value": "No protections",
+"value_formatted": "No protections",
+"description": "No"
+}
+},
+"employment-discrimination": {
+"id": "12",
+"label": "LGBT employment discrimination",
+"label_short": "Employment Discrimination",
+"description": "Prohibition of discrimination based on sexual orientation and\/or gender identity in employment, including hiring, promotion, termination, harassment, etc.",
+"current_status": {
+"id": "43",
+"value": "No protections",
+"value_formatted": "No protections",
+"description": "Church has a big influence there."
+}
+},
+"military": {
+"id": "5",
+"label": "Homosexuals serving openly in military",
+"label_short": "Military",
+"description": "The ability for homosexuals to serve in the military and be open about their sexuality.",
+"current_status": {
+"id": "18",
+"value": "Illegal",
+"value_formatted": "Illegal",
+"description": "No"
+}
+},
+"age-of-consent": {
+"id": "11",
+"label": "Equal age of consent",
+"label_short": "Age of Consent",
+"description": "The difference between legal age of consent for homosexual sex and heterosexual sex.",
+"current_status": {
+"id": "28",
+"value": "Unequal",
+"value_formatted": "Unequal",
+"start_date_formatted": "January 1, 1992",
+"description": ""
+}
+},
+"blood": {
+"id": "8",
+"label": "Blood donations by MSMs",
+"label_short": "Donating Blood",
+"description": "The ability for MSMs (men who have sex with men) to donate blood or tissue for organ transplants. A deferral period refers to a waiting time before a man can donate after having sex.",
+"current_status": {
+"id": "26",
+"value": "Banned (indefinite deferral)",
+"value_formatted": "Banned (indefinite deferral)",
+"description": "No"
+}
+},
+"conversion-therapy": {
+"id": "14",
+"label": "Conversion therapy",
+"label_short": "Conversion Therapy",
+"description": "Legal status of conducting sexual orientation changing therapy (\"ex-gay\" therapy)",
+"current_status": {
+"id": "49",
+"value": "Not banned",
+"value_formatted": "Not banned",
+"description": "Not banned anywhere in the carribean."
+}
+}
+}
+}
+}
+}

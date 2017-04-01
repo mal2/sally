@@ -1,0 +1,171 @@
+
+{
+"regions": {
+"region": {
+"region_id": "IN",
+"parent_id": null,
+"name": "India",
+"slug": "india",
+"type": "Country",
+"continent": "Asia",
+"region": "Southern and Central Asia",
+"freebase_id": "\/m\/03rk0",
+"surface_area": "3287263.00",
+"indep_year": "1947",
+"population": "1013662000",
+"life_expectancy": "62.5",
+"gnp": "447114.00",
+"gnp_old": "430572.00",
+"local_name": "Bharat\/India",
+"alternative_names": "",
+"government_form": "Federal Republic",
+"head_of_state": "Kocheril Raman Narayanan",
+"capital": "1109",
+"region_id3": "IND",
+"url": "http:\/\/www.equaldex.com\/region\/india",
+"region_parent": [],
+"issues": {
+"homosexuality": {
+"id": "1",
+"label": "Homosexual activity",
+"label_short": "Homosexuality",
+"description": "Consensual sexual activity between individuals of the same sex.",
+"current_status": {
+"id": "37",
+"value": "Illegal (imprisonment as punishment)",
+"value_formatted": "Illegal (imprisonment as punishment)",
+"start_date_formatted": "December 11, 2013",
+"description": "The Delhi High Court ruling, IPC 377, was overruled by the Supreme Court of India. Sexual intercourse between two people of the same sex is illegal, being punishable by up to 10 years imprisonment."
+}
+},
+"marriage": {
+"id": "3",
+"label": "Same-sex marriage",
+"label_short": "Marriage",
+"description": "Marriage and marriage recognition between two people of the same biological sex and\/or gender identity.",
+"current_status": {
+"id": "15",
+"value": "Not legal",
+"value_formatted": "Not legal",
+"start_date_formatted": "December 11, 2013",
+"description": "Homosexual relations in India was ruled illegal and thus so is homosexual union."
+}
+},
+"changing-gender": {
+"id": "7",
+"label": "Right to change legal gender",
+"label_short": "Changing Gender",
+"description": "Legal recognition of sex reassignment by permitting a change of legal gender on an individual's birth certificate.",
+"current_status": {
+"id": "51",
+"value": "Legal, but requires surgery",
+"value_formatted": "Legal, but requires surgery",
+"start_date_formatted": "April 15, 2014",
+"description": "The Supreme Court of india recognized a third gender that transgender persons can choose to identify themselves in official documents. However, this third gender is very different from what we normally think of a gender-queer individual"
+}
+},
+"adoption": {
+"id": "4",
+"label": "Same-sex adoption",
+"label_short": "Adoption",
+"description": "The ability for same-sex couples to legally adopt a child.",
+"current_status": {
+"id": "7",
+"value": "Illegal",
+"value_formatted": "Illegal",
+"description": "Same-sex couples are not permitted to adopt a child in India."
+}
+},
+"discrimination": {
+"id": "6",
+"label": "LGBT discrimination",
+"label_short": "Discrimination",
+"description": "Prohibition of discrimination based on sexual orientation and\/or gender identity.",
+"current_status": {
+"id": "20",
+"value": "No protections",
+"value_formatted": "No protections",
+"start_date_formatted": "August 15, 1949",
+"description": "No known anti-discrimination protections exist for sexual orientation or gender identity."
+}
+},
+"housing-discrimination": {
+"id": "13",
+"label": "LGBT housing discrimination",
+"label_short": "Housing Discrimination",
+"description": "Prohibition of discrimination based on sexual orientation and\/or gender identity when applying for housing or discrimination by landlords \/ property owners.",
+"current_status": {
+"id": null,
+"value": "ambiguous",
+"value_formatted": "Ambiguous",
+"start_date_formatted": "August 15, 1949",
+"description": "Only for gender identity."
+}
+},
+"employment-discrimination": {
+"id": "12",
+"label": "LGBT employment discrimination",
+"label_short": "Employment Discrimination",
+"description": "Prohibition of discrimination based on sexual orientation and\/or gender identity in employment, including hiring, promotion, termination, harassment, etc.",
+"current_status": {
+"id": null,
+"value": "ambiguous",
+"value_formatted": "Ambiguous",
+"start_date_formatted": "August 15, 1949",
+"description": "Only for gender identity."
+}
+},
+"military": {
+"id": "5",
+"label": "Homosexuals serving openly in military",
+"label_short": "Military",
+"description": "The ability for homosexuals to serve in the military and be open about their sexuality.",
+"current_status": {
+"id": "18",
+"value": "Illegal",
+"value_formatted": "Illegal",
+"start_date_formatted": "May 20, 1950",
+"description": "Article 46 of the Army Act states any \"indecent or unnatural acts\" are punishable by up to 7 years"
+}
+},
+"age-of-consent": {
+"id": "11",
+"label": "Equal age of consent",
+"label_short": "Age of Consent",
+"description": "The difference between legal age of consent for homosexual sex and heterosexual sex.",
+"current_status": {
+"id": "27",
+"value": "Equal",
+"value_formatted": "Equal",
+"start_date_formatted": "April 2, 2013",
+"description": "The Criminal Law Act of 2013 raised the age of consent for homosexual sex and heterosexual sex to 18."
+}
+},
+"blood": {
+"id": "8",
+"label": "Blood donations by MSMs",
+"label_short": "Donating Blood",
+"description": "The ability for MSMs (men who have sex with men) to donate blood or tissue for organ transplants. A deferral period refers to a waiting time before a man can donate after having sex.",
+"current_status": {
+"id": "25",
+"value": "Legal",
+"value_formatted": "Legal",
+"description": "According to the Indian Blood Bank."
+}
+},
+"conversion-therapy": {
+"id": "14",
+"label": "Conversion therapy",
+"label_short": "Conversion Therapy",
+"description": "Legal status of conducting sexual orientation changing therapy (\"ex-gay\" therapy)",
+"current_status": {
+"id": "49",
+"value": "Not banned",
+"value_formatted": "Not banned",
+"description": "Its getting promoted there"
+}
+}
+}
+}
+}
+}

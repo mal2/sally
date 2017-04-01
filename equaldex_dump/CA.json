@@ -1,0 +1,172 @@
+
+{
+"regions": {
+"region": {
+"region_id": "CA",
+"parent_id": null,
+"name": "Canada",
+"slug": "canada",
+"type": "Country",
+"continent": "North America",
+"region": "North America",
+"freebase_id": "\/m\/0d060g",
+"surface_area": "9970610.00",
+"indep_year": "1867",
+"population": "31147000",
+"life_expectancy": "79.4",
+"gnp": "598862.00",
+"gnp_old": "625626.00",
+"local_name": "Canada",
+"alternative_names": "",
+"government_form": "Constitutional Monarchy, Federation",
+"head_of_state": "Elisabeth II",
+"capital": "1822",
+"region_id3": "CAN",
+"url": "http:\/\/www.equaldex.com\/region\/canada",
+"region_parent": [],
+"issues": {
+"homosexuality": {
+"id": "1",
+"label": "Homosexual activity",
+"label_short": "Homosexuality",
+"description": "Consensual sexual activity between individuals of the same sex.",
+"current_status": {
+"id": "1",
+"value": "Legal",
+"value_formatted": "Legal",
+"start_date_formatted": "May 14, 1969",
+"description": "Canada decriminalizes homosexuality with the introduction of the Criminal Law Amendment Act, 1968-69."
+}
+},
+"marriage": {
+"id": "3",
+"label": "Same-sex marriage",
+"label_short": "Marriage",
+"description": "Marriage and marriage recognition between two people of the same biological sex and\/or gender identity.",
+"current_status": {
+"id": "8",
+"value": "Legal",
+"value_formatted": "Legal",
+"start_date_formatted": "July 20, 2005",
+"description": "Same-sex marriage in Canada became legal with The Civil Marriage Act."
+}
+},
+"changing-gender": {
+"id": "7",
+"label": "Right to change legal gender",
+"label_short": "Changing Gender",
+"description": "Legal recognition of sex reassignment by permitting a change of legal gender on an individual's birth certificate.",
+"current_status": {
+"id": null,
+"value": "varies",
+"value_formatted": "Varies by Region",
+"start_date_formatted": "January 1, 2012",
+"description": "Legal gender change has many different contexts within Canada. Birth certificate is arguably the most recognized authoritative statement of gender. Changes to this document are regulated province by province. Some require proof of surgery for a certificate change, others require a psychologist's statement. For citizens born outside of Canada, recognition is at the federal level in the form of changes to one's certificate of Canadian citizenship and\/or passport which at present requires proof of surgery to obtain."
+}
+},
+"adoption": {
+"id": "4",
+"label": "Same-sex adoption",
+"label_short": "Adoption",
+"description": "The ability for same-sex couples to legally adopt a child.",
+"current_status": {
+"id": "3",
+"value": "Legal",
+"value_formatted": "Legal",
+"start_date_formatted": "May 25, 1995",
+"description": ""
+}
+},
+"discrimination": {
+"id": "6",
+"label": "LGBT discrimination",
+"label_short": "Discrimination",
+"description": "Prohibition of discrimination based on sexual orientation and\/or gender identity.",
+"current_status": {
+"id": "32",
+"value": "Illegal in some contexts",
+"value_formatted": "Illegal in some contexts",
+"start_date_formatted": "April 17, 1985",
+"description": "Non-inclusion of Gender Identity in Charter."
+}
+},
+"housing-discrimination": {
+"id": "13",
+"label": "LGBT housing discrimination",
+"label_short": "Housing Discrimination",
+"description": "Prohibition of discrimination based on sexual orientation and\/or gender identity when applying for housing or discrimination by landlords \/ property owners.",
+"current_status": {
+"id": null,
+"value": "varies",
+"value_formatted": "Varies by Region",
+"description": "Housing and tenancy typically falls under provincial jurisdiction."
+}
+},
+"employment-discrimination": {
+"id": "12",
+"label": "LGBT employment discrimination",
+"label_short": "Employment Discrimination",
+"description": "Prohibition of discrimination based on sexual orientation and\/or gender identity in employment, including hiring, promotion, termination, harassment, etc.",
+"current_status": {
+"id": "44",
+"value": "Sexual orientation only",
+"value_formatted": "Sexual orientation only",
+"start_date_formatted": "June 1, 1996",
+"description": "Federal human rights law applies directly to only federal government employment and employers which fall under federal jurisdiction. Gender identity is only implicitly protected under interpretation of the law by the Canadian Human Rights Tribunal. Attempts have been made to have gender identity and gender expression added as protected classes to both the Canadian Human Rights Act and Criminal Code, though none of these attempts so far has been successful.<br \/>\r\n<br \/>\r\nProvincial human rights acts are separate, but Supreme Court precedent exists for requiring provinces to protect the same classes as the Canadian Human Rights Act.  At this time all provinces protect against employment discrimination on the basis of sexual orientation. Of the provinces only Ontario has explicit protection on the basis of both gender identity and gender expression in its human rights code, though several provide implicit protections on the basis of gender identity or \"transsexualism\" under the category of \"sex\" or \"gender\"."
+                    }
+                },
+                "military": {
+                    "id": "5",
+                    "label": "Homosexuals serving openly in military",
+                    "label_short": "Military",
+                    "description": "The ability for homosexuals to serve in the military and be open about their sexuality.",
+                    "current_status": {
+                        "id": "16",
+                        "value": "Legal",
+                        "value_formatted": "Legal",
+                        "start_date_formatted": "October 10, 1992",
+                        "description": "LGBT soldiers are permitted to serve in the Canadian military."
+                    }
+                },
+                "age-of-consent": {
+                    "id": "11",
+                    "label": "Equal age of consent",
+                    "label_short": "Age of Consent",
+                    "description": "The difference between legal age of consent for homosexual sex and heterosexual sex.",
+                    "current_status": {
+                        "id": "28",
+                        "value": "Unequal",
+                        "value_formatted": "Unequal",
+                        "start_date_formatted": "May 1, 2008",
+                        "description": "The age of consent in for anal sex in Canada is 18, whereas the age of consent for acts of sex is 16."
+                    }
+                },
+                "blood": {
+                    "id": "8",
+                    "label": "Blood donations by MSMs",
+                    "label_short": "Donating Blood",
+                    "description": "The ability for MSMs (men who have sex with men) to donate blood or tissue for organ transplants. A deferral period refers to a waiting time before a man can donate after having sex.",
+                    "current_status": {
+                        "id": "39",
+                        "value": "Banned (5-year deferral)",
+                        "value_formatted": "Banned (5-year deferral)",
+                        "start_date_formatted": "July 22, 2013",
+                        "description": "Health Canada changed the indefinite deferral period to a 5-year deferral, effective July 22, 2013."
+                    }
+                },
+                "conversion-therapy": {
+                    "id": "14",
+                    "label": "Conversion therapy",
+                    "label_short": "Conversion Therapy",
+                    "description": "Legal status of conducting sexual orientation changing therapy (\"ex-gay\" therapy)",
+                    "current_status": {
+                        "id": null,
+                        "value": "varies",
+                        "value_formatted": "Varies by Region",
+                        "description": "Conversion therapy in Canada is not yet banned at a Federal level and many ex-gay organizations and groups who endorse conversion\/reparative therapy continue to operate as registered charities. Some provinces have made gestures or passed laws to make conversion therapy illegal both for sexual orientation and gender identity."
+                    }
+                }
+            }
+        }
+    }
+}

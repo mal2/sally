@@ -1,0 +1,167 @@
+
+{
+"regions": {
+"region": {
+"region_id": "CY",
+"parent_id": null,
+"name": "Cyprus",
+"slug": "cyprus",
+"type": "Country",
+"continent": "Europe",
+"region": "Middle East",
+"freebase_id": "\/m\/01ppq",
+"surface_area": "9251.00",
+"indep_year": "1960",
+"population": "754700",
+"life_expectancy": "76.7",
+"gnp": "9333.00",
+"gnp_old": "8246.00",
+"local_name": "K\u00fdpros\/Kibris",
+"alternative_names": "",
+"government_form": "Republic",
+"head_of_state": "Glafkos Klerides",
+"capital": "2430",
+"region_id3": "CYP",
+"url": "http:\/\/www.equaldex.com\/region\/cyprus",
+"region_parent": [],
+"issues": {
+"homosexuality": {
+"id": "1",
+"label": "Homosexual activity",
+"label_short": "Homosexuality",
+"description": "Consensual sexual activity between individuals of the same sex.",
+"current_status": {
+"id": "1",
+"value": "Legal",
+"value_formatted": "Legal",
+"start_date_formatted": "May 21, 1998",
+"description": "Homosexuality legalised following the European Court of Human Rights case of Modinos v. Cyprus."
+}
+},
+"marriage": {
+"id": "3",
+"label": "Same-sex marriage",
+"label_short": "Marriage",
+"description": "Marriage and marriage recognition between two people of the same biological sex and\/or gender identity.",
+"current_status": {
+"id": "13",
+"value": "Unrecognized",
+"value_formatted": "Unrecognized",
+"description": ""
+}
+},
+"changing-gender": {
+"id": "7",
+"label": "Right to change legal gender",
+"label_short": "Changing Gender",
+"description": "Legal recognition of sex reassignment by permitting a change of legal gender on an individual's birth certificate.",
+"current_status": {
+"id": "51",
+"value": "Legal, but requires surgery",
+"value_formatted": "Legal, but requires surgery",
+"description": ""
+}
+},
+"adoption": {
+"id": "4",
+"label": "Same-sex adoption",
+"label_short": "Adoption",
+"description": "The ability for same-sex couples to legally adopt a child.",
+"current_status": {
+"id": "5",
+"value": "Single only",
+"value_formatted": "Single only",
+"description": "Don't know"
+}
+},
+"discrimination": {
+"id": "6",
+"label": "LGBT discrimination",
+"label_short": "Discrimination",
+"description": "Prohibition of discrimination based on sexual orientation and\/or gender identity.",
+"current_status": {
+"id": "19",
+"value": "Illegal",
+"value_formatted": "Illegal",
+"start_date_formatted": "October 10, 2013",
+"description": ""
+}
+},
+"housing-discrimination": {
+"id": "13",
+"label": "LGBT housing discrimination",
+"label_short": "Housing Discrimination",
+"description": "Prohibition of discrimination based on sexual orientation and\/or gender identity when applying for housing or discrimination by landlords \/ property owners.",
+"current_status": {
+"id": "45",
+"value": "Sexual orientation and gender identity",
+"value_formatted": "Sexual orientation and gender identity",
+"description": "Discrimination in all cases are illegal"
+}
+},
+"employment-discrimination": {
+"id": "12",
+"label": "LGBT employment discrimination",
+"label_short": "Employment Discrimination",
+"description": "Prohibition of discrimination based on sexual orientation and\/or gender identity in employment, including hiring, promotion, termination, harassment, etc.",
+"current_status": {
+"id": "42",
+"value": "Sexual orientation and gender identity",
+"value_formatted": "Sexual orientation and gender identity",
+"start_date_formatted": "January 1, 2014",
+"description": "No"
+}
+},
+"military": {
+"id": "5",
+"label": "Homosexuals serving openly in military",
+"label_short": "Military",
+"description": "The ability for homosexuals to serve in the military and be open about their sexuality.",
+"current_status": {
+"id": "18",
+"value": "Illegal",
+"value_formatted": "Illegal",
+"description": "Although technically illegal and viewed by the Ministry of Defence as a mental illness, the law has never been enforced."
+}
+},
+"age-of-consent": {
+"id": "11",
+"label": "Equal age of consent",
+"label_short": "Age of Consent",
+"description": "The difference between legal age of consent for homosexual sex and heterosexual sex.",
+"current_status": {
+"id": "27",
+"value": "Equal",
+"value_formatted": "Equal",
+"start_date_formatted": "July 11, 2002",
+"description": "Equalised age of consent at 16."
+}
+},
+"blood": {
+"id": "8",
+"label": "Blood donations by MSMs",
+"label_short": "Donating Blood",
+"description": "The ability for MSMs (men who have sex with men) to donate blood or tissue for organ transplants. A deferral period refers to a waiting time before a man can donate after having sex.",
+"current_status": {
+"id": "25",
+"value": "Legal",
+"value_formatted": "Legal",
+"description": "No"
+}
+},
+"conversion-therapy": {
+"id": "14",
+"label": "Conversion therapy",
+"label_short": "Conversion Therapy",
+"description": "Legal status of conducting sexual orientation changing therapy (\"ex-gay\" therapy)",
+"current_status": {
+"id": "48",
+"value": "Banned",
+"value_formatted": "Banned",
+"description": "fines for promoting and practicing this."
+}
+}
+}
+}
+}
+}

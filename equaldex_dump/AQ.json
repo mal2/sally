@@ -1,0 +1,163 @@
+
+{
+"regions": {
+"region": {
+"region_id": "AQ",
+"parent_id": null,
+"name": "Antarctica",
+"slug": "antarctica",
+"type": "Country",
+"continent": "Antarctica",
+"region": "Antarctica",
+"freebase_id": "\/m\/041kmx",
+"surface_area": "13120000.00",
+"indep_year": null,
+"population": "0",
+"life_expectancy": null,
+"gnp": "0.00",
+"gnp_old": null,
+"local_name": "\u2013",
+"alternative_names": "",
+"government_form": "Co-administrated",
+"head_of_state": "",
+"capital": null,
+"region_id3": "ATA",
+"url": "http:\/\/www.equaldex.com\/region\/antarctica",
+"region_parent": [],
+"issues": {
+"homosexuality": {
+"id": "1",
+"label": "Homosexual activity",
+"label_short": "Homosexuality",
+"description": "Consensual sexual activity between individuals of the same sex.",
+"current_status": {
+"id": null,
+"value": "na",
+"value_formatted": "N\/A",
+"description": "Antarctica has no permanent human population or government."
+}
+},
+"marriage": {
+"id": "3",
+"label": "Same-sex marriage",
+"label_short": "Marriage",
+"description": "Marriage and marriage recognition between two people of the same biological sex and\/or gender identity.",
+"current_status": {
+"id": null,
+"value": "na",
+"value_formatted": "N\/A",
+"description": "Antarctica has no permanent human population or government."
+}
+},
+"changing-gender": {
+"id": "7",
+"label": "Right to change legal gender",
+"label_short": "Changing Gender",
+"description": "Legal recognition of sex reassignment by permitting a change of legal gender on an individual's birth certificate.",
+"current_status": {
+"id": null,
+"value": "na",
+"value_formatted": "N\/A",
+"description": "Antarctica has no permanent human population or government."
+}
+},
+"adoption": {
+"id": "4",
+"label": "Same-sex adoption",
+"label_short": "Adoption",
+"description": "The ability for same-sex couples to legally adopt a child.",
+"current_status": {
+"id": null,
+"value": "na",
+"value_formatted": "N\/A",
+"description": "Antarctica has no permanent human population or government."
+}
+},
+"discrimination": {
+"id": "6",
+"label": "LGBT discrimination",
+"label_short": "Discrimination",
+"description": "Prohibition of discrimination based on sexual orientation and\/or gender identity.",
+"current_status": {
+"id": null,
+"value": "na",
+"value_formatted": "N\/A",
+"description": "Antarctica has no permanent human population or government."
+}
+},
+"housing-discrimination": {
+"id": "13",
+"label": "LGBT housing discrimination",
+"label_short": "Housing Discrimination",
+"description": "Prohibition of discrimination based on sexual orientation and\/or gender identity when applying for housing or discrimination by landlords \/ property owners.",
+"current_status": {
+"id": null,
+"value": "na",
+"value_formatted": "N\/A",
+"description": "Antarctica has no permanent human population or government."
+}
+},
+"employment-discrimination": {
+"id": "12",
+"label": "LGBT employment discrimination",
+"label_short": "Employment Discrimination",
+"description": "Prohibition of discrimination based on sexual orientation and\/or gender identity in employment, including hiring, promotion, termination, harassment, etc.",
+"current_status": {
+"id": null,
+"value": "na",
+"value_formatted": "N\/A",
+"description": "Antarctica has no permanent human population or government."
+}
+},
+"military": {
+"id": "5",
+"label": "Homosexuals serving openly in military",
+"label_short": "Military",
+"description": "The ability for homosexuals to serve in the military and be open about their sexuality.",
+"current_status": {
+"id": null,
+"value": "na",
+"value_formatted": "N\/A",
+"description": "There is no military presence in Antarctica."
+}
+},
+"age-of-consent": {
+"id": "11",
+"label": "Equal age of consent",
+"label_short": "Age of Consent",
+"description": "The difference between legal age of consent for homosexual sex and heterosexual sex.",
+"current_status": {
+"id": null,
+"value": "na",
+"value_formatted": "N\/A",
+"description": "Antarctica has no permanent human population or government."
+}
+},
+"blood": {
+"id": "8",
+"label": "Blood donations by MSMs",
+"label_short": "Donating Blood",
+"description": "The ability for MSMs (men who have sex with men) to donate blood or tissue for organ transplants. A deferral period refers to a waiting time before a man can donate after having sex.",
+"current_status": {
+"id": null,
+"value": "na",
+"value_formatted": "N\/A",
+"description": "Antarctica has no permanent human population or government."
+}
+},
+"conversion-therapy": {
+"id": "14",
+"label": "Conversion therapy",
+"label_short": "Conversion Therapy",
+"description": "Legal status of conducting sexual orientation changing therapy (\"ex-gay\" therapy)",
+"current_status": {
+"id": null,
+"value": "na",
+"value_formatted": "N\/A",
+"description": "Antarctica has no permanent human population or government."
+}
+}
+}
+}
+}
+}

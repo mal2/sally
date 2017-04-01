@@ -1,0 +1,170 @@
+
+{
+"regions": {
+"region": {
+"region_id": "US",
+"parent_id": null,
+"name": "United States",
+"slug": "united-states",
+"type": "Country",
+"continent": "North America",
+"region": "North America",
+"freebase_id": "\/m\/09c7w0",
+"surface_area": "9363520.00",
+"indep_year": "1776",
+"population": "278357000",
+"life_expectancy": "77.1",
+"gnp": "8510700.00",
+"gnp_old": "8110900.00",
+"local_name": "United States",
+"alternative_names": "",
+"government_form": "Federal Republic",
+"head_of_state": "George W. Bush",
+"capital": "3813",
+"region_id3": "USA",
+"url": "http:\/\/www.equaldex.com\/region\/united-states",
+"region_parent": [],
+"issues": {
+"homosexuality": {
+"id": "1",
+"label": "Homosexual activity",
+"label_short": "Homosexuality",
+"description": "Consensual sexual activity between individuals of the same sex.",
+"current_status": {
+"id": "1",
+"value": "Legal",
+"value_formatted": "Legal",
+"start_date_formatted": "June 26, 2003",
+"description": "Homosexual activity is legal in the United States."
+}
+},
+"marriage": {
+"id": "3",
+"label": "Same-sex marriage",
+"label_short": "Marriage",
+"description": "Marriage and marriage recognition between two people of the same biological sex and\/or gender identity.",
+"current_status": {
+"id": "8",
+"value": "Legal",
+"value_formatted": "Legal",
+"start_date_formatted": "June 26, 2015",
+"description": "In a ruling by the US Supreme Court, all 50 states must now issue marriage licenses for same sex couples and recognize same-sex marriages performed in any state."
+}
+},
+"changing-gender": {
+"id": "7",
+"label": "Right to change legal gender",
+"label_short": "Changing Gender",
+"description": "Legal recognition of sex reassignment by permitting a change of legal gender on an individual's birth certificate.",
+"current_status": {
+"id": "51",
+"value": "Legal, but requires surgery",
+"value_formatted": "Legal, but requires surgery",
+"start_date_formatted": "June 1, 2013",
+"description": "From a Federal standpoint, you can change your gender with proof that you have undergone treatment for a gender change (surgery no longer required in any agency as of June 2013)"
+}
+},
+"adoption": {
+"id": "4",
+"label": "Same-sex adoption",
+"label_short": "Adoption",
+"description": "The ability for same-sex couples to legally adopt a child.",
+"current_status": {
+"id": null,
+"value": "varies",
+"value_formatted": "Varies by Region",
+"start_date_formatted": "April 1, 1986",
+"description": "Full joint adoption by same-sex couples is currently legal in the certain states."
+}
+},
+"discrimination": {
+"id": "6",
+"label": "LGBT discrimination",
+"label_short": "Discrimination",
+"description": "Prohibition of discrimination based on sexual orientation and\/or gender identity.",
+"current_status": {
+"id": "32",
+"value": "Illegal in some contexts",
+"value_formatted": "Illegal in some contexts",
+"start_date_formatted": "January 1, 2011",
+"description": "In all Federal positions, discrimination based on sexual orientation is against the law in instances related to work and employment. In non-federal government jobs, it is based on the state's laws as no federal protections currently exist for non-employees. Additionally, even federal employees could face discrimination unrelated to work in areas of life such as housing, health care, etc. In fact, many groups are advocating the repeal of protections or the introduction of laws to permit discrimination."
+}
+},
+"housing-discrimination": {
+"id": "13",
+"label": "LGBT housing discrimination",
+"label_short": "Housing Discrimination",
+"description": "Prohibition of discrimination based on sexual orientation and\/or gender identity when applying for housing or discrimination by landlords \/ property owners.",
+"current_status": {
+"id": null,
+"value": "varies",
+"value_formatted": "Varies by Region",
+"description": "Housing protections are administered at nearly all levels of government for housing -- if at all. From local city ordinances to federal law, protections are very scattered, and in general, few explicit laws exist to provide housing protections."
+}
+},
+"employment-discrimination": {
+"id": "12",
+"label": "LGBT employment discrimination",
+"label_short": "Employment Discrimination",
+"description": "Prohibition of discrimination based on sexual orientation and\/or gender identity in employment, including hiring, promotion, termination, harassment, etc.",
+"current_status": {
+"id": "43",
+"value": "No protections",
+"value_formatted": "No protections",
+"description": "At this time the Federal government has made no laws preventing discrimination at a national level to all employers, but the EEOC does prevent it in Federal government jobs. Since the federal government has no laws protecting public and private sector employees, it is marked as no protections since this designation fits more in line with how this classification is used in other regions. However, the US does have states and cities where discrimination is illegal for all employers."
+}
+},
+"military": {
+"id": "5",
+"label": "Homosexuals serving openly in military",
+"label_short": "Military",
+"description": "The ability for homosexuals to serve in the military and be open about their sexuality.",
+"current_status": {
+"id": "16",
+"value": "Legal",
+"value_formatted": "Legal",
+"start_date_formatted": "July 1, 2016",
+"description": "The US Army repealed the ban to serve for openly transgender individuals"
+}
+},
+"age-of-consent": {
+"id": "11",
+"label": "Equal age of consent",
+"label_short": "Age of Consent",
+"description": "The difference between legal age of consent for homosexual sex and heterosexual sex.",
+"current_status": {
+"id": null,
+"value": "varies",
+"value_formatted": "Varies by Region",
+"description": "Age of Consent is not set at a national level. It is determined by the states, ranging between 16 and 18."
+}
+},
+"blood": {
+"id": "8",
+"label": "Blood donations by MSMs",
+"label_short": "Donating Blood",
+"description": "The ability for MSMs (men who have sex with men) to donate blood or tissue for organ transplants. A deferral period refers to a waiting time before a man can donate after having sex.",
+"current_status": {
+"id": "40",
+"value": "Banned (1-year deferral)",
+"value_formatted": "Banned (1-year deferral)",
+"start_date_formatted": "December 21, 2015",
+"description": "After a series of recommendations, the FDA has moved to a 12 months degerral"
+}
+},
+"conversion-therapy": {
+"id": "14",
+"label": "Conversion therapy",
+"label_short": "Conversion Therapy",
+"description": "Legal status of conducting sexual orientation changing therapy (\"ex-gay\" therapy)",
+"current_status": {
+"id": null,
+"value": "varies",
+"value_formatted": "Varies by Region",
+"description": "Conversion therapy is legal in every US state except CA and NJ. Can't Convert Love is the sole organization whose sole mission is banning conversion therapy nation-wide. MN and IN are in the starting phase of attempting to ban the therapy."
+}
+}
+}
+}
+}
+}

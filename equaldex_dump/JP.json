@@ -1,0 +1,171 @@
+
+{
+"regions": {
+"region": {
+"region_id": "JP",
+"parent_id": null,
+"name": "Japan",
+"slug": "japan",
+"type": "Country",
+"continent": "Asia",
+"region": "Eastern Asia",
+"freebase_id": "\/m\/03_3d",
+"surface_area": "377829.00",
+"indep_year": "-660",
+"population": "126714000",
+"life_expectancy": "80.7",
+"gnp": "3787042.00",
+"gnp_old": "4192638.00",
+"local_name": "Nihon\/Nippon",
+"alternative_names": "",
+"government_form": "Constitutional Monarchy",
+"head_of_state": "Akihito",
+"capital": "1532",
+"region_id3": "JPN",
+"url": "http:\/\/www.equaldex.com\/region\/japan",
+"region_parent": [],
+"issues": {
+"homosexuality": {
+"id": "1",
+"label": "Homosexual activity",
+"label_short": "Homosexuality",
+"description": "Consensual sexual activity between individuals of the same sex.",
+"current_status": {
+"id": "1",
+"value": "Legal",
+"value_formatted": "Legal",
+"start_date_formatted": "January 1, 1881",
+"description": "Anal sodomy was decriminalized in 1881 when the provision was dropped from Japan's Penal Code. It was eliminated by supervision of Gustave Boissonade, a French legal scholar who served as an advisor to develop the legal system in Japan."
+}
+},
+"marriage": {
+"id": "3",
+"label": "Same-sex marriage",
+"label_short": "Marriage",
+"description": "Marriage and marriage recognition between two people of the same biological sex and\/or gender identity.",
+"current_status": {
+"id": "13",
+"value": "Unrecognized",
+"value_formatted": "Unrecognized",
+"start_date_formatted": "May 3, 1947",
+"description": "Article 24 of the Japanese Constitution states that \"marriage shall be based only on the mutual consent of both sexes and it shall be maintained through mutual cooperation with the equal rights of husband and wife as a basis\"."
+}
+},
+"changing-gender": {
+"id": "7",
+"label": "Right to change legal gender",
+"label_short": "Changing Gender",
+"description": "Legal recognition of sex reassignment by permitting a change of legal gender on an individual's birth certificate.",
+"current_status": {
+"id": "51",
+"value": "Legal, but requires surgery",
+"value_formatted": "Legal, but requires surgery",
+"start_date_formatted": "January 1, 2008",
+"description": "Transgender citizens have the option to legally change their gender only after undergoing sex-reassignment surgery."
+}
+},
+"adoption": {
+"id": "4",
+"label": "Same-sex adoption",
+"label_short": "Adoption",
+"description": "The ability for same-sex couples to legally adopt a child.",
+"current_status": {
+"id": null,
+"value": "ambiguous",
+"value_formatted": "Ambiguous",
+"description": "The United States State Department states: \"there are no laws regulating or addressing same-sex couples adopting in Japan, but there have been no known cases of this happening.\""
+}
+},
+"discrimination": {
+"id": "6",
+"label": "LGBT discrimination",
+"label_short": "Discrimination",
+"description": "Prohibition of discrimination based on sexual orientation and\/or gender identity.",
+"current_status": {
+"id": "20",
+"value": "No protections",
+"value_formatted": "No protections",
+"start_date_formatted": "May 3, 1947",
+"description": "Japan does not have LGBT protections from discrimination in employment, housing, etc. The Japanese Constitution promises equal rights to all and this is widely interpretted as extending to LGBT citizens."
+}
+},
+"housing-discrimination": {
+"id": "13",
+"label": "LGBT housing discrimination",
+"label_short": "Housing Discrimination",
+"description": "Prohibition of discrimination based on sexual orientation and\/or gender identity when applying for housing or discrimination by landlords \/ property owners.",
+"current_status": {
+"id": "47",
+"value": "No protections",
+"value_formatted": "No protections",
+"description": "In a 2008 report by the UN Human Rights Committee, they expressed concern about discrimination against LGBT people in several areas, including housing. According to Article 23(1) of Japan\u2019s Public Housing Law, it only applies to married and unmarried different-sex couples. However, in October of 2012, the Japanese government stated that Article 23(1) was abolished and, therefore, same-sex partners were no longer excluded.<br \/>\r\n<br \/>\r\nHowever, the Human Rights Committee report states that in reality, \"municipalities decide who can rent public houses under the amended Public Housing Law and few municipal policies allow same-sex couples to qualify. Thus, in practice same-sex couples remain excluded from public housing.\""
+                    }
+                },
+                "employment-discrimination": {
+                    "id": "12",
+                    "label": "LGBT employment discrimination",
+                    "label_short": "Employment Discrimination",
+                    "description": "Prohibition of discrimination based on sexual orientation and\/or gender identity in employment, including hiring, promotion, termination, harassment, etc.",
+                    "current_status": {
+                        "id": "43",
+                        "value": "No protections",
+                        "value_formatted": "No protections",
+                        "description": "In a 2008 report by the UN Human Rights Committee, they expressed concern about discrimination against LGBT people in several areas, including employment."
+                    }
+                },
+                "military": {
+                    "id": "5",
+                    "label": "Homosexuals serving openly in military",
+                    "label_short": "Military",
+                    "description": "The ability for homosexuals to serve in the military and be open about their sexuality.",
+                    "current_status": {
+                        "id": null,
+                        "value": "ambiguous",
+                        "value_formatted": "Ambiguous",
+                        "start_date_formatted": "May 3, 1947",
+                        "description": "The Japanese do not have a specific policy either banning or encouraging LGBT  participation in the Self Defense Forces. Research by Sabine Fruhstuck has shown that many Japanese do not object to open LGBT service in the military provided it does not interfere with their performance."
+                    }
+                },
+                "age-of-consent": {
+                    "id": "11",
+                    "label": "Equal age of consent",
+                    "label_short": "Age of Consent",
+                    "description": "The difference between legal age of consent for homosexual sex and heterosexual sex.",
+                    "current_status": {
+                        "id": "27",
+                        "value": "Equal",
+                        "value_formatted": "Equal",
+                        "start_date_formatted": "May 3, 1947",
+                        "description": "The national age of consent is 13 for both same-sex couples and opposite-sex couples. Cities and prefectures may set higher ages of consent."
+                    }
+                },
+                "blood": {
+                    "id": "8",
+                    "label": "Blood donations by MSMs",
+                    "label_short": "Donating Blood",
+                    "description": "The ability for MSMs (men who have sex with men) to donate blood or tissue for organ transplants. A deferral period refers to a waiting time before a man can donate after having sex.",
+                    "current_status": {
+                        "id": "41",
+                        "value": "Banned (6-month deferral)",
+                        "value_formatted": "Banned (6-month deferral)",
+                        "start_date_formatted": "April 1, 2011",
+                        "description": "Red Cross Japan reduces deferral for high HIV risk individual from 12 months to 6 months."
+                    }
+                },
+                "conversion-therapy": {
+                    "id": "14",
+                    "label": "Conversion therapy",
+                    "label_short": "Conversion Therapy",
+                    "description": "Legal status of conducting sexual orientation changing therapy (\"ex-gay\" therapy)",
+                    "current_status": {
+                        "id": "48",
+                        "value": "Banned",
+                        "value_formatted": "Banned",
+                        "start_date_formatted": "June 9, 2015",
+                        "description": "both sexual and gender conversation therapy is banned. "
+                    }
+                }
+            }
+        }
+    }
+}

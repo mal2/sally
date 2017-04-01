@@ -1,0 +1,166 @@
+
+{
+"regions": {
+"region": {
+"region_id": "GH",
+"parent_id": null,
+"name": "Ghana",
+"slug": "ghana",
+"type": "Country",
+"continent": "Africa",
+"region": "Western Africa",
+"freebase_id": "\/m\/035dk",
+"surface_area": "238533.00",
+"indep_year": "1957",
+"population": "20212000",
+"life_expectancy": "57.4",
+"gnp": "7137.00",
+"gnp_old": "6884.00",
+"local_name": "Ghana",
+"alternative_names": "",
+"government_form": "Republic",
+"head_of_state": "John Kufuor",
+"capital": "910",
+"region_id3": "GHA",
+"url": "http:\/\/www.equaldex.com\/region\/ghana",
+"region_parent": [],
+"issues": {
+"homosexuality": {
+"id": "1",
+"label": "Homosexual activity",
+"label_short": "Homosexuality",
+"description": "Consensual sexual activity between individuals of the same sex.",
+"current_status": {
+"id": "37",
+"value": "Illegal (imprisonment as punishment)",
+"value_formatted": "Illegal (imprisonment as punishment)",
+"start_date_formatted": "January 12, 1960",
+"description": "If the person is of 16 years or older and has consent, imprisonment not exceeding 3 years. If the person does not have consent, from 5 to 25 years."
+}
+},
+"marriage": {
+"id": "3",
+"label": "Same-sex marriage",
+"label_short": "Marriage",
+"description": "Marriage and marriage recognition between two people of the same biological sex and\/or gender identity.",
+"current_status": {
+"id": "15",
+"value": "Not legal",
+"value_formatted": "Not legal",
+"start_date_formatted": "January 12, 1960",
+"description": "Same sex marriage is not recognized in Ghana"
+}
+},
+"changing-gender": {
+"id": "7",
+"label": "Right to change legal gender",
+"label_short": "Changing Gender",
+"description": "Legal recognition of sex reassignment by permitting a change of legal gender on an individual's birth certificate.",
+"current_status": {
+"id": "22",
+"value": "Illegal",
+"value_formatted": "Illegal",
+"description": "they haven't even legalized same sex activity."
+}
+},
+"adoption": {
+"id": "4",
+"label": "Same-sex adoption",
+"label_short": "Adoption",
+"description": "The ability for same-sex couples to legally adopt a child.",
+"current_status": {
+"id": "6",
+"value": "Step-child adoption only",
+"value_formatted": "Step-child adoption only",
+"description": "only exception there."
+}
+},
+"discrimination": {
+"id": "6",
+"label": "LGBT discrimination",
+"label_short": "Discrimination",
+"description": "Prohibition of discrimination based on sexual orientation and\/or gender identity.",
+"current_status": {
+"id": "20",
+"value": "No protections",
+"value_formatted": "No protections",
+"start_date_formatted": "January 12, 1960",
+"description": "As homosexuality is illegal, there are no legal protections"
+}
+},
+"housing-discrimination": {
+"id": "13",
+"label": "LGBT housing discrimination",
+"label_short": "Housing Discrimination",
+"description": "Prohibition of discrimination based on sexual orientation and\/or gender identity when applying for housing or discrimination by landlords \/ property owners.",
+"current_status": {
+"id": "47",
+"value": "No protections",
+"value_formatted": "No protections",
+"description": "No protections involving sexual orientation or gender identity."
+}
+},
+"employment-discrimination": {
+"id": "12",
+"label": "LGBT employment discrimination",
+"label_short": "Employment Discrimination",
+"description": "Prohibition of discrimination based on sexual orientation and\/or gender identity in employment, including hiring, promotion, termination, harassment, etc.",
+"current_status": {
+"id": "43",
+"value": "No protections",
+"value_formatted": "No protections",
+"description": "Under the 1992 Ghana Criminal Code."
+}
+},
+"military": {
+"id": "5",
+"label": "Homosexuals serving openly in military",
+"label_short": "Military",
+"description": "The ability for homosexuals to serve in the military and be open about their sexuality.",
+"current_status": {
+"id": null,
+"value": "na",
+"value_formatted": "N\/A",
+"description": "It is unknown."
+}
+},
+"age-of-consent": {
+"id": "11",
+"label": "Equal age of consent",
+"label_short": "Age of Consent",
+"description": "The difference between legal age of consent for homosexual sex and heterosexual sex.",
+"current_status": {
+"id": "27",
+"value": "Equal",
+"value_formatted": "Equal",
+"description": "According to the Ghana Parliament."
+}
+},
+"blood": {
+"id": "8",
+"label": "Blood donations by MSMs",
+"label_short": "Donating Blood",
+"description": "The ability for MSMs (men who have sex with men) to donate blood or tissue for organ transplants. A deferral period refers to a waiting time before a man can donate after having sex.",
+"current_status": {
+"id": "25",
+"value": "Legal",
+"value_formatted": "Legal",
+"description": "According to the National Ghana Blood Service."
+}
+},
+"conversion-therapy": {
+"id": "14",
+"label": "Conversion therapy",
+"label_short": "Conversion Therapy",
+"description": "Legal status of conducting sexual orientation changing therapy (\"ex-gay\" therapy)",
+"current_status": {
+"id": "49",
+"value": "Not banned",
+"value_formatted": "Not banned",
+"description": "No"
+}
+}
+}
+}
+}
+}

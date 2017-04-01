@@ -1,0 +1,168 @@
+
+{
+"regions": {
+"region": {
+"region_id": "PH",
+"parent_id": null,
+"name": "Philippines",
+"slug": "philippines",
+"type": "Country",
+"continent": "Asia",
+"region": "Southeast Asia",
+"freebase_id": "\/m\/05v8c",
+"surface_area": "300000.00",
+"indep_year": "1946",
+"population": "75967000",
+"life_expectancy": "67.5",
+"gnp": "65107.00",
+"gnp_old": "82239.00",
+"local_name": "Pilipinas",
+"alternative_names": "",
+"government_form": "Republic",
+"head_of_state": "Gloria Macapagal-Arroyo",
+"capital": "766",
+"region_id3": "PHL",
+"url": "http:\/\/www.equaldex.com\/region\/philippines",
+"region_parent": [],
+"issues": {
+"homosexuality": {
+"id": "1",
+"label": "Homosexual activity",
+"label_short": "Homosexuality",
+"description": "Consensual sexual activity between individuals of the same sex.",
+"current_status": {
+"id": "1",
+"value": "Legal",
+"value_formatted": "Legal",
+"start_date_formatted": "January 1, 1900",
+"description": "The only article that may apply to LGBT is Article 200 of the penal code which cites \"serious sexual misconduct\""
+}
+},
+"marriage": {
+"id": "3",
+"label": "Same-sex marriage",
+"label_short": "Marriage",
+"description": "Marriage and marriage recognition between two people of the same biological sex and\/or gender identity.",
+"current_status": {
+"id": "15",
+"value": "Not legal",
+"value_formatted": "Not legal",
+"start_date_formatted": "August 4, 1988",
+"description": ""
+}
+},
+"changing-gender": {
+"id": "7",
+"label": "Right to change legal gender",
+"label_short": "Changing Gender",
+"description": "Legal recognition of sex reassignment by permitting a change of legal gender on an individual's birth certificate.",
+"current_status": {
+"id": "22",
+"value": "Illegal",
+"value_formatted": "Illegal",
+"start_date_formatted": "January 1, 2007",
+"description": "Filipinos who undergo gender re-assignment surgery are not permitted to change their legal gender per a supreme court ruling in 2007. Individuals with Congenital Adrenal Hyperplasia (CAH), a very rare gender disorder, are permitted to change their gender "
+}
+},
+"adoption": {
+"id": "4",
+"label": "Same-sex adoption",
+"label_short": "Adoption",
+"description": "The ability for same-sex couples to legally adopt a child.",
+"current_status": {
+"id": "5",
+"value": "Single only",
+"value_formatted": "Single only",
+"description": "Unsure of date"
+}
+},
+"discrimination": {
+"id": "6",
+"label": "LGBT discrimination",
+"label_short": "Discrimination",
+"description": "Prohibition of discrimination based on sexual orientation and\/or gender identity.",
+"current_status": {
+"id": "20",
+"value": "No protections",
+"value_formatted": "No protections",
+"description": "There are no nation-wide discrimination protections for LGBT people.<br \/>\r\n<br \/>\r\nOn October 17, 2012, Cebu City approved an anti-discrimination policy.<br \/>\r\n<br \/>\r\nOn September 25, 2014, Philippine province, Agusan del Norte, passed an anti-discrimination ordinance that protects people irrespective of their sexual orientation and gender identity and expression."
+                    }
+                },
+                "housing-discrimination": {
+                    "id": "13",
+                    "label": "LGBT housing discrimination",
+                    "label_short": "Housing Discrimination",
+                    "description": "Prohibition of discrimination based on sexual orientation and\/or gender identity when applying for housing or discrimination by landlords \/ property owners.",
+                    "current_status": {
+                        "id": "45",
+                        "value": "Sexual orientation and gender identity",
+                        "value_formatted": "Sexual orientation and gender identity",
+                        "description": "No"
+                    }
+                },
+                "employment-discrimination": {
+                    "id": "12",
+                    "label": "LGBT employment discrimination",
+                    "label_short": "Employment Discrimination",
+                    "description": "Prohibition of discrimination based on sexual orientation and\/or gender identity in employment, including hiring, promotion, termination, harassment, etc.",
+                    "current_status": {
+                        "id": "42",
+                        "value": "Sexual orientation and gender identity",
+                        "value_formatted": "Sexual orientation and gender identity",
+                        "start_date_formatted": "June 16, 2003",
+                        "description": "No"
+                    }
+                },
+                "military": {
+                    "id": "5",
+                    "label": "Homosexuals serving openly in military",
+                    "label_short": "Military",
+                    "description": "The ability for homosexuals to serve in the military and be open about their sexuality.",
+                    "current_status": {
+                        "id": "16",
+                        "value": "Legal",
+                        "value_formatted": "Legal",
+                        "start_date_formatted": "January 1, 2009",
+                        "description": ""
+                    }
+                },
+                "age-of-consent": {
+                    "id": "11",
+                    "label": "Equal age of consent",
+                    "label_short": "Age of Consent",
+                    "description": "The difference between legal age of consent for homosexual sex and heterosexual sex.",
+                    "current_status": {
+                        "id": "27",
+                        "value": "Equal",
+                        "value_formatted": "Equal",
+                        "description": "Unsure of date"
+                    }
+                },
+                "blood": {
+                    "id": "8",
+                    "label": "Blood donations by MSMs",
+                    "label_short": "Donating Blood",
+                    "description": "The ability for MSMs (men who have sex with men) to donate blood or tissue for organ transplants. A deferral period refers to a waiting time before a man can donate after having sex.",
+                    "current_status": {
+                        "id": "26",
+                        "value": "Banned (indefinite deferral)",
+                        "value_formatted": "Banned (indefinite deferral)",
+                        "description": "Men who have had sex with men are never allowed to donate blood."
+                    }
+                },
+                "conversion-therapy": {
+                    "id": "14",
+                    "label": "Conversion therapy",
+                    "label_short": "Conversion Therapy",
+                    "description": "Legal status of conducting sexual orientation changing therapy (\"ex-gay\" therapy)",
+                    "current_status": {
+                        "id": "49",
+                        "value": "Not banned",
+                        "value_formatted": "Not banned",
+                        "description": "the prime minister was promoting it."
+                    }
+                }
+            }
+        }
+    }
+}

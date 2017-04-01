@@ -1,0 +1,172 @@
+
+{
+"regions": {
+"region": {
+"region_id": "HU",
+"parent_id": null,
+"name": "Hungary",
+"slug": "hungary",
+"type": "Country",
+"continent": "Europe",
+"region": "Eastern Europe",
+"freebase_id": "\/m\/03gj2",
+"surface_area": "93030.00",
+"indep_year": "1918",
+"population": "10043200",
+"life_expectancy": "71.4",
+"gnp": "48267.00",
+"gnp_old": "45914.00",
+"local_name": "Magyarorsz\u00e1g",
+"alternative_names": "",
+"government_form": "Republic",
+"head_of_state": "Ferenc M\u00e1dl",
+"capital": "3483",
+"region_id3": "HUN",
+"url": "http:\/\/www.equaldex.com\/region\/hungary",
+"region_parent": [],
+"issues": {
+"homosexuality": {
+"id": "1",
+"label": "Homosexual activity",
+"label_short": "Homosexuality",
+"description": "Consensual sexual activity between individuals of the same sex.",
+"current_status": {
+"id": "1",
+"value": "Legal",
+"value_formatted": "Legal",
+"start_date_formatted": "December 31, 1978",
+"description": ""
+}
+},
+"marriage": {
+"id": "3",
+"label": "Same-sex marriage",
+"label_short": "Marriage",
+"description": "Marriage and marriage recognition between two people of the same biological sex and\/or gender identity.",
+"current_status": {
+"id": "9",
+"value": "Other type of partnership",
+"value_formatted": "Other type of partnership",
+"start_date_formatted": "July 1, 2009",
+"description": "The institution of registered partnership is only available to same sex couples. The unregistered cohabitation (\u00e9lett\u00e1rsi kapcsolat) of same-sex couples was recognised and placed on equal footing with the unregistered cohabitation of different-sex couples in 1996.<br \/>\r\nHowever, same-sex marriage is banned by the 2012 Constitution."
+                    }
+                },
+                "changing-gender": {
+                    "id": "7",
+                    "label": "Right to change legal gender",
+                    "label_short": "Changing Gender",
+                    "description": "Legal recognition of sex reassignment by permitting a change of legal gender on an individual's birth certificate.",
+                    "current_status": {
+                        "id": "51",
+                        "value": "Legal, but requires surgery",
+                        "value_formatted": "Legal, but requires surgery",
+                        "start_date_formatted": "August 14, 1982",
+                        "description": "It is legal for individuals to change their legal gender without having to go through gender reassignment surgery."
+                    }
+                },
+                "adoption": {
+                    "id": "4",
+                    "label": "Same-sex adoption",
+                    "label_short": "Adoption",
+                    "description": "The ability for same-sex couples to legally adopt a child.",
+                    "current_status": {
+                        "id": "4",
+                        "value": "Married couples only",
+                        "value_formatted": "Married couples only",
+                        "start_date_formatted": "May 1, 2010",
+                        "description": "Any individual can apodt regardless of thair marital status but prefecence has to be given to married couples. Joint adoption is available only for them.<br \/>\r\nSecond parent adoption is available for married and cohabiting couples - regardless of gender - but not for registered (same sex) partners.<br \/>\r\n<br \/>\r\nSame sex cohabiting couples's joint adoption has to be authorized by the Guardianship Office."
+                    }
+                },
+                "discrimination": {
+                    "id": "6",
+                    "label": "LGBT discrimination",
+                    "label_short": "Discrimination",
+                    "description": "Prohibition of discrimination based on sexual orientation and\/or gender identity.",
+                    "current_status": {
+                        "id": "19",
+                        "value": "Illegal",
+                        "value_formatted": "Illegal",
+                        "start_date_formatted": "January 1, 1998",
+                        "description": "There are several provision that bans discrimination against the basis of sexual orientations and gender identities. A court ruling has also stated that the general anti-discrimination law in the constitution extends its coverage to sexual orientation and gender identities as well."
+                    }
+                },
+                "housing-discrimination": {
+                    "id": "13",
+                    "label": "LGBT housing discrimination",
+                    "label_short": "Housing Discrimination",
+                    "description": "Prohibition of discrimination based on sexual orientation and\/or gender identity when applying for housing or discrimination by landlords \/ property owners.",
+                    "current_status": {
+                        "id": "45",
+                        "value": "Sexual orientation and gender identity",
+                        "value_formatted": "Sexual orientation and gender identity",
+                        "start_date_formatted": "January 1, 1998",
+                        "description": "Discrimination is illegal for both sexual orientation and gender identity"
+                    }
+                },
+                "employment-discrimination": {
+                    "id": "12",
+                    "label": "LGBT employment discrimination",
+                    "label_short": "Employment Discrimination",
+                    "description": "Prohibition of discrimination based on sexual orientation and\/or gender identity in employment, including hiring, promotion, termination, harassment, etc.",
+                    "current_status": {
+                        "id": "42",
+                        "value": "Sexual orientation and gender identity",
+                        "value_formatted": "Sexual orientation and gender identity",
+                        "start_date_formatted": "January 1, 1998",
+                        "description": "Discrimination is illegal for both sexual orientation and gender identity"
+                    }
+                },
+                "military": {
+                    "id": "5",
+                    "label": "Homosexuals serving openly in military",
+                    "label_short": "Military",
+                    "description": "The ability for homosexuals to serve in the military and be open about their sexuality.",
+                    "current_status": {
+                        "id": "16",
+                        "value": "Legal",
+                        "value_formatted": "Legal",
+                        "description": "No"
+                    }
+                },
+                "age-of-consent": {
+                    "id": "11",
+                    "label": "Equal age of consent",
+                    "label_short": "Age of Consent",
+                    "description": "The difference between legal age of consent for homosexual sex and heterosexual sex.",
+                    "current_status": {
+                        "id": "27",
+                        "value": "Equal",
+                        "value_formatted": "Equal",
+                        "start_date_formatted": "January 1, 2002",
+                        "description": ""
+                    }
+                },
+                "blood": {
+                    "id": "8",
+                    "label": "Blood donations by MSMs",
+                    "label_short": "Donating Blood",
+                    "description": "The ability for MSMs (men who have sex with men) to donate blood or tissue for organ transplants. A deferral period refers to a waiting time before a man can donate after having sex.",
+                    "current_status": {
+                        "id": "25",
+                        "value": "Legal",
+                        "value_formatted": "Legal",
+                        "start_date_formatted": "May 12, 2015",
+                        "description": "No"
+                    }
+                },
+                "conversion-therapy": {
+                    "id": "14",
+                    "label": "Conversion therapy",
+                    "label_short": "Conversion Therapy",
+                    "description": "Legal status of conducting sexual orientation changing therapy (\"ex-gay\" therapy)",
+                    "current_status": {
+                        "id": "49",
+                        "value": "Not banned",
+                        "value_formatted": "Not banned",
+                        "description": "No"
+                    }
+                }
+            }
+        }
+    }
+}

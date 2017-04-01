@@ -1,0 +1,172 @@
+
+{
+"regions": {
+"region": {
+"region_id": "PT",
+"parent_id": null,
+"name": "Portugal",
+"slug": "portugal",
+"type": "Country",
+"continent": "Europe",
+"region": "Southern Europe",
+"freebase_id": "\/m\/05r4w",
+"surface_area": "91982.00",
+"indep_year": "1143",
+"population": "9997600",
+"life_expectancy": "75.8",
+"gnp": "105954.00",
+"gnp_old": "102133.00",
+"local_name": "Portugal",
+"alternative_names": "",
+"government_form": "Republic",
+"head_of_state": "Jorge Samp\u00e3io",
+"capital": "2914",
+"region_id3": "PRT",
+"url": "http:\/\/www.equaldex.com\/region\/portugal",
+"region_parent": [],
+"issues": {
+"homosexuality": {
+"id": "1",
+"label": "Homosexual activity",
+"label_short": "Homosexuality",
+"description": "Consensual sexual activity between individuals of the same sex.",
+"current_status": {
+"id": "1",
+"value": "Legal",
+"value_formatted": "Legal",
+"start_date_formatted": "September 23, 1982",
+"description": ""
+}
+},
+"marriage": {
+"id": "3",
+"label": "Same-sex marriage",
+"label_short": "Marriage",
+"description": "Marriage and marriage recognition between two people of the same biological sex and\/or gender identity.",
+"current_status": {
+"id": "8",
+"value": "Legal",
+"value_formatted": "Legal",
+"start_date_formatted": "May 31, 2010",
+"description": ""
+}
+},
+"changing-gender": {
+"id": "7",
+"label": "Right to change legal gender",
+"label_short": "Changing Gender",
+"description": "Legal recognition of sex reassignment by permitting a change of legal gender on an individual's birth certificate.",
+"current_status": {
+"id": "51",
+"value": "Legal, but requires surgery",
+"value_formatted": "Legal, but requires surgery",
+"start_date_formatted": "March 15, 2011",
+"description": "Individuals in Portugal can legally change their gender and name on their birth certificate."
+}
+},
+"adoption": {
+"id": "4",
+"label": "Same-sex adoption",
+"label_short": "Adoption",
+"description": "The ability for same-sex couples to legally adopt a child.",
+"current_status": {
+"id": "3",
+"value": "Legal",
+"value_formatted": "Legal",
+"start_date_formatted": "December 18, 2015",
+"description": "Now same sex adoption is possible for not only individuals but same sex couples."
+}
+},
+"discrimination": {
+"id": "6",
+"label": "LGBT discrimination",
+"label_short": "Discrimination",
+"description": "Prohibition of discrimination based on sexual orientation and\/or gender identity.",
+"current_status": {
+"id": "19",
+"value": "Illegal",
+"value_formatted": "Illegal",
+"start_date_formatted": "July 24, 2004",
+"description": "Article 13 explicitly prohibits discriminations on the basis of sexual orientations"
+}
+},
+"housing-discrimination": {
+"id": "13",
+"label": "LGBT housing discrimination",
+"label_short": "Housing Discrimination",
+"description": "Prohibition of discrimination based on sexual orientation and\/or gender identity when applying for housing or discrimination by landlords \/ property owners.",
+"current_status": {
+"id": "45",
+"value": "Sexual orientation and gender identity",
+"value_formatted": "Sexual orientation and gender identity",
+"description": "No"
+}
+},
+"employment-discrimination": {
+"id": "12",
+"label": "LGBT employment discrimination",
+"label_short": "Employment Discrimination",
+"description": "Prohibition of discrimination based on sexual orientation and\/or gender identity in employment, including hiring, promotion, termination, harassment, etc.",
+"current_status": {
+"id": "42",
+"value": "Sexual orientation and gender identity",
+"value_formatted": "Sexual orientation and gender identity",
+"start_date_formatted": "January 16, 2015",
+"description": "Gender identity is now an explicit protected ground in the labour code."
+}
+},
+"military": {
+"id": "5",
+"label": "Homosexuals serving openly in military",
+"label_short": "Military",
+"description": "The ability for homosexuals to serve in the military and be open about their sexuality.",
+"current_status": {
+"id": "16",
+"value": "Legal",
+"value_formatted": "Legal",
+"start_date_formatted": "January 1, 1999",
+"description": ""
+}
+},
+"age-of-consent": {
+"id": "11",
+"label": "Equal age of consent",
+"label_short": "Age of Consent",
+"description": "The difference between legal age of consent for homosexual sex and heterosexual sex.",
+"current_status": {
+"id": "27",
+"value": "Equal",
+"value_formatted": "Equal",
+"start_date_formatted": "January 1, 2007",
+"description": "The age of consent in portal is 14 years of age for both homosexual and heterosexual sex."
+}
+},
+"blood": {
+"id": "8",
+"label": "Blood donations by MSMs",
+"label_short": "Donating Blood",
+"description": "The ability for MSMs (men who have sex with men) to donate blood or tissue for organ transplants. A deferral period refers to a waiting time before a man can donate after having sex.",
+"current_status": {
+"id": "25",
+"value": "Legal",
+"value_formatted": "Legal",
+"start_date_formatted": "April 7, 2010",
+"description": "In Portugal, blood donation have rules regarding sexual behavior but they are the same for homossexual people and heterossexual."
+}
+},
+"conversion-therapy": {
+"id": "14",
+"label": "Conversion therapy",
+"label_short": "Conversion Therapy",
+"description": "Legal status of conducting sexual orientation changing therapy (\"ex-gay\" therapy)",
+"current_status": {
+"id": "49",
+"value": "Not banned",
+"value_formatted": "Not banned",
+"description": "as far as I know."
+}
+}
+}
+}
+}
+}

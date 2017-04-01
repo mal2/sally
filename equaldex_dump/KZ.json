@@ -1,0 +1,171 @@
+
+{
+"regions": {
+"region": {
+"region_id": "KZ",
+"parent_id": null,
+"name": "Kazakhstan",
+"slug": "kazakhstan",
+"type": "Country",
+"continent": "Asia",
+"region": "Southern and Central Asia",
+"freebase_id": "\/m\/047lj",
+"surface_area": "2724900.00",
+"indep_year": "1991",
+"population": "16223000",
+"life_expectancy": "63.2",
+"gnp": "24375.00",
+"gnp_old": "23383.00",
+"local_name": "Qazaqstan",
+"alternative_names": "",
+"government_form": "Republic",
+"head_of_state": "Nursultan Nazarbajev",
+"capital": "1864",
+"region_id3": "KAZ",
+"url": "http:\/\/www.equaldex.com\/region\/kazakhstan",
+"region_parent": [],
+"issues": {
+"homosexuality": {
+"id": "1",
+"label": "Homosexual activity",
+"label_short": "Homosexuality",
+"description": "Consensual sexual activity between individuals of the same sex.",
+"current_status": {
+"id": "1",
+"value": "Legal",
+"value_formatted": "Legal",
+"start_date_formatted": "July 16, 1997",
+"description": ""
+}
+},
+"marriage": {
+"id": "3",
+"label": "Same-sex marriage",
+"label_short": "Marriage",
+"description": "Marriage and marriage recognition between two people of the same biological sex and\/or gender identity.",
+"current_status": {
+"id": "15",
+"value": "Not legal",
+"value_formatted": "Not legal",
+"start_date_formatted": "December 26, 2011",
+"description": "Article 11 of the law of family and marriage explicitly prohibits same sex couples from marrying each other."
+}
+},
+"changing-gender": {
+"id": "7",
+"label": "Right to change legal gender",
+"label_short": "Changing Gender",
+"description": "Legal recognition of sex reassignment by permitting a change of legal gender on an individual's birth certificate.",
+"current_status": {
+"id": "21",
+"value": "Legal, surgery not required",
+"value_formatted": "Legal, surgery not required",
+"start_date_formatted": "January 1, 2003",
+"description": "No"
+}
+},
+"adoption": {
+"id": "4",
+"label": "Same-sex adoption",
+"label_short": "Adoption",
+"description": "The ability for same-sex couples to legally adopt a child.",
+"current_status": {
+"id": "3",
+"value": "Legal",
+"value_formatted": "Legal",
+"description": "No Laws against it."
+}
+},
+"discrimination": {
+"id": "6",
+"label": "LGBT discrimination",
+"label_short": "Discrimination",
+"description": "Prohibition of discrimination based on sexual orientation and\/or gender identity.",
+"current_status": {
+"id": "20",
+"value": "No protections",
+"value_formatted": "No protections",
+"start_date_formatted": "December 25, 1991",
+"description": ""
+}
+},
+"housing-discrimination": {
+"id": "13",
+"label": "LGBT housing discrimination",
+"label_short": "Housing Discrimination",
+"description": "Prohibition of discrimination based on sexual orientation and\/or gender identity when applying for housing or discrimination by landlords \/ property owners.",
+"current_status": {
+"id": null,
+"value": "ambiguous",
+"value_formatted": "Ambiguous",
+"start_date_formatted": "February 11, 2014",
+"description": "Only for gender identity and expression."
+}
+},
+"employment-discrimination": {
+"id": "12",
+"label": "LGBT employment discrimination",
+"label_short": "Employment Discrimination",
+"description": "Prohibition of discrimination based on sexual orientation and\/or gender identity in employment, including hiring, promotion, termination, harassment, etc.",
+"current_status": {
+"id": null,
+"value": "ambiguous",
+"value_formatted": "Ambiguous",
+"start_date_formatted": "February 11, 2014",
+"description": "Only protection is gender identy and expression."
+}
+},
+"military": {
+"id": "5",
+"label": "Homosexuals serving openly in military",
+"label_short": "Military",
+"description": "The ability for homosexuals to serve in the military and be open about their sexuality.",
+"current_status": {
+"id": "18",
+"value": "Illegal",
+"value_formatted": "Illegal",
+"description": "lgbt are barred from service."
+}
+},
+"age-of-consent": {
+"id": "11",
+"label": "Equal age of consent",
+"label_short": "Age of Consent",
+"description": "The difference between legal age of consent for homosexual sex and heterosexual sex.",
+"current_status": {
+"id": "27",
+"value": "Equal",
+"value_formatted": "Equal",
+"start_date_formatted": "July 16, 1997",
+"description": "The law sets the age of consent as 16 for all sexual activities (\"sodomy and \"lesbianism\" included explicitly.)"
+}
+},
+"blood": {
+"id": "8",
+"label": "Blood donations by MSMs",
+"label_short": "Donating Blood",
+"description": "The ability for MSMs (men who have sex with men) to donate blood or tissue for organ transplants. A deferral period refers to a waiting time before a man can donate after having sex.",
+"current_status": {
+"id": "25",
+"value": "Legal",
+"value_formatted": "Legal",
+"description": "as far as I know from the red cross."
+}
+},
+"conversion-therapy": {
+"id": "14",
+"label": "Conversion therapy",
+"label_short": "Conversion Therapy",
+"description": "Legal status of conducting sexual orientation changing therapy (\"ex-gay\" therapy)",
+"current_status": {
+"id": "49",
+"value": "Not banned",
+"value_formatted": "Not banned",
+"start_date_formatted": "September 18, 2014",
+"description": "No"
+}
+}
+}
+}
+}
+}

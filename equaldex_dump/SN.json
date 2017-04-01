@@ -1,0 +1,167 @@
+
+{
+"regions": {
+"region": {
+"region_id": "SN",
+"parent_id": null,
+"name": "Senegal",
+"slug": "senegal",
+"type": "Country",
+"continent": "Africa",
+"region": "Western Africa",
+"freebase_id": "\/m\/06srk",
+"surface_area": "196722.00",
+"indep_year": "1960",
+"population": "9481000",
+"life_expectancy": "62.2",
+"gnp": "4787.00",
+"gnp_old": "4542.00",
+"local_name": "S\u00e9n\u00e9gal\/Sounougal",
+"alternative_names": "",
+"government_form": "Republic",
+"head_of_state": "Abdoulaye Wade",
+"capital": "3198",
+"region_id3": "SEN",
+"url": "http:\/\/www.equaldex.com\/region\/senegal",
+"region_parent": [],
+"issues": {
+"homosexuality": {
+"id": "1",
+"label": "Homosexual activity",
+"label_short": "Homosexuality",
+"description": "Consensual sexual activity between individuals of the same sex.",
+"current_status": {
+"id": "37",
+"value": "Illegal (imprisonment as punishment)",
+"value_formatted": "Illegal (imprisonment as punishment)",
+"start_date_formatted": "February 1, 1966",
+"description": "Article 319 is punishable by imprisonment of 1 to 5 years."
+}
+},
+"marriage": {
+"id": "3",
+"label": "Same-sex marriage",
+"label_short": "Marriage",
+"description": "Marriage and marriage recognition between two people of the same biological sex and\/or gender identity.",
+"current_status": {
+"id": "15",
+"value": "Not legal",
+"value_formatted": "Not legal",
+"start_date_formatted": "February 1, 1966",
+"description": "Same sex marriage is not recognized especially since homosexuality is illegal"
+}
+},
+"changing-gender": {
+"id": "7",
+"label": "Right to change legal gender",
+"label_short": "Changing Gender",
+"description": "Legal recognition of sex reassignment by permitting a change of legal gender on an individual's birth certificate.",
+"current_status": {
+"id": "21",
+"value": "Legal, surgery not required",
+"value_formatted": "Legal, surgery not required",
+"description": "Not persecuted there."
+}
+},
+"adoption": {
+"id": "4",
+"label": "Same-sex adoption",
+"label_short": "Adoption",
+"description": "The ability for same-sex couples to legally adopt a child.",
+"current_status": {
+"id": "7",
+"value": "Illegal",
+"value_formatted": "Illegal",
+"description": "assuming it is because homosexuality is illegal there."
+}
+},
+"discrimination": {
+"id": "6",
+"label": "LGBT discrimination",
+"label_short": "Discrimination",
+"description": "Prohibition of discrimination based on sexual orientation and\/or gender identity.",
+"current_status": {
+"id": "20",
+"value": "No protections",
+"value_formatted": "No protections",
+"start_date_formatted": "February 1, 1966",
+"description": "As homosexual conduct is illegal, discrimination on the basis on sexual orientation or gender identity is legal under the law."
+}
+},
+"housing-discrimination": {
+"id": "13",
+"label": "LGBT housing discrimination",
+"label_short": "Housing Discrimination",
+"description": "Prohibition of discrimination based on sexual orientation and\/or gender identity when applying for housing or discrimination by landlords \/ property owners.",
+"current_status": {
+"id": "47",
+"value": "No protections",
+"value_formatted": "No protections",
+"description": "No"
+}
+},
+"employment-discrimination": {
+"id": "12",
+"label": "LGBT employment discrimination",
+"label_short": "Employment Discrimination",
+"description": "Prohibition of discrimination based on sexual orientation and\/or gender identity in employment, including hiring, promotion, termination, harassment, etc.",
+"current_status": {
+"id": "44",
+"value": "Sexual orientation only",
+"value_formatted": "Sexual orientation only",
+"start_date_formatted": "January 1, 2015",
+"description": "No"
+}
+},
+"military": {
+"id": "5",
+"label": "Homosexuals serving openly in military",
+"label_short": "Military",
+"description": "The ability for homosexuals to serve in the military and be open about their sexuality.",
+"current_status": {
+"id": "16",
+"value": "Legal",
+"value_formatted": "Legal",
+"description": "Homosexuality is illegal still there."
+}
+},
+"age-of-consent": {
+"id": "11",
+"label": "Equal age of consent",
+"label_short": "Age of Consent",
+"description": "The difference between legal age of consent for homosexual sex and heterosexual sex.",
+"current_status": {
+"id": "27",
+"value": "Equal",
+"value_formatted": "Equal",
+"description": "Age of consent is 16 years old. has a close in age exception."
+}
+},
+"blood": {
+"id": "8",
+"label": "Blood donations by MSMs",
+"label_short": "Donating Blood",
+"description": "The ability for MSMs (men who have sex with men) to donate blood or tissue for organ transplants. A deferral period refers to a waiting time before a man can donate after having sex.",
+"current_status": {
+"id": "25",
+"value": "Legal",
+"value_formatted": "Legal",
+"description": "No"
+}
+},
+"conversion-therapy": {
+"id": "14",
+"label": "Conversion therapy",
+"label_short": "Conversion Therapy",
+"description": "Legal status of conducting sexual orientation changing therapy (\"ex-gay\" therapy)",
+"current_status": {
+"id": "49",
+"value": "Not banned",
+"value_formatted": "Not banned",
+"description": "Only banned in South Africa and Lesotho."
+}
+}
+}
+}
+}
+}
