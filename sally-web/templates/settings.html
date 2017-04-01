@@ -11,8 +11,10 @@
   Select your home country:
   <select onChange="onChange(this)" id="country-select">
     <option value="unset">Not set yet</option>
-    <option value="de">Germany</option>
-    <option value="us-al">United States - Alabama</option>
+
+    {% for country in countries %}
+      <option value="{{ country[0] }}">{{ country[1] }}</option>
+    {% endfor %}
   </select>
 </form>
 

@@ -1,9 +1,12 @@
 from flask import Flask, render_template
 from geopy.geocoders import Nominatim
 
-geolocator = Nominatim()
+geolocator = Nominatim(scheme="http")
 def resolve_location(lon, lat):
     return geolocator.reverse((lat, lon))
+
+def getCountries():
+    return [("de", "Germany"), ("us-al", "United States - Alabama")]
 
 app = Flask(__name__)
 
@@ -18,4 +21,4 @@ def compare(longitude, latitude, comparison):
 
 @app.route('/settings')
 def settings():
-    return render_template('settings.html')
+    return render_template('settings.html', countries=getCountries())
