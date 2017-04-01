@@ -1,0 +1,49 @@
+{% extends 'base.html' %}
+
+{% block content %}
+<h1>compare</h1>
+
+<a href="{{ url_for('settings') }}">Settings</a>
+
+
+<table class="table">
+  <thead>
+    <tr>
+      <td> Category </td>
+      <td>Home</td>
+      <td>Current</td>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>
+      <td>{{ left }}</td>
+      <td>{{ right }}</td>
+    </tr>
+    <tr>
+      <td>
+      <td>
+        <img src="{{ url_for('static', filename='shapes/'+left+'/vector.svg') }}" style="height:100px">
+      <td>
+        <img src="{{ url_for('static', filename='shapes/'+right+'/vector.svg') }}" style="height:100px">
+    </tr>
+    {% for key in categories %}
+    <tr>
+
+      <td>{{left_data[key].label}}<br/><!-- {{left_data[key].description}} --></td>
+      <td class="{{judge_class(left_data[key].current_status.value)}}">
+        <p>{{left_data[key].current_status.value}}</p>
+        <!-- <p>{{left_data[key].current_status.description | safe}}</p> -->
+      </td>
+      <td class="{{judge_class(right_data[key].current_status.value)}}">
+        <p>{{right_data[key].current_status.value}}</p>
+        <!-- <p>{{right_data[key].current_status.description | safe}}</p> -->
+      </td>
+
+    </tr>
+    {% endfor %}
+  </tbody>
+
+</table>
+
+{% endblock %}
