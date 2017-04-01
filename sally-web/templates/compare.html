@@ -21,6 +21,13 @@
       <td>{{ location.raw.address.country }} ({{ location.raw.address.country_code }}, {{ location.raw.address.state }})</td>
     </tr>
     <tr>
+      <td>
+      <td>
+        <img src="{{ url_for('static', filename='shapes/'+home+'/vector.svg') }}" style="height:100px">
+      <td>
+        <img src="{{ url_for('static', filename='shapes/'+location.raw.address.country_code+'/vector.svg') }}" style="height:100px">
+      </tr>
+    <tr>
       <td>Homosexuality</td>
       <td>
         <p>{{home_data.homosexuality.current_status.value}}</p>
