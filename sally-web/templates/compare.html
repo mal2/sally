@@ -9,13 +9,29 @@
 <table class="table">
   <thead>
     <tr>
+      <td> Category </td>
       <td>Home</td>
       <td>Current</td>
     </tr>
   </thead>
   <tbody>
-    <td> {{ home }} </td>
-    <td> {{ location.raw.address.country }} ({{ location.raw.address.country_code }}, {{ location.raw.address.state }}) </td>
+    <tr>
+      <td>
+      <td>{{ home }}</td>
+      <td>{{ location.raw.address.country }} ({{ location.raw.address.country_code }}, {{ location.raw.address.state }})</td>
+    </tr>
+    <tr>
+      <td>Homosexuality</td>
+      <td>
+        <p>{{home_data.homosexuality.current_status.value}}</p>
+        <p>{{home_data.homosexuality.current_status.description}}</p>
+      </td>
+      <td>
+        <p>{{location_data.homosexuality.current_status.value}}</p>
+        <p>{{location_data.homosexuality.current_status.description}}</p>
+      </td>
+
+    </tr>
   </tbody>
 
 </table>

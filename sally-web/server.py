@@ -1,9 +1,17 @@
 from flask import Flask, render_template
 from geopy.geocoders import Nominatim
+import json
 
-geolocator = Nominatim()
+
+geolocator = Nominatim(scheme="http")
 def resolve_location(lon, lat):
     return geolocator.reverse((lat, lon))
+
+countries = eval(open("countries.list").read())
+def getCountries():
+    return countries
+
+equaldex = json.load(open("equaldex_dump.json"))
 
 app = Flask(__name__)
 
@@ -14,8 +22,13 @@ def welcome():
 @app.route('/compare/<longitude>/<latitude>/to/<comparison>')
 def compare(longitude, latitude, comparison):
     location = resolve_location(longitude, latitude)
-    return render_template('compare.html', location=location, home=comparison)
+
+    return render_template('compare.html',
+                           location=location,
+                           home=comparison,
+                           location_data=equaldex[location.raw["address"]["country_code"].upper()],
+                           home_data=equaldex[comparison.upper()])
 
 @app.route('/settings')
 def settings():
-    return render_template('settings.html')
+    return render_template('settings.html', countries=getCountries())
