@@ -6,11 +6,6 @@
     color: green;
 }
 
-.row, .column {
-    text-overflow: clip;
-    white-space: nowrap;
-}
-
 .diff {
     border-left: 10px red solid;
 }

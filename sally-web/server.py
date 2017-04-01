@@ -131,7 +131,7 @@ def compare(longitude, latitude, comparison):
 
 def compute_votes_ratio(country_code):
     db = get_db()
-    votes = list(db.query('SELECT COUNT(*) as cnt, SUM(CASE WHEN response = \'yes\' THEN 1 ELSE 0 END) as yes, SUM(CASE WHEN response = \'no\' THEN 1 ELSE 0 END) as no FROM votes WHERE country_code = \'%s\' ' % country_code))[0]
+    votes = list(db.query('SELECT COUNT(*) as cnt, SUM(CASE WHEN response = \'yes\' THEN 1 ELSE 0 END) as yes, SUM(CASE WHEN response = \'no\' THEN 1 ELSE 0 END) as no FROM votes WHERE lower(country_code) = \'%s\' ' % country_code))[0]
     if not votes["yes"]:
         return dict(ratio=0, count=0)
     return dict(ratio=int(votes["yes"] / (votes["yes"] + votes["no"])  * 100), count=votes["cnt"])
@@ -156,8 +156,8 @@ def compare_lr(left, right):
                            left_data=equaldex.get(left.lower(), None),
                            right_data=equaldex.get(right.lower(), None),
                            differences=differences,
-                           votes_left=compute_votes_ratio(left),
-                           votes_right=compute_votes_ratio(right),
+                           votes_left=compute_votes_ratio(left.lower()),
+                           votes_right=compute_votes_ratio(right.lower()),
                            categories=[["important", ["homosexuality",
                                                       "marriage"]],
                                         ["secondary", [
