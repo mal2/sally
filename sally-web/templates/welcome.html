@@ -17,18 +17,22 @@
 </div>
 
   <script>
-    if ("geolocation" in navigator) {
-    navigator.geolocation.getCurrentPosition(
-      function(position) {
-        var country = localStorage.getItem('homeCountry');
-        window.location.href = "/compare/" + position.coords.longitude.toString() + "/" + position.coords.latitude.toString() + "/to/" + country;
-      },
-      function(error) {
-        alert("Please load the page again and press 'Allow' if you want to continue.")
-      }
-    );
-    } else {
-        alert("no geo stuff :(");
+    window.onload = function(){
+        if(navigator.geolocation){
+            if ("geolocation" in navigator) {
+            navigator.geolocation.getCurrentPosition(
+              function(position) {
+                var country = localStorage.getItem('homeCountry');
+                window.location.href = "/compare/" + position.coords.longitude.toString() + "/" + position.coords.latitude.toString() + "/to/" + country;
+              },
+              function(error) {
+                alert("Please load the page again and press 'Allow' if you want to continue.")
+              }
+            );
+            } else {
+                alert("no geo stuff :(");
+            }
+        }
     }
   </script>
 {% endblock %}
