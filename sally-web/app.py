@@ -182,3 +182,6 @@ def settings():
     return render_template('settings.html', countries=getCountries())
 db = get_db()
 db["votes"].insert({"response": "yes", "country_code": "doesnmtaterr"})
+
+if __name__ == "__main__":
+    app.run(debug=True, use_reloader=True)

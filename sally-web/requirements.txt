@@ -1,4 +1,4 @@
-flask==0.12
+Flask==0.12.1
 geopy==1.11.0
 dataset==0.8.0
-Flask-Dataset
+gunicorn==19.7.1
