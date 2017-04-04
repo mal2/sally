@@ -1,26 +1,23 @@
 {% extends 'base.html' %}
 
-
 {% macro modal(id, heading, text) -%}
-<button type="button" class="btn btn-secondary btn-sm" data-toggle="modal" data-target="#{{id}}_modal">
-  I
-</button>
+<i aria-hidden="true" class="icon fa-info-circle " data-toggle="modal" data-target="#{{id}}_modal" >
+</i>
+
 
 <!-- Modal -->
 <div class="modal fade" id="{{id}}_modal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLongTitle" aria-hidden="true">
   <div class="modal-dialog" role="document">
     <div class="modal-content">
       <div class="modal-header">
-        <h5 class="modal-title" id="exampleModalLongTitle">{{heading}}: Description</h5>
-        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-          <span aria-hidden="true">&times;</span>
+        <h4 class="modal-title" id="exampleModalLongTitle">{{heading}}: Description</h4>
         </button>
       </div>
       <div class="modal-body">
         {{text|safe}}
       </div>
       <div class="modal-footer">
-        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+        <button type="button" class="button fit" data-dismiss="modal">Close</button>
       </div>
     </div>
   </div>
@@ -29,8 +26,15 @@
 {%- endmacro %}
 
 {% block content %}
-<h1>compare</h1>
-<a href="{{ url_for('settings') }}">Settings</a>
+
+<header id="header">
+    <nav>
+        <ul>
+            <li><a href="/" class="active">Home</a></li>
+            <li><a href="{{ url_for('settings') }}" >Settings</a></li>
+        </ul>
+    </nav>
+</header>
 
 <div class="card" style="display:none" id="question">
 
@@ -39,7 +43,7 @@
 <p class="card-text">Perfect, we detected that you are in {{ right_label }} ({{ right }}). <br/>
 
  Can you hold hands in public with your same sex partner in {{right_label}} ({{ right }})?</p>
-  <button class="btn btn-primary" onclick="clk('yes', '{{right}}')">Yes!</button> <button class="btn btn-primary" onClick="clk('no', '{{right}}');">No!</button>
+  <button class="button special fit" onclick="clk('yes', '{{right}}')">Yes!</button> <button class="button special fit" onClick="clk('no', '{{right}}');">No!</button>
   <script>
     function clk(value, country_cd) {
       if (!localStorage.getItem("vote_"+country_cd)) {
@@ -55,6 +59,44 @@
     console.log("this");
        $("#question").show()
     }
+    
+    $( document ).ready(function(){
+    /*
+     * Replace all SVG images with inline SVG
+     */
+        jQuery('img.svg').each(function(){
+            var $img = jQuery(this);
+            var imgID = $img.attr('id');
+            var imgClass = $img.attr('class');
+            var imgURL = $img.attr('src');
+            var imgStyle = $img.attr('style')
+
+            jQuery.get(imgURL, function(data) {
+                // Get the SVG tag, ignore the rest
+                var $svg = jQuery(data).find('svg');
+
+                // Add replaced image's ID to the new SVG
+                if(typeof imgID !== 'undefined') {
+                    $svg = $svg.attr('id', imgID);
+                }
+                // Add replaced image's classes to the new SVG
+                if(typeof imgClass !== 'undefined') {
+                    $svg = $svg.attr('class', imgClass+' replaced-svg');
+                }
+                if(typeof imgStyle !== 'undefined') {
+                    $svg = $svg.attr('style', 'height:64px; width:64px');
+                }
+
+                // Remove any invalid XML tags as per http://validator.w3.org
+                $svg = $svg.removeAttr('xmlns:a');
+
+                // Replace image with new SVG
+                $img.replaceWith($svg);
+
+            }, 'xml');
+
+        });
+    })
   </script>
 </div>
 </div>
@@ -66,26 +108,18 @@
 <table class="table">
   <thead>
     <tr>
-      <td>Category</td>
-      <td>Home</td>
-      <td>Current</td>
+      <td>
+      <td>
+        <h4>Home</h4>
+        {% if left_data %} 
+        <h5>{{ left_label }}</h5><img class="svg" src="{{ url_for('static', filename='shapes/'+left+'/vector.svg') }}" style="height:64px">{% else %}We don't know each other yet!<br>Please add your home country in the <a href="{{ url_for('settings') }}">Settings</a>{% endif %}
+      <td>
+        <h4>Current</h4>
+        <h5>{{ right_label }}</h5>
+        <img class="svg" src="{{ url_for('static', filename='shapes/'+right+'/vector.svg') }}" style="height:64px">
     </tr>
   </thead>
   <tbody>
-    <tr>
-      <td>
-      <td>{% if left_data %} {{ left_label }} {% else %}We don't know each other yet!<br>Please add your home country in the <a href="{{ url_for('settings') }}">Settings</a>{% endif %}</td>
-      <td>{{ right_label }}</td>
-    </tr>
-    <tr>
-      <td>
-      <td>
-        {% if left_data %}
-        <img src="{{ url_for('static', filename='shapes/'+left+'/vector.svg') }}" style="height:100px">
-        {% endif %}
-      <td>
-        <img src="{{ url_for('static', filename='shapes/'+right+'/vector.svg') }}" style="height:100px">
-    </tr>
     <tr>
       <td>
         Public display of affection (user-rating)
@@ -110,23 +144,26 @@
 
     <tr class="{{cat}} {% if key in differences %}diff{% endif %}">
       <td>
-      {{ right_data[key].label}}
       {{ modal(key, right_data[key].label, right_data[key].description) }}
+      {{ right_data[key].label}}
+      
       </td>
       <td>
         {% if left_data %}
+        {{ modal(left_data[key].id + "_left", left_data[key].label + ": " + left_data[key].current_status.value, left_data[key].current_status.description) }}
         <m class="{{judge_class(left_data[key].current_status.value, key)}}">{{left_data[key].current_status.value}}</m>
         {% if left_data[key].current_status.description|length > 4 %}
-        {{ modal(left_data[key].id + "_left", left_data[key].label + ": " + left_data[key].current_status.value, left_data[key].current_status.description) }}
+        
         {% endif %}
         {% else %}
 
         {% endif %}
       </td>
       <td>
+        {{ modal(right_data[key].id + "_right", right_data[key].label + ": " + right_data[key].current_status.value, right_data[key].current_status.description) }}
         <m class="{{judge_class(right_data[key].current_status.value, key)}}">{{right_data[key].current_status.value}}</m>
         {% if right_data[key].current_status.description|length > 4 %}
-        {{ modal(right_data[key].id + "_right", right_data[key].label + ": " + right_data[key].current_status.value, right_data[key].current_status.description) }}
+        
         {% endif %}
       </td>
     </tr>

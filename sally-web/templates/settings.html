@@ -1,23 +1,36 @@
 {% extends 'base.html' %}
 
 {% block content %}
-<h1>settings</h1>
-<a href="/">Back</a>
+<header id="header">
+    <nav>
+        <ul>
+            <li><a href="/">Home</a></li>
+            <li><a href="{{ url_for('settings') }}" class="active">Settings</a></li>
+        </ul>
+    </nav>
+</header>
 
-<div>
-  Your currently selected country is: <p id="country"></p>
-</div>
+<table>
+<tr>
+    <td>
+        <div>
+          Your currently selected country is: <p id="country"></p>
+        </div>
 
-<form>
-  Select your home country:
-  <select onChange="onChange(this)" id="country-select">
-    <option value="unset">Not set yet</option>
+        <form>
+          Select your home country:
+          <select onChange="onChange(this)" id="country-select">
+            <option value="unset">Not set yet</option>
 
-    {% for country in countries %}
-      <option value="{{ country[0] }}">{{ country[1] }}</option>
-    {% endfor %}
-  </select>
-</form>
+            {% for country in countries %}
+              <option value="{{ country[0] }}">{{ country[1] }}</option>
+            {% endfor %}
+          </select>
+        </form>
+    </td>
+</tr>
+</table>
+
 
 <script>
 

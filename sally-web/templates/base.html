@@ -21,8 +21,9 @@
         <![endif]-->
     {% block head %}
     <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+    <link rel="stylesheet" href="{{ url_for('static', filename='main.css') }}">
     {% endblock %}
-    <title>{% block title %}Hello{% endblock %} - Sally</title>
+    <title class="title">{% block title %}Hello{% endblock %} - Sally</title>
   </head>
   <body>
     <div class="container">

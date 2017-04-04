@@ -1,3 +1,9 @@
+# encoding=utf8  
+import sys  
+
+reload(sys)  
+sys.setdefaultencoding('utf8')
+
 from flask import Flask, render_template, redirect, url_for, request
 from geopy.geocoders import Nominatim
 from collections import defaultdict
@@ -134,7 +140,7 @@ def compute_votes_ratio(country_code):
     votes = list(db.query('SELECT COUNT(*) as cnt, SUM(CASE WHEN response = \'yes\' THEN 1 ELSE 0 END) as yes, SUM(CASE WHEN response = \'no\' THEN 1 ELSE 0 END) as no FROM votes WHERE lower(country_code) = \'%s\' ' % country_code))[0]
     if not votes["yes"]:
         return dict(ratio=0, count=0)
-    return dict(ratio=int(votes["yes"] / (votes["yes"] + votes["no"])  * 100), count=votes["cnt"])
+    return dict(ratio=int(votes["yes"]*100/votes["cnt"]), count=votes["cnt"])
 
 @app.route('/compare/<left>/to/<right>')
 def compare_lr(left, right):

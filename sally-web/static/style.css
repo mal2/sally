@@ -9,3 +9,15 @@
 .diff {
     border-left: 10px red solid;
 }
+
+.svg path {
+    fill: white;
+}
+
+.modal-content {
+    background: rgb(94, 66, 166)!important;
+}
+
+.card {
+    background: rgb(94, 66, 166)!important;
+}
